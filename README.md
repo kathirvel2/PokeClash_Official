@@ -323,37 +323,9 @@ Admin: `/admin`, `/adminstats`, `/adminfind`, `/adminuser`, `/adminset`,
 
 ---
 
-## Security & credentials
+## Author's Note
 
-**This repository leaked real secrets in its git history.** The following files
-were committed and are therefore exposed in past commits on the public GitHub
-repo:
-
-- `.env.production` — contained a live **Telegram bot token**, **Aiven
-  PostgreSQL password**, admin user IDs, and private chat IDs.
-- `ca.pem` — the **Aiven database CA certificate**.
-
-These files are now **untracked and git-ignored**, but *removing them from the
-current tree does not remove them from history.* Anyone who cloned or forked the
-repo, or reads old commits, can still see the old values.
-
-**Required actions (do these regardless of any history rewrite):**
-
-1. **Rotate the Telegram bot token** — `/revoke` in @BotFather, then update your
-   local `.env.production`.
-2. **Rotate the database password** — change the Aiven (or Postgres) user
-   password and update `DB_PASS`.
-3. **Regenerate / re-download the DB CA certificate** if your provider supports
-   it; keep the new `ca.pem` **out of git**.
-4. Treat the leaked **admin user IDs / chat IDs** as public knowledge.
-
-**Going forward:**
-
-- Never commit `.env`, `.env.production`, `*.pem`, or any real credentials. The
-  `.gitignore` now blocks `.env`, `.env.*` (except `.env.example`), and `*.pem`.
-- Keep only [`.env.example`](.env.example) — with placeholder values — in git.
-
----
+Pokeclash is made out of pure interest ,If anyone finds issue or work as inappropriate contact me via Telegram https://t.me/nicedddd
 
 ## License
 
