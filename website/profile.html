@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>Trainer Profile</title>
+    <link rel="stylesheet" href="style.css"> <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <script src="api-config.js"></script>
+    <style>
+        /* Styles for this page only */
+        body {
+            background: #2c3e50;
+            color: white;
+            padding: 20px;
+            margin: 0;
+            min-height: 100vh;
+            box-sizing: border-box;
+        }
+
+        .loader {
+            width: 80px;
+            height: 80px;
+            margin: 50px auto;
+            background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/53/Pok%C3%A9_Ball_icon.svg');
+            background-size: contain;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .profile-card {
+            max-width: 500px;
+            margin: 0 auto;
+            background: linear-gradient(145deg, #34495e, #2c3e50);
+            border-radius: 16px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+            overflow: hidden;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            border-left: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .profile-header {
+            display: flex;
+            align-items: center;
+            padding: 24px;
+            background: rgba(0,0,0,0.15);
+        }
+
+        .profile-pic {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            border: 3px solid #3498db;
+            margin-right: 20px;
+            background-color: #4a6580;
+            object-fit: cover;
+            flex-shrink: 0;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23bdc3c7'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E");
+            background-position: center;
+            background-size: 60%;
+            background-repeat: no-repeat;
+        }
+
+        .profile-name-group {
+            overflow: hidden;
+        }
+
+        .profile-name {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin: 0;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .profile-rank {
+            font-size: 1.1rem;
+            font-weight: 400;
+            color: #3498db;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin: 0;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            padding: 24px;
+        }
+
+        .stat-box {
+            background: rgba(0,0,0,0.2);
+            border-radius: 12px;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .stat-box.full-width {
+            grid-column: 1 / -1;
+        }
+        
+        .stat-box .label {
+            font-size: 0.9rem;
+            color: #bdc3c7;
+            text-transform: uppercase;
+        }
+
+        .stat-box .value {
+            font-size: 2rem;
+            font-weight: 700;
+            color: white;
+            line-height: 1.2;
+            margin-top: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+        
+        .stat-box .value.shiny {
+             color: #f1c40f;
+        }
+
+        .win-loss-bar {
+            display: flex;
+            width: 100%;
+            height: 8px;
+            border-radius: 4px;
+            overflow: hidden;
+            margin-top: 10px;
+            background-color: #2c3e50;
+        }
+        .win-bar {
+            background-color: #2ecc71;
+            height: 100%;
+            transition: width 0.5s ease;
+        }
+        .loss-bar {
+            background-color: #e74c3c;
+            height: 100%;
+            transition: width 0.5s ease;
+        }
+
+        .section-title {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: #ecf0f1;
+            text-align: center;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #3498db;
+            margin: 0 24px 15px 24px;
+        }
+        
+        .active-team-section {
+            padding-bottom: 24px;
+        }
+
+        .active-team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+            gap: 10px;
+            padding: 0 24px;
+        }
+
+        .team-pokemon-slot {
+            background: rgba(0,0,0,0.2);
+            border-radius: 8px;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            aspect-ratio: 1 / 1;
+        }
+
+        .team-pokemon-slot img {
+            width: 80%;
+            height: 80%;
+            object-fit: contain;
+            image-rendering: pixelated;
+        }
+
+        .team-pokemon-slot p {
+            margin: 0;
+            font-size: 0.8rem;
+            font-weight: 600;
+            text-transform: capitalize;
+            color: #bdc3c7;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            width: 100%;
+            text-align: center;
+        }
+
+        /* --- NEW: FAVORITE POKEMON SHOWCASE --- */
+        .favorite-showcase {
+            text-align: center;
+            padding: 10px 0;
+            margin: 0 24px 15px 24px;
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 12px;
+            min-height: 80px; /* Placeholder height */
+            display: none; /* Hide until populated */
+        }
+        .favorite-showcase img {
+            width: 80px;
+            height: 80px;
+            image-rendering: auto; /* Use 'auto' for smooth animation */
+            transform: scale(1.2); /* Make it a bit bigger */
+        }
+        /* --- END NEW --- */
+
+        .nav-buttons {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 10px;
+            padding: 0 24px 24px 24px;
+        }
+
+        #share-profile-btn {
+            display: block;
+            padding: 15px 10px;
+            text-align: center;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1rem;
+            border-radius: 10px;
+            transition: all 0.2s;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+            background-color: #3498db;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        #share-profile-btn:hover {
+            background-color: #2980b9;
+        }
+        
+        #share-link-container {
+            width: 100%;
+            transition: all 0.3s ease;
+        }
+
+        #share-link-container p {
+            margin: 0 0 5px; 
+            font-size: 0.9rem; 
+            color: #bdc3c7; 
+            text-align: left;
+        }
+
+        #share-link-input {
+            width: 100%;
+            padding: 10px;
+            border-radius: 8px;
+            border: 1px solid #95a5a6;
+            background: #ecf0f1;
+            color: #2c3e50;
+            font-size: 1rem;
+            box-sizing: border-box;
+            font-family: monospace;
+        }
+
+    </style>
+</head>
+<body class="profile-page">
+
+    <div class="loader" id="loader"></div>
+
+    <div class="profile-card" id="profile-card" style="display: none;">
+        <div class="profile-header">
+            <img id="profile-pic" class="profile-pic" src="">
+            <div class="profile-name-group">
+                <div class="profile-name" id="profile-name">Loading...</div>
+                <div class="profile-rank" id="profile-rank">...</div>
+            </div>
+        </div>
+
+        <div class="stats-grid">
+            <div class="stat-box full-width">
+                <div class="label">Elo Rating</div>
+                <div class="value" id="stat-elo">...</div>
+            </div>
+            
+            <div class="stat-box">
+                <div class="label">Record (W/L)</div>
+                <div class="value" id="stat-record">...</div>
+                <div class="win-loss-bar">
+                    <div class="win-bar" id="win-bar"></div>
+                    <div class="loss-bar" id="loss-bar"></div>
+                </div>
+            </div>
+
+            <div class="stat-box">
+                <div class="label">Clash Coins</div>
+                <div class="value" id="stat-coins">...</div>
+            </div>
+
+            <div class="stat-box full-width shiny-pass">
+                <div class="label">Shiny Passes</div>
+                <div class="value shiny" id="stat-passes">...</div>
+            </div>
+
+            <div class="stat-box full-width shiny-pass">
+                <div class="label">Legendary Passes</div>
+                <div class="value shiny" id="stat-legendary-passes">...</div>
+            </div>
+        </div>
+
+        <div class="favorite-showcase" id="favorite-showcase">
+            </div>
+
+        <div class="active-team-section">
+            <h3 class="section-title">Active Team</h3>
+            <div class="active-team-grid" id="active-team-grid">
+                </div>
+        </div>
+
+        <div class="nav-buttons"> 
+            <button id="share-profile-btn">
+                Share Profile
+            </button>
+            <div id="share-link-container" style="display: none;">
+                <p>Copy your shareable link:</p>
+                <input type="text" id="share-link-input" readonly>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const tg = window.Telegram.WebApp;
+            tg.ready();
+            tg.expand();
+
+            const loader = document.getElementById('loader');
+            const profileCard = document.getElementById('profile-card');
+            const profilePic = document.getElementById('profile-pic');
+            const profileName = document.getElementById('profile-name');
+            const DEFAULT_PFP_SVG = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23bdc3c7'%3E%3Cpath d='M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z'/%3E%3C/svg%3E";
+            loader.style.display = 'block';
+
+            // --- 1. Get User Info ---
+            let userId = null;
+            let userName = "Trainer";
+            let isSharedProfile = false;
+
+            const urlParams = new URLSearchParams(window.location.search);
+            const sharedUserId = urlParams.get('user_id');
+
+            const isLocal = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1";
+            const LOCAL_TEST_USER_ID = 6856118779; 
+
+            if (sharedUserId) {
+                userId = sharedUserId;
+                isSharedProfile = true;
+                userName = "Loading..."; 
+            } else {
+                if (isLocal) {
+                    userId = LOCAL_TEST_USER_ID;
+                    userName = "Local Tester";
+                } else if (tg.initDataUnsafe && tg.initDataUnsafe.user) {
+                    userId = tg.initDataUnsafe.user.id;
+                    userName = tg.initDataUnsafe.user.first_name || "Trainer";
+                } else {
+                    loader.innerHTML = "<h2>Error: Could not get Telegram user info.</h2>";
+                    return;
+                }
+            }
+
+            // --- 2. Set API Base URL ---
+            const API_BASE_URL = window.PokeClashApi.getApiBaseUrl();
+
+            // --- 3. Display initial user info ---
+            profileName.textContent = userName;
+            
+            profilePic.onerror = () => {
+                profilePic.src = DEFAULT_PFP_SVG;
+            };
+            // This will now fetch the correct PFP for shared or personal profiles
+            profilePic.src = `${API_BASE_URL}/api/user/${userId}/pfp`;
+            
+            // --- 4. Fetch the rest of the data from your API ---
+            window.PokeClashApi.fetchJson(`/api/user/${userId}/profile`)
+                .then(data => {
+                    // --- 5. Populate Stats ---
+                    if (isSharedProfile) {
+                        profileName.textContent = data.user_first_name || "Trainer";
+                    }
+
+                    document.getElementById('profile-rank').textContent = data.rank_name;
+                    document.getElementById('stat-elo').textContent = `🏆 ${data.elo}`;
+                    document.getElementById('stat-record').textContent = `${data.wins}W / ${data.losses}L`;
+                    document.getElementById('stat-coins').textContent = `💰 ${data.clash_coins}`;
+                    document.getElementById('stat-passes').textContent = `✨ ${data.shiny_passes}`;
+                    document.getElementById('stat-legendary-passes').textContent = `🌟 ${data.legendary_passes}`;
+                    
+                    const totalGames = data.wins + data.losses;
+                    const winRate = (totalGames > 0) ? (data.wins / totalGames) * 100 : 50;
+                    const lossRate = 100 - winRate;
+                    document.getElementById('win-bar').style.width = `${winRate}%`;
+                    document.getElementById('loss-bar').style.width = `${lossRate}%`;
+
+                    // --- NEW: Populate Favorite Pokémon ---
+                    if (data.animated_sprite_url) {
+                        const showcase = document.getElementById('favorite-showcase');
+                        showcase.innerHTML = `<img src="${data.animated_sprite_url}" alt="Favorite Pokémon">`;
+                        showcase.style.display = 'block'; // Show the container
+                    }
+                    // --- END NEW ---
+
+                    const teamGrid = document.getElementById('active-team-grid');
+                    teamGrid.innerHTML = '';
+                    let pokemonCount = 0;
+                    if (data.active_team && data.active_team.length > 0) {
+                        data.active_team.forEach(pokemon => {
+                            const spriteNum = pokemon.num || 0;
+                            // FIX: Wrap in an <a> tag
+                            const slotHTML = `
+                                <a href="details.html?id=${pokemon.num}">
+                                    <div class="team-pokemon-slot">
+                                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${spriteNum}.png" alt="${pokemon.name}">
+                                        <p>${pokemon.name}</p>
+                                    </div>
+                                </a>
+                            `;
+                            teamGrid.innerHTML += slotHTML;
+                            pokemonCount++;
+                        });
+                    }
+                    for (let i = pokemonCount; i < 6; i++) {
+                         teamGrid.innerHTML += `<div class="team-pokemon-slot"><p style="font-size: 2.5rem; opacity: 0.3; margin: 0;">+</p></div>`;
+                    }
+
+                    loader.style.display = 'none';
+                    profileCard.style.display = 'block';
+                    
+                    // --- 6. Add Share Button Logic ---
+                    const shareButton = document.getElementById('share-profile-btn');
+                    const shareLinkContainer = document.getElementById('share-link-container');
+                    const shareLinkInput = document.getElementById('share-link-input');
+
+                    if (isSharedProfile) {
+                        shareButton.style.display = 'none';
+                    } else {
+                        shareButton.addEventListener('click', () => {
+                            
+                            if (shareLinkContainer.style.display === 'block') {
+                                shareLinkContainer.style.display = 'none';
+                                shareButton.textContent = "Share Profile";
+                            } else {
+                                const botTelegramURL = "https://t.me/PokeClash_bot/Pokeclashdex";
+                                const shareUrl = `${botTelegramURL}?startapp=profile-${userId}`;
+                                
+                                shareLinkInput.value = shareUrl;
+                                shareLinkContainer.style.display = 'block';
+                                shareLinkInput.select();
+                                shareLinkInput.setSelectionRange(0, 99999);
+                                
+                                shareButton.textContent = "Hide Link";
+                                tg.HapticFeedback.notificationOccurred("success");
+                            }
+                        });
+                    }
+                })
+                .catch(err => {
+                    loader.style.display = 'none';
+                    document.body.insertAdjacentHTML('afterbegin', `<h2 style="color: #e74c3c; text-align: center;">Error loading stats: ${err.message}</h2>`);
+                });
+        });
+    </script>
+</body>
+</html>

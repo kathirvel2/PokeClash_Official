@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Pokémon Editor</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body class="pokemon-editor-page">
+    <div class="team-editor-container">
+        <h2 id="pokemon-name-header">Loading...</h2>
+
+        <div id="loader" class="loader"></div>
+
+        <div id="editor-layout" style="display: none;">
+            
+            <div id="pokemon-display-panel">
+                <div id="pokemon-sprite-container">
+                    <img id="pokemon-sprite" src="" alt="Pokémon Sprite" />
+                </div>
+                
+                <div class="stats-group">
+                    <h4>Base Stats</h4>
+                    <ul id="base-stats-display">
+                        </ul>
+                </div>
+                
+                <div class="stats-group">
+                    <h4>Calculated Stats (Lvl 100)</h4>
+                    <ul id="calc-stats-display">
+                        </ul>
+                </div>
+            </div>
+
+            <div id="pokemon-form-panel">
+                <div class="form-grid-basic">
+                    <div class="form-group">
+                        <label for="level">Level</label>
+                        <input type="number" id="level" min="1" max="100" class="form-input">
+                    </div>
+                    <div class="form-group">
+                        <label for="nature">Nature</label>
+                        <select id="nature" class="form-input"></select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="ability">Ability</label>
+                    <select id="ability" class="form-input"></select>
+                </div>
+
+                <div class="form-group">
+                    <label for="tera_type">Tera Type</label>
+                    <select id="tera_type" class="form-input"></select>
+                </div>
+
+                <div class="form-group">
+                    <label for="item-search">Item</label>
+                    <div class="search-widget">
+                        <input type="text" id="item-search" class="form-input" placeholder="Search for an item...">
+                        <div id="item-results" class="search-results"></div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Moves</label>
+                    <div class="moves-grid">
+                        <div class="search-widget">
+                            <input type="text" id="move-search-1" class="form-input move-search" placeholder="Search Move 1...">
+                            <div id="move-results-1" class="search-results"></div>
+                        </div>
+                        <div class="search-widget">
+                            <input type="text" id="move-search-2" class="form-input move-search" placeholder="Search Move 2...">
+                            <div id="move-results-2" class="search-results"></div>
+                        </div>
+                        <div class="search-widget">
+                            <input type="text" id="move-search-3" class="form-input move-search" placeholder="Search Move 3...">
+                            <div id="move-results-3" class="search-results"></div>
+                        </div>
+                        <div class="search-widget">
+                            <input type="text" id="move-search-4" class="form-input move-search" placeholder="Search Move 4...">
+                            <div id="move-results-4" class="search-results"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="stats-header">
+                        <label>EVs (Effort Values)</label>
+                        <span id="ev_total">Total: 0 / 510</span>
+                    </div>
+                    <div id="ev-progress-bar"><div id="ev-progress-fill"></div></div>
+                    <div class="stat-slider-grid">
+                        </div>
+                </div>
+
+                <div class="form-group">
+                    <label>IVs (Individual Values)</label>
+                    <div class="stat-slider-grid">
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="saveButtonContainer">
+        <button id="saveButton" disabled>Save Changes</button>
+    </div>
+
+    <script src="api-config.js"></script>
+    <script src="pokemon-editor.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+# Optional: expose the PokeClash web app via a Cloudflare quick tunnel.
+#
+# Requires `cloudflared` installed (https://developers.cloudflare.com/cloudflared/).
+# The quick tunnel prints a random https://<name>.trycloudflare.com URL — set it
+# as WEB_APP_HOST_URL in your bot env so CORS and WebApp links work.
+#
+# Install:
+#   sudo cp Setup_files/cloudflared.service /etc/systemd/system/
+#   sudo systemctl daemon-reload
+#   sudo systemctl enable --now cloudflared.service
+#   journalctl -u cloudflared.service -f    # find the assigned URL
+
+[Unit]
+Description=Cloudflare Quick Tunnel for PokeClash
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=pokeclash
+# Tunnels the bot's web server (default PORT=8080).
+ExecStart=/usr/bin/cloudflared --no-autoupdate tunnel --url http://localhost:8080
+Restart=always
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=cloudflared-pokeclash
+
+[Install]
+WantedBy=multi-user.target

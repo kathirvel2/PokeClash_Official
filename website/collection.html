@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Pokémon Collection</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://assets.pokemon.com/static2/_ui/img/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+    
+    <div class="dex-logo-container">
+        <img src="https://see.fontimg.com/api/rf5/15ze/N2RkMTc5ZWI4ZWM4NGM5YmFlZjJmMDkyMjVjZWJiZWMub3Rm/TXkgQ29sbGVjdGlvbg/pocket-monk.png?r=fs&h=36&w=1000&fg=F5F556&bg=FFFFFF&tb=1&s=36" alt="My Collection">
+    </div>
+
+    <div class="search-container">
+        <input type="text" id="collectionSearchInput" placeholder="Search your Pokémon...">
+    </div>
+
+    <div id="collection-container" class="grid-container">
+        <div class="loader"></div> 
+    </div>
+
+    <script src="api-config.js"></script>
+    <script src="collection.js"></script>
+</body>
+</html>

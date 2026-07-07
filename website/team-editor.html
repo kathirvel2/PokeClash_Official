@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Team Editor</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Import the Telegram Web App script -->
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <style>
+        /* Team Editor Specific Styles */
+        body {
+            background-color: #34495e;
+            color: white;
+            padding-bottom: 100px; /* Space for save button */
+        }
+        .team-editor-container {
+            max-width: 1200px;
+            margin: 10px auto;
+            padding: 0 10px;
+        }
+
+        /* Team Tabs (1, 2, 3...) */
+        .team-tabs {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+            margin-bottom: 15px;
+        }
+        .team-tab {
+            flex-grow: 1;
+            padding: 10px 5px;
+            background: #2c3e50;
+            color: white;
+            border: 2px solid #2c3e50;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 14px;
+            opacity: 0.7;
+            transition: opacity 0.2s, background-color 0.2s, border-color 0.2s;
+        }
+        .team-tab:hover {
+            background-color: #46637f;
+        }
+        .team-tab.active {
+            opacity: 1;
+            background-color: #3498db;
+            border-color: #85c1e9;
+        }
+
+        /* --- THIS IS THE NEW RESPONSIVE GRID --- */
+        .team-slots {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* 2x3 grid on mobile */
+            gap: 10px;
+            margin-bottom: 20px;
+            background: rgba(0,0,0,0.2);
+            padding: 10px;
+            border-radius: 10px;
+        }
+        @media (min-width: 500px) {
+            .team-slots {
+                grid-template-columns: repeat(3, 1fr); /* 3x2 grid on tablet */
+            }
+        }
+        @media (min-width: 1024px) {
+            .team-slots {
+                grid-template-columns: repeat(6, 1fr); /* 6x1 grid on desktop */
+            }
+        }
+        /* --- END OF RESPONSIVE GRID --- */
+
+        .team-slot {
+            position: relative; 
+            background: #2c3e50;
+            border: 2px dashed #4a6580;
+            border-radius: 10px;
+            aspect-ratio: 1 / 1; 
+            display: flex;
+            flex-direction: column; 
+            align-items: center;
+            justify-content: center;
+            padding: 5px;
+            transition: background-color 0.2s, border-color 0.2s;
+            cursor: pointer;
+            overflow: hidden; /* <-- This line is GOOD, it must stay */
+        }
+        
+        /* This is the class to FIX */
+        .team-slot .remove-btn {
+            position: absolute;
+            top: 4px;     /* <-- CHANGE THIS from -8px */
+            right: 4px;   /* <-- CHANGE THIS from -8px */
+            background: #e74c3c;
+            color: white;
+            border: 2px solid white;
+            border-radius: 50%;
+            width: 28px;
+            height: 28px;
+            font-weight: bold; 
+            cursor: pointer;
+            font-size: 16px;
+            line-height: 24px;
+            z-index: 2; /* This z-index is correct [cite: 654] */
+        }
+        .team-slot:hover {
+            border-color: #3498db;
+        }
+        .team-slot img {
+            width: 80%; /* Fit inside the slot */
+            height: 80%;
+            max-width: 96px;
+            max-height: 96px;
+            image-rendering: pixelated;
+        }
+        .team-slot p {
+            font-size: 12px;
+            margin: 0;
+            text-transform: capitalize;
+            font-weight: bold;
+            
+            /* --- THIS IS THE FIX --- */
+            width: 95%;             /* Give the text a boundary (95% to leave a little padding) */
+            white-space: nowrap;       /* Prevent wrapping to a new line */
+            overflow: hidden;          /* Hide any text that goes past the boundary */
+            text-overflow: ellipsis;   /* Add the "..." at the end */
+            /* --- END OF FIX --- */
+        }
+        .team-slot .empty-slot-text {
+            font-size: 2.5rem;
+            color: #4a6580;
+            margin-top: -10px;
+        }
+        .team-slot .remove-btn:hover {
+            background: #c0392b;
+        }
+
+        /* Collection Grid */
+        .collection-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 5px;
+        }
+        #collectionSearch {
+            padding: 8px 12px;
+            border: none;
+            border-radius: 20px;
+            width: 60%;
+            font-size: 14px;
+        }
+        .collection-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+            gap: 10px;
+            max-height: 40vh;
+            overflow-y: auto;
+            background: rgba(0,0,0,0.1);
+            padding: 10px;
+            border-radius: 10px;
+            min-height: 100px;
+        }
+        .collection-pokemon {
+            background: #2c3e50;
+            padding: 5px;
+            border: 3px solid #2c3e50; /* Base border */
+            border-radius: 8px;
+            text-align: center;
+            cursor: pointer;
+            transition: transform 0.2s, border-color 0.2s;
+        }
+        .collection-pokemon:hover {
+            border-color: #4a6580;
+        }
+        /* --- THIS IS THE NEW "SELECTED" STYLE --- */
+        .collection-pokemon.selected {
+            border-color: #3498db;
+            transform: scale(1.05);
+            box-shadow: 0 0 10px #3498db;
+        }
+        .collection-pokemon img {
+            width: 72px;
+            height: 72px;
+            image-rendering: pixelated;
+        }
+        .collection-pokemon p {
+            font-size: 12px;
+            margin: 0;
+            text-transform: capitalize;
+        }
+
+        .collection-pokemon.dragging {
+            opacity: 0.4;
+            transform: scale(0.95);
+        }
+        /* --- ADD THIS NEW BLOCK --- */
+        #saveButtonContainer {
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%); /* This centers the pill */
+            z-index: 100;
+            background: transparent;
+        }
+        
+        #saveButton {
+            width: auto; /* Auto-width for the pill */
+            padding: 15px 30px;
+            font-size: 18px;
+            font-weight: bold;
+            background-color: #2ecc71;
+            color: white;
+            border: none;
+            border-radius: 50px; /* This makes it a "pill" */
+            cursor: pointer;
+            font-family: 'Nunito', sans-serif;
+            transition: all 0.2s ease;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+        }
+        
+        #saveButton:hover {
+            background-color: #27ae60;
+            transform: scale(1.03);
+        }
+        
+        #saveButton:disabled {
+            background-color: #95a5a6;
+            cursor: not-allowed;
+            box-shadow: none;
+            transform: scale(1);
+        }
+        /* --- END OF NEW BLOCK --- */
+        @keyframes shake {
+          0% { transform: translateX(0); }
+          25% { transform: translateX(-5px); }
+          50% { transform: translateX(5px); }
+          75% { transform: translateX(-5px); }
+          100% { transform: translateX(0); }
+        }
+        
+        .shake {
+          animation: shake 0.4s ease-in-out;
+        }
+        .collection-pokemon img {
+            pointer-events: none;
+            user-select: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="team-editor-container">
+        
+        <div class="team-tabs" id="team-tabs-container">
+            <!-- Tabs will be generated by JS -->
+        </div>
+
+        <h2 id="team-name-header">Team 1</h2>
+        <div class="team-slots" id="team-slots-container">
+            <!-- Team slots will be generated by JS -->
+        </div>
+
+        <div class="collection-header">
+            <h2>Your Collection</h2>
+            <div class="header-controls">
+                <button id="swap-order-btn" class="team-manage-btn">🔁 Swap Order</button>
+                <input type="text" id="collectionSearch" placeholder="Search...">
+            </div>
+        </div>
+        <div class="collection-list" id="collection-list-container">
+            <div class="loader"></div>
+        </div>
+    </div>
+
+    <div id="saveButtonContainer">
+        <button id="saveButton">Save Team</button>
+    </div>
+
+    <!-- Load the JavaScript for this page -->
+    <script src="api-config.js"></script>
+    <script src="team-editor.js"></script>
+</body>
+</html>

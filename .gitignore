@@ -1,0 +1,25 @@
+# SSH keys
+idclash
+idclash.pub
+*.pem
+ca.pem
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# Env / secrets — NEVER commit real credentials.
+# Only .env.example (with placeholder values) belongs in git.
+.env
+.env.*
+!.env.example
+bot.log
+
+# Tooling
+.codex/
+.agents/
+.antigravitycli

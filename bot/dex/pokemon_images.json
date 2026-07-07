@@ -1,0 +1,4970 @@
+[
+  {
+    "pokemon_name": "bulbasaur",
+    "image_url": "https://img.pokemondb.net/artwork/large/bulbasaur.jpg"
+  },
+  {
+    "pokemon_name": "ivysaur",
+    "image_url": "https://img.pokemondb.net/artwork/large/ivysaur.jpg"
+  },
+  {
+    "pokemon_name": "venusaur",
+    "image_url": "https://img.pokemondb.net/artwork/large/venusaur.jpg"
+  },
+  {
+    "pokemon_name": "venusaur-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/venusaur-mega.jpg"
+  },
+  {
+    "pokemon_name": "charmander",
+    "image_url": "https://img.pokemondb.net/artwork/large/charmander.jpg"
+  },
+  {
+    "pokemon_name": "charmeleon",
+    "image_url": "https://img.pokemondb.net/artwork/large/charmeleon.jpg"
+  },
+  {
+    "pokemon_name": "charizard",
+    "image_url": "https://img.pokemondb.net/artwork/large/charizard.jpg"
+  },
+  {
+    "pokemon_name": "charizard-mega-x",
+    "image_url": "https://img.pokemondb.net/artwork/large/charizard-mega-x.jpg"
+  },
+  {
+    "pokemon_name": "charizard-mega-y",
+    "image_url": "https://img.pokemondb.net/artwork/large/charizard-mega-y.jpg"
+  },
+  {
+    "pokemon_name": "squirtle",
+    "image_url": "https://img.pokemondb.net/artwork/large/squirtle.jpg"
+  },
+  {
+    "pokemon_name": "wartortle",
+    "image_url": "https://img.pokemondb.net/artwork/large/wartortle.jpg"
+  },
+  {
+    "pokemon_name": "blastoise",
+    "image_url": "https://img.pokemondb.net/artwork/large/blastoise.jpg"
+  },
+  {
+    "pokemon_name": "blastoise-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/blastoise-mega.jpg"
+  },
+  {
+    "pokemon_name": "caterpie",
+    "image_url": "https://img.pokemondb.net/artwork/large/caterpie.jpg"
+  },
+  {
+    "pokemon_name": "metapod",
+    "image_url": "https://img.pokemondb.net/artwork/large/metapod.jpg"
+  },
+  {
+    "pokemon_name": "butterfree",
+    "image_url": "https://img.pokemondb.net/artwork/large/butterfree.jpg"
+  },
+  {
+    "pokemon_name": "weedle",
+    "image_url": "https://img.pokemondb.net/artwork/large/weedle.jpg"
+  },
+  {
+    "pokemon_name": "kakuna",
+    "image_url": "https://img.pokemondb.net/artwork/large/kakuna.jpg"
+  },
+  {
+    "pokemon_name": "beedrill",
+    "image_url": "https://img.pokemondb.net/artwork/large/beedrill.jpg"
+  },
+  {
+    "pokemon_name": "beedrill-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/beedrill-mega.jpg"
+  },
+  {
+    "pokemon_name": "pidgey",
+    "image_url": "https://img.pokemondb.net/artwork/large/pidgey.jpg"
+  },
+  {
+    "pokemon_name": "pidgeotto",
+    "image_url": "https://img.pokemondb.net/artwork/large/pidgeotto.jpg"
+  },
+  {
+    "pokemon_name": "pidgeot",
+    "image_url": "https://img.pokemondb.net/artwork/large/pidgeot.jpg"
+  },
+  {
+    "pokemon_name": "pidgeot-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/pidgeot-mega.jpg"
+  },
+  {
+    "pokemon_name": "rattata",
+    "image_url": "https://img.pokemondb.net/artwork/large/rattata.jpg"
+  },
+  {
+    "pokemon_name": "rattata-alolan",
+    "image_url": "https://img.pokemondb.net/artwork/large/rattata-alolan.jpg"
+  },
+  {
+    "pokemon_name": "raticate",
+    "image_url": "https://img.pokemondb.net/artwork/large/raticate.jpg"
+  },
+  {
+    "pokemon_name": "raticate-alolan",
+    "image_url": "https://img.pokemondb.net/artwork/large/raticate-alolan.jpg"
+  },
+  {
+    "pokemon_name": "spearow",
+    "image_url": "https://img.pokemondb.net/artwork/large/spearow.jpg"
+  },
+  {
+    "pokemon_name": "fearow",
+    "image_url": "https://img.pokemondb.net/artwork/large/fearow.jpg"
+  },
+  {
+    "pokemon_name": "ekans",
+    "image_url": "https://img.pokemondb.net/artwork/large/ekans.jpg"
+  },
+  {
+    "pokemon_name": "arbok",
+    "image_url": "https://img.pokemondb.net/artwork/large/arbok.jpg"
+  },
+  {
+    "pokemon_name": "pikachu",
+    "image_url": "https://img.pokemondb.net/artwork/large/pikachu.jpg"
+  },
+  {
+    "pokemon_name": "pikachu-lets-go",
+    "image_url": "https://img.pokemondb.net/artwork/large/pikachu-lets-go.jpg"
+  },
+  {
+    "pokemon_name": "raichu",
+    "image_url": "https://img.pokemondb.net/artwork/large/raichu.jpg"
+  },
+  {
+    "pokemon_name": "raichu-alolan",
+    "image_url": "https://img.pokemondb.net/artwork/large/raichu-alolan.jpg"
+  },
+  {
+    "pokemon_name": "sandshrew",
+    "image_url": "https://img.pokemondb.net/artwork/large/sandshrew.jpg"
+  },
+  {
+    "pokemon_name": "sandshrew-alolan",
+    "image_url": "https://img.pokemondb.net/artwork/large/sandshrew-alolan.jpg"
+  },
+  {
+    "pokemon_name": "sandslash",
+    "image_url": "https://img.pokemondb.net/artwork/large/sandslash.jpg"
+  },
+  {
+    "pokemon_name": "sandslash-alolan",
+    "image_url": "https://img.pokemondb.net/artwork/large/sandslash-alolan.jpg"
+  },
+  {
+    "pokemon_name": "nidoran-f",
+    "image_url": "https://img.pokemondb.net/artwork/large/nidoran-f.jpg"
+  },
+  {
+    "pokemon_name": "nidorina",
+    "image_url": "https://img.pokemondb.net/artwork/large/nidorina.jpg"
+  },
+  {
+    "pokemon_name": "nidoqueen",
+    "image_url": "https://img.pokemondb.net/artwork/large/nidoqueen.jpg"
+  },
+  {
+    "pokemon_name": "nidoran-m",
+    "image_url": "https://img.pokemondb.net/artwork/large/nidoran-m.jpg"
+  },
+  {
+    "pokemon_name": "nidorino",
+    "image_url": "https://img.pokemondb.net/artwork/large/nidorino.jpg"
+  },
+  {
+    "pokemon_name": "nidoking",
+    "image_url": "https://img.pokemondb.net/artwork/large/nidoking.jpg"
+  },
+  {
+    "pokemon_name": "clefairy",
+    "image_url": "https://img.pokemondb.net/artwork/large/clefairy.jpg"
+  },
+  {
+    "pokemon_name": "clefable",
+    "image_url": "https://img.pokemondb.net/artwork/large/clefable.jpg"
+  },
+  {
+    "pokemon_name": "clefable-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/clefable-mega.jpg"
+  },
+  {
+    "pokemon_name": "vulpix",
+    "image_url": "https://img.pokemondb.net/artwork/large/vulpix.jpg"
+  },
+  {
+    "pokemon_name": "vulpix-alolan",
+    "image_url": "https://img.pokemondb.net/artwork/large/vulpix-alolan.jpg"
+  },
+  {
+    "pokemon_name": "ninetales",
+    "image_url": "https://img.pokemondb.net/artwork/large/ninetales.jpg"
+  },
+  {
+    "pokemon_name": "ninetales-alolan",
+    "image_url": "https://img.pokemondb.net/artwork/large/ninetales-alolan.jpg"
+  },
+  {
+    "pokemon_name": "jigglypuff",
+    "image_url": "https://img.pokemondb.net/artwork/large/jigglypuff.jpg"
+  },
+  {
+    "pokemon_name": "wigglytuff",
+    "image_url": "https://img.pokemondb.net/artwork/large/wigglytuff.jpg"
+  },
+  {
+    "pokemon_name": "zubat",
+    "image_url": "https://img.pokemondb.net/artwork/large/zubat.jpg"
+  },
+  {
+    "pokemon_name": "golbat",
+    "image_url": "https://img.pokemondb.net/artwork/large/golbat.jpg"
+  },
+  {
+    "pokemon_name": "oddish",
+    "image_url": "https://img.pokemondb.net/artwork/large/oddish.jpg"
+  },
+  {
+    "pokemon_name": "gloom",
+    "image_url": "https://img.pokemondb.net/artwork/large/gloom.jpg"
+  },
+  {
+    "pokemon_name": "vileplume",
+    "image_url": "https://img.pokemondb.net/artwork/large/vileplume.jpg"
+  },
+  {
+    "pokemon_name": "paras",
+    "image_url": "https://img.pokemondb.net/artwork/large/paras.jpg"
+  },
+  {
+    "pokemon_name": "parasect",
+    "image_url": "https://img.pokemondb.net/artwork/large/parasect.jpg"
+  },
+  {
+    "pokemon_name": "venonat",
+    "image_url": "https://img.pokemondb.net/artwork/large/venonat.jpg"
+  },
+  {
+    "pokemon_name": "venomoth",
+    "image_url": "https://img.pokemondb.net/artwork/large/venomoth.jpg"
+  },
+  {
+    "pokemon_name": "diglett",
+    "image_url": "https://img.pokemondb.net/artwork/large/diglett.jpg"
+  },
+  {
+    "pokemon_name": "diglett-alolan",
+    "image_url": "https://img.pokemondb.net/artwork/large/diglett-alolan.jpg"
+  },
+  {
+    "pokemon_name": "dugtrio",
+    "image_url": "https://img.pokemondb.net/artwork/large/dugtrio.jpg"
+  },
+  {
+    "pokemon_name": "dugtrio-alolan",
+    "image_url": "https://img.pokemondb.net/artwork/large/dugtrio-alolan.jpg"
+  },
+  {
+    "pokemon_name": "meowth",
+    "image_url": "https://img.pokemondb.net/artwork/large/meowth.jpg"
+  },
+  {
+    "pokemon_name": "meowth-alolan",
+    "image_url": "https://img.pokemondb.net/artwork/large/meowth-alolan.jpg"
+  },
+  {
+    "pokemon_name": "meowth-galarian",
+    "image_url": "https://img.pokemondb.net/artwork/large/meowth-galarian.jpg"
+  },
+  {
+    "pokemon_name": "persian",
+    "image_url": "https://img.pokemondb.net/artwork/large/persian.jpg"
+  },
+  {
+    "pokemon_name": "persian-alolan",
+    "image_url": "https://img.pokemondb.net/artwork/large/persian-alolan.jpg"
+  },
+  {
+    "pokemon_name": "psyduck",
+    "image_url": "https://img.pokemondb.net/artwork/large/psyduck.jpg"
+  },
+  {
+    "pokemon_name": "golduck",
+    "image_url": "https://img.pokemondb.net/artwork/large/golduck.jpg"
+  },
+  {
+    "pokemon_name": "mankey",
+    "image_url": "https://img.pokemondb.net/artwork/large/mankey.jpg"
+  },
+  {
+    "pokemon_name": "primeape",
+    "image_url": "https://img.pokemondb.net/artwork/large/primeape.jpg"
+  },
+  {
+    "pokemon_name": "growlithe",
+    "image_url": "https://img.pokemondb.net/artwork/large/growlithe.jpg"
+  },
+  {
+    "pokemon_name": "growlithe-hisuian",
+    "image_url": "https://img.pokemondb.net/artwork/large/growlithe-hisuian.jpg"
+  },
+  {
+    "pokemon_name": "arcanine",
+    "image_url": "https://img.pokemondb.net/artwork/large/arcanine.jpg"
+  },
+  {
+    "pokemon_name": "arcanine-hisuian",
+    "image_url": "https://img.pokemondb.net/artwork/large/arcanine-hisuian.jpg"
+  },
+  {
+    "pokemon_name": "poliwag",
+    "image_url": "https://img.pokemondb.net/artwork/large/poliwag.jpg"
+  },
+  {
+    "pokemon_name": "poliwhirl",
+    "image_url": "https://img.pokemondb.net/artwork/large/poliwhirl.jpg"
+  },
+  {
+    "pokemon_name": "poliwrath",
+    "image_url": "https://img.pokemondb.net/artwork/large/poliwrath.jpg"
+  },
+  {
+    "pokemon_name": "abra",
+    "image_url": "https://img.pokemondb.net/artwork/large/abra.jpg"
+  },
+  {
+    "pokemon_name": "kadabra",
+    "image_url": "https://img.pokemondb.net/artwork/large/kadabra.jpg"
+  },
+  {
+    "pokemon_name": "alakazam",
+    "image_url": "https://img.pokemondb.net/artwork/large/alakazam.jpg"
+  },
+  {
+    "pokemon_name": "alakazam-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/alakazam-mega.jpg"
+  },
+  {
+    "pokemon_name": "machop",
+    "image_url": "https://img.pokemondb.net/artwork/large/machop.jpg"
+  },
+  {
+    "pokemon_name": "machoke",
+    "image_url": "https://img.pokemondb.net/artwork/large/machoke.jpg"
+  },
+  {
+    "pokemon_name": "machamp",
+    "image_url": "https://img.pokemondb.net/artwork/large/machamp.jpg"
+  },
+  {
+    "pokemon_name": "bellsprout",
+    "image_url": "https://img.pokemondb.net/artwork/large/bellsprout.jpg"
+  },
+  {
+    "pokemon_name": "weepinbell",
+    "image_url": "https://img.pokemondb.net/artwork/large/weepinbell.jpg"
+  },
+  {
+    "pokemon_name": "victreebel",
+    "image_url": "https://img.pokemondb.net/artwork/large/victreebel.jpg"
+  },
+  {
+    "pokemon_name": "victreebel-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/victreebel-mega.jpg"
+  },
+  {
+    "pokemon_name": "tentacool",
+    "image_url": "https://img.pokemondb.net/artwork/large/tentacool.jpg"
+  },
+  {
+    "pokemon_name": "tentacruel",
+    "image_url": "https://img.pokemondb.net/artwork/large/tentacruel.jpg"
+  },
+  {
+    "pokemon_name": "geodude",
+    "image_url": "https://img.pokemondb.net/artwork/large/geodude.jpg"
+  },
+  {
+    "pokemon_name": "geodude-alolan",
+    "image_url": "https://img.pokemondb.net/artwork/large/geodude-alolan.jpg"
+  },
+  {
+    "pokemon_name": "graveler",
+    "image_url": "https://img.pokemondb.net/artwork/large/graveler.jpg"
+  },
+  {
+    "pokemon_name": "graveler-alolan",
+    "image_url": "https://img.pokemondb.net/artwork/large/graveler-alolan.jpg"
+  },
+  {
+    "pokemon_name": "golem",
+    "image_url": "https://img.pokemondb.net/artwork/large/golem.jpg"
+  },
+  {
+    "pokemon_name": "golem-alolan",
+    "image_url": "https://img.pokemondb.net/artwork/large/golem-alolan.jpg"
+  },
+  {
+    "pokemon_name": "ponyta",
+    "image_url": "https://img.pokemondb.net/artwork/large/ponyta.jpg"
+  },
+  {
+    "pokemon_name": "ponyta-galarian",
+    "image_url": "https://img.pokemondb.net/artwork/large/ponyta-galarian.jpg"
+  },
+  {
+    "pokemon_name": "rapidash",
+    "image_url": "https://img.pokemondb.net/artwork/large/rapidash.jpg"
+  },
+  {
+    "pokemon_name": "rapidash-galarian",
+    "image_url": "https://img.pokemondb.net/artwork/large/rapidash-galarian.jpg"
+  },
+  {
+    "pokemon_name": "slowpoke",
+    "image_url": "https://img.pokemondb.net/artwork/large/slowpoke.jpg"
+  },
+  {
+    "pokemon_name": "slowpoke-galarian",
+    "image_url": "https://img.pokemondb.net/artwork/large/slowpoke-galarian.jpg"
+  },
+  {
+    "pokemon_name": "slowbro",
+    "image_url": "https://img.pokemondb.net/artwork/large/slowbro.jpg"
+  },
+  {
+    "pokemon_name": "slowbro-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/slowbro-mega.jpg"
+  },
+  {
+    "pokemon_name": "slowbro-galarian",
+    "image_url": "https://img.pokemondb.net/artwork/large/slowbro-galarian.jpg"
+  },
+  {
+    "pokemon_name": "magnemite",
+    "image_url": "https://img.pokemondb.net/artwork/large/magnemite.jpg"
+  },
+  {
+    "pokemon_name": "magneton",
+    "image_url": "https://img.pokemondb.net/artwork/large/magneton.jpg"
+  },
+  {
+    "pokemon_name": "farfetchd",
+    "image_url": "https://img.pokemondb.net/artwork/large/farfetchd.jpg"
+  },
+  {
+    "pokemon_name": "farfetchd-galarian",
+    "image_url": "https://img.pokemondb.net/artwork/large/farfetchd-galarian.jpg"
+  },
+  {
+    "pokemon_name": "doduo",
+    "image_url": "https://img.pokemondb.net/artwork/large/doduo.jpg"
+  },
+  {
+    "pokemon_name": "dodrio",
+    "image_url": "https://img.pokemondb.net/artwork/large/dodrio.jpg"
+  },
+  {
+    "pokemon_name": "seel",
+    "image_url": "https://img.pokemondb.net/artwork/large/seel.jpg"
+  },
+  {
+    "pokemon_name": "dewgong",
+    "image_url": "https://img.pokemondb.net/artwork/large/dewgong.jpg"
+  },
+  {
+    "pokemon_name": "grimer",
+    "image_url": "https://img.pokemondb.net/artwork/large/grimer.jpg"
+  },
+  {
+    "pokemon_name": "grimer-alolan",
+    "image_url": "https://img.pokemondb.net/artwork/large/grimer-alolan.jpg"
+  },
+  {
+    "pokemon_name": "muk",
+    "image_url": "https://img.pokemondb.net/artwork/large/muk.jpg"
+  },
+  {
+    "pokemon_name": "muk-alolan",
+    "image_url": "https://img.pokemondb.net/artwork/large/muk-alolan.jpg"
+  },
+  {
+    "pokemon_name": "shellder",
+    "image_url": "https://img.pokemondb.net/artwork/large/shellder.jpg"
+  },
+  {
+    "pokemon_name": "cloyster",
+    "image_url": "https://img.pokemondb.net/artwork/large/cloyster.jpg"
+  },
+  {
+    "pokemon_name": "gastly",
+    "image_url": "https://img.pokemondb.net/artwork/large/gastly.jpg"
+  },
+  {
+    "pokemon_name": "haunter",
+    "image_url": "https://img.pokemondb.net/artwork/large/haunter.jpg"
+  },
+  {
+    "pokemon_name": "gengar",
+    "image_url": "https://img.pokemondb.net/artwork/large/gengar.jpg"
+  },
+  {
+    "pokemon_name": "gengar-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/gengar-mega.jpg"
+  },
+  {
+    "pokemon_name": "onix",
+    "image_url": "https://img.pokemondb.net/artwork/large/onix.jpg"
+  },
+  {
+    "pokemon_name": "drowzee",
+    "image_url": "https://img.pokemondb.net/artwork/large/drowzee.jpg"
+  },
+  {
+    "pokemon_name": "hypno",
+    "image_url": "https://img.pokemondb.net/artwork/large/hypno.jpg"
+  },
+  {
+    "pokemon_name": "krabby",
+    "image_url": "https://img.pokemondb.net/artwork/large/krabby.jpg"
+  },
+  {
+    "pokemon_name": "kingler",
+    "image_url": "https://img.pokemondb.net/artwork/large/kingler.jpg"
+  },
+  {
+    "pokemon_name": "voltorb",
+    "image_url": "https://img.pokemondb.net/artwork/large/voltorb.jpg"
+  },
+  {
+    "pokemon_name": "voltorb-hisuian",
+    "image_url": "https://img.pokemondb.net/artwork/large/voltorb-hisuian.jpg"
+  },
+  {
+    "pokemon_name": "electrode",
+    "image_url": "https://img.pokemondb.net/artwork/large/electrode.jpg"
+  },
+  {
+    "pokemon_name": "electrode-hisuian",
+    "image_url": "https://img.pokemondb.net/artwork/large/electrode-hisuian.jpg"
+  },
+  {
+    "pokemon_name": "exeggcute",
+    "image_url": "https://img.pokemondb.net/artwork/large/exeggcute.jpg"
+  },
+  {
+    "pokemon_name": "exeggutor",
+    "image_url": "https://img.pokemondb.net/artwork/large/exeggutor.jpg"
+  },
+  {
+    "pokemon_name": "exeggutor-alolan",
+    "image_url": "https://img.pokemondb.net/artwork/large/exeggutor-alolan.jpg"
+  },
+  {
+    "pokemon_name": "cubone",
+    "image_url": "https://img.pokemondb.net/artwork/large/cubone.jpg"
+  },
+  {
+    "pokemon_name": "marowak",
+    "image_url": "https://img.pokemondb.net/artwork/large/marowak.jpg"
+  },
+  {
+    "pokemon_name": "marowak-alolan",
+    "image_url": "https://img.pokemondb.net/artwork/large/marowak-alolan.jpg"
+  },
+  {
+    "pokemon_name": "hitmonlee",
+    "image_url": "https://img.pokemondb.net/artwork/large/hitmonlee.jpg"
+  },
+  {
+    "pokemon_name": "hitmonchan",
+    "image_url": "https://img.pokemondb.net/artwork/large/hitmonchan.jpg"
+  },
+  {
+    "pokemon_name": "lickitung",
+    "image_url": "https://img.pokemondb.net/artwork/large/lickitung.jpg"
+  },
+  {
+    "pokemon_name": "koffing",
+    "image_url": "https://img.pokemondb.net/artwork/large/koffing.jpg"
+  },
+  {
+    "pokemon_name": "weezing",
+    "image_url": "https://img.pokemondb.net/artwork/large/weezing.jpg"
+  },
+  {
+    "pokemon_name": "weezing-galarian",
+    "image_url": "https://img.pokemondb.net/artwork/large/weezing-galarian.jpg"
+  },
+  {
+    "pokemon_name": "rhyhorn",
+    "image_url": "https://img.pokemondb.net/artwork/large/rhyhorn.jpg"
+  },
+  {
+    "pokemon_name": "rhydon",
+    "image_url": "https://img.pokemondb.net/artwork/large/rhydon.jpg"
+  },
+  {
+    "pokemon_name": "chansey",
+    "image_url": "https://img.pokemondb.net/artwork/large/chansey.jpg"
+  },
+  {
+    "pokemon_name": "tangela",
+    "image_url": "https://img.pokemondb.net/artwork/large/tangela.jpg"
+  },
+  {
+    "pokemon_name": "kangaskhan",
+    "image_url": "https://img.pokemondb.net/artwork/large/kangaskhan.jpg"
+  },
+  {
+    "pokemon_name": "kangaskhan-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/kangaskhan-mega.jpg"
+  },
+  {
+    "pokemon_name": "horsea",
+    "image_url": "https://img.pokemondb.net/artwork/large/horsea.jpg"
+  },
+  {
+    "pokemon_name": "seadra",
+    "image_url": "https://img.pokemondb.net/artwork/large/seadra.jpg"
+  },
+  {
+    "pokemon_name": "goldeen",
+    "image_url": "https://img.pokemondb.net/artwork/large/goldeen.jpg"
+  },
+  {
+    "pokemon_name": "seaking",
+    "image_url": "https://img.pokemondb.net/artwork/large/seaking.jpg"
+  },
+  {
+    "pokemon_name": "staryu",
+    "image_url": "https://img.pokemondb.net/artwork/large/staryu.jpg"
+  },
+  {
+    "pokemon_name": "starmie",
+    "image_url": "https://img.pokemondb.net/artwork/large/starmie.jpg"
+  },
+  {
+    "pokemon_name": "starmie-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/starmie-mega.jpg"
+  },
+  {
+    "pokemon_name": "mr-mime",
+    "image_url": "https://img.pokemondb.net/artwork/large/mr-mime.jpg"
+  },
+  {
+    "pokemon_name": "mr-mime-galarian",
+    "image_url": "https://img.pokemondb.net/artwork/large/mr-mime-galarian.jpg"
+  },
+  {
+    "pokemon_name": "scyther",
+    "image_url": "https://img.pokemondb.net/artwork/large/scyther.jpg"
+  },
+  {
+    "pokemon_name": "jynx",
+    "image_url": "https://img.pokemondb.net/artwork/large/jynx.jpg"
+  },
+  {
+    "pokemon_name": "electabuzz",
+    "image_url": "https://img.pokemondb.net/artwork/large/electabuzz.jpg"
+  },
+  {
+    "pokemon_name": "magmar",
+    "image_url": "https://img.pokemondb.net/artwork/large/magmar.jpg"
+  },
+  {
+    "pokemon_name": "pinsir",
+    "image_url": "https://img.pokemondb.net/artwork/large/pinsir.jpg"
+  },
+  {
+    "pokemon_name": "pinsir-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/pinsir-mega.jpg"
+  },
+  {
+    "pokemon_name": "tauros",
+    "image_url": "https://img.pokemondb.net/artwork/large/tauros.jpg"
+  },
+  {
+    "pokemon_name": "tauros-paldean-combat",
+    "image_url": "https://img.pokemondb.net/artwork/large/tauros-paldean-combat.jpg"
+  },
+  {
+    "pokemon_name": "tauros-paldean-blaze",
+    "image_url": "https://img.pokemondb.net/artwork/large/tauros-paldean-blaze.jpg"
+  },
+  {
+    "pokemon_name": "tauros-paldean-aqua",
+    "image_url": "https://img.pokemondb.net/artwork/large/tauros-paldean-aqua.jpg"
+  },
+  {
+    "pokemon_name": "magikarp",
+    "image_url": "https://img.pokemondb.net/artwork/large/magikarp.jpg"
+  },
+  {
+    "pokemon_name": "gyarados",
+    "image_url": "https://img.pokemondb.net/artwork/large/gyarados.jpg"
+  },
+  {
+    "pokemon_name": "gyarados-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/gyarados-mega.jpg"
+  },
+  {
+    "pokemon_name": "lapras",
+    "image_url": "https://img.pokemondb.net/artwork/large/lapras.jpg"
+  },
+  {
+    "pokemon_name": "ditto",
+    "image_url": "https://img.pokemondb.net/artwork/large/ditto.jpg"
+  },
+  {
+    "pokemon_name": "eevee",
+    "image_url": "https://img.pokemondb.net/artwork/large/eevee.jpg"
+  },
+  {
+    "pokemon_name": "eevee-lets-go",
+    "image_url": "https://img.pokemondb.net/artwork/large/eevee-lets-go.jpg"
+  },
+  {
+    "pokemon_name": "vaporeon",
+    "image_url": "https://img.pokemondb.net/artwork/large/vaporeon.jpg"
+  },
+  {
+    "pokemon_name": "jolteon",
+    "image_url": "https://img.pokemondb.net/artwork/large/jolteon.jpg"
+  },
+  {
+    "pokemon_name": "flareon",
+    "image_url": "https://img.pokemondb.net/artwork/large/flareon.jpg"
+  },
+  {
+    "pokemon_name": "porygon",
+    "image_url": "https://img.pokemondb.net/artwork/large/porygon.jpg"
+  },
+  {
+    "pokemon_name": "omanyte",
+    "image_url": "https://img.pokemondb.net/artwork/large/omanyte.jpg"
+  },
+  {
+    "pokemon_name": "omastar",
+    "image_url": "https://img.pokemondb.net/artwork/large/omastar.jpg"
+  },
+  {
+    "pokemon_name": "kabuto",
+    "image_url": "https://img.pokemondb.net/artwork/large/kabuto.jpg"
+  },
+  {
+    "pokemon_name": "kabutops",
+    "image_url": "https://img.pokemondb.net/artwork/large/kabutops.jpg"
+  },
+  {
+    "pokemon_name": "aerodactyl",
+    "image_url": "https://img.pokemondb.net/artwork/large/aerodactyl.jpg"
+  },
+  {
+    "pokemon_name": "aerodactyl-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/aerodactyl-mega.jpg"
+  },
+  {
+    "pokemon_name": "snorlax",
+    "image_url": "https://img.pokemondb.net/artwork/large/snorlax.jpg"
+  },
+  {
+    "pokemon_name": "articuno",
+    "image_url": "https://img.pokemondb.net/artwork/large/articuno.jpg"
+  },
+  {
+    "pokemon_name": "articuno-galarian",
+    "image_url": "https://img.pokemondb.net/artwork/large/articuno-galarian.jpg"
+  },
+  {
+    "pokemon_name": "zapdos",
+    "image_url": "https://img.pokemondb.net/artwork/large/zapdos.jpg"
+  },
+  {
+    "pokemon_name": "zapdos-galarian",
+    "image_url": "https://img.pokemondb.net/artwork/large/zapdos-galarian.jpg"
+  },
+  {
+    "pokemon_name": "moltres",
+    "image_url": "https://img.pokemondb.net/artwork/large/moltres.jpg"
+  },
+  {
+    "pokemon_name": "moltres-galarian",
+    "image_url": "https://img.pokemondb.net/artwork/large/moltres-galarian.jpg"
+  },
+  {
+    "pokemon_name": "dratini",
+    "image_url": "https://img.pokemondb.net/artwork/large/dratini.jpg"
+  },
+  {
+    "pokemon_name": "dragonair",
+    "image_url": "https://img.pokemondb.net/artwork/large/dragonair.jpg"
+  },
+  {
+    "pokemon_name": "dragonite",
+    "image_url": "https://img.pokemondb.net/artwork/large/dragonite.jpg"
+  },
+  {
+    "pokemon_name": "dragonite-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/dragonite-mega.jpg"
+  },
+  {
+    "pokemon_name": "mewtwo",
+    "image_url": "https://img.pokemondb.net/artwork/large/mewtwo.jpg"
+  },
+  {
+    "pokemon_name": "mewtwo-mega-x",
+    "image_url": "https://img.pokemondb.net/artwork/large/mewtwo-mega-x.jpg"
+  },
+  {
+    "pokemon_name": "mewtwo-mega-y",
+    "image_url": "https://img.pokemondb.net/artwork/large/mewtwo-mega-y.jpg"
+  },
+  {
+    "pokemon_name": "mew",
+    "image_url": "https://img.pokemondb.net/artwork/large/mew.jpg"
+  },
+  {
+    "pokemon_name": "chikorita",
+    "image_url": "https://img.pokemondb.net/artwork/large/chikorita.jpg"
+  },
+  {
+    "pokemon_name": "bayleef",
+    "image_url": "https://img.pokemondb.net/artwork/large/bayleef.jpg"
+  },
+  {
+    "pokemon_name": "meganium",
+    "image_url": "https://img.pokemondb.net/artwork/large/meganium.jpg"
+  },
+  {
+    "pokemon_name": "meganium-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/meganium-mega.jpg"
+  },
+  {
+    "pokemon_name": "cyndaquil",
+    "image_url": "https://img.pokemondb.net/artwork/large/cyndaquil.jpg"
+  },
+  {
+    "pokemon_name": "quilava",
+    "image_url": "https://img.pokemondb.net/artwork/large/quilava.jpg"
+  },
+  {
+    "pokemon_name": "typhlosion",
+    "image_url": "https://img.pokemondb.net/artwork/large/typhlosion.jpg"
+  },
+  {
+    "pokemon_name": "typhlosion-hisuian",
+    "image_url": "https://img.pokemondb.net/artwork/large/typhlosion-hisuian.jpg"
+  },
+  {
+    "pokemon_name": "totodile",
+    "image_url": "https://img.pokemondb.net/artwork/large/totodile.jpg"
+  },
+  {
+    "pokemon_name": "croconaw",
+    "image_url": "https://img.pokemondb.net/artwork/large/croconaw.jpg"
+  },
+  {
+    "pokemon_name": "feraligatr",
+    "image_url": "https://img.pokemondb.net/artwork/large/feraligatr.jpg"
+  },
+  {
+    "pokemon_name": "feraligatr-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/feraligatr-mega.jpg"
+  },
+  {
+    "pokemon_name": "sentret",
+    "image_url": "https://img.pokemondb.net/artwork/large/sentret.jpg"
+  },
+  {
+    "pokemon_name": "furret",
+    "image_url": "https://img.pokemondb.net/artwork/large/furret.jpg"
+  },
+  {
+    "pokemon_name": "hoothoot",
+    "image_url": "https://img.pokemondb.net/artwork/large/hoothoot.jpg"
+  },
+  {
+    "pokemon_name": "noctowl",
+    "image_url": "https://img.pokemondb.net/artwork/large/noctowl.jpg"
+  },
+  {
+    "pokemon_name": "ledyba",
+    "image_url": "https://img.pokemondb.net/artwork/large/ledyba.jpg"
+  },
+  {
+    "pokemon_name": "ledian",
+    "image_url": "https://img.pokemondb.net/artwork/large/ledian.jpg"
+  },
+  {
+    "pokemon_name": "spinarak",
+    "image_url": "https://img.pokemondb.net/artwork/large/spinarak.jpg"
+  },
+  {
+    "pokemon_name": "ariados",
+    "image_url": "https://img.pokemondb.net/artwork/large/ariados.jpg"
+  },
+  {
+    "pokemon_name": "crobat",
+    "image_url": "https://img.pokemondb.net/artwork/large/crobat.jpg"
+  },
+  {
+    "pokemon_name": "chinchou",
+    "image_url": "https://img.pokemondb.net/artwork/large/chinchou.jpg"
+  },
+  {
+    "pokemon_name": "lanturn",
+    "image_url": "https://img.pokemondb.net/artwork/large/lanturn.jpg"
+  },
+  {
+    "pokemon_name": "pichu",
+    "image_url": "https://img.pokemondb.net/artwork/large/pichu.jpg"
+  },
+  {
+    "pokemon_name": "cleffa",
+    "image_url": "https://img.pokemondb.net/artwork/large/cleffa.jpg"
+  },
+  {
+    "pokemon_name": "igglybuff",
+    "image_url": "https://img.pokemondb.net/artwork/large/igglybuff.jpg"
+  },
+  {
+    "pokemon_name": "togepi",
+    "image_url": "https://img.pokemondb.net/artwork/large/togepi.jpg"
+  },
+  {
+    "pokemon_name": "togetic",
+    "image_url": "https://img.pokemondb.net/artwork/large/togetic.jpg"
+  },
+  {
+    "pokemon_name": "natu",
+    "image_url": "https://img.pokemondb.net/artwork/large/natu.jpg"
+  },
+  {
+    "pokemon_name": "xatu",
+    "image_url": "https://img.pokemondb.net/artwork/large/xatu.jpg"
+  },
+  {
+    "pokemon_name": "mareep",
+    "image_url": "https://img.pokemondb.net/artwork/large/mareep.jpg"
+  },
+  {
+    "pokemon_name": "flaaffy",
+    "image_url": "https://img.pokemondb.net/artwork/large/flaaffy.jpg"
+  },
+  {
+    "pokemon_name": "ampharos",
+    "image_url": "https://img.pokemondb.net/artwork/large/ampharos.jpg"
+  },
+  {
+    "pokemon_name": "ampharos-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/ampharos-mega.jpg"
+  },
+  {
+    "pokemon_name": "bellossom",
+    "image_url": "https://img.pokemondb.net/artwork/large/bellossom.jpg"
+  },
+  {
+    "pokemon_name": "marill",
+    "image_url": "https://img.pokemondb.net/artwork/large/marill.jpg"
+  },
+  {
+    "pokemon_name": "azumarill",
+    "image_url": "https://img.pokemondb.net/artwork/large/azumarill.jpg"
+  },
+  {
+    "pokemon_name": "sudowoodo",
+    "image_url": "https://img.pokemondb.net/artwork/large/sudowoodo.jpg"
+  },
+  {
+    "pokemon_name": "politoed",
+    "image_url": "https://img.pokemondb.net/artwork/large/politoed.jpg"
+  },
+  {
+    "pokemon_name": "hoppip",
+    "image_url": "https://img.pokemondb.net/artwork/large/hoppip.jpg"
+  },
+  {
+    "pokemon_name": "skiploom",
+    "image_url": "https://img.pokemondb.net/artwork/large/skiploom.jpg"
+  },
+  {
+    "pokemon_name": "jumpluff",
+    "image_url": "https://img.pokemondb.net/artwork/large/jumpluff.jpg"
+  },
+  {
+    "pokemon_name": "aipom",
+    "image_url": "https://img.pokemondb.net/artwork/large/aipom.jpg"
+  },
+  {
+    "pokemon_name": "sunkern",
+    "image_url": "https://img.pokemondb.net/artwork/large/sunkern.jpg"
+  },
+  {
+    "pokemon_name": "sunflora",
+    "image_url": "https://img.pokemondb.net/artwork/large/sunflora.jpg"
+  },
+  {
+    "pokemon_name": "yanma",
+    "image_url": "https://img.pokemondb.net/artwork/large/yanma.jpg"
+  },
+  {
+    "pokemon_name": "wooper",
+    "image_url": "https://img.pokemondb.net/artwork/large/wooper.jpg"
+  },
+  {
+    "pokemon_name": "wooper-paldean",
+    "image_url": "https://img.pokemondb.net/artwork/large/wooper-paldean.jpg"
+  },
+  {
+    "pokemon_name": "quagsire",
+    "image_url": "https://img.pokemondb.net/artwork/large/quagsire.jpg"
+  },
+  {
+    "pokemon_name": "espeon",
+    "image_url": "https://img.pokemondb.net/artwork/large/espeon.jpg"
+  },
+  {
+    "pokemon_name": "umbreon",
+    "image_url": "https://img.pokemondb.net/artwork/large/umbreon.jpg"
+  },
+  {
+    "pokemon_name": "murkrow",
+    "image_url": "https://img.pokemondb.net/artwork/large/murkrow.jpg"
+  },
+  {
+    "pokemon_name": "slowking",
+    "image_url": "https://img.pokemondb.net/artwork/large/slowking.jpg"
+  },
+  {
+    "pokemon_name": "slowking-galarian",
+    "image_url": "https://img.pokemondb.net/artwork/large/slowking-galarian.jpg"
+  },
+  {
+    "pokemon_name": "misdreavus",
+    "image_url": "https://img.pokemondb.net/artwork/large/misdreavus.jpg"
+  },
+  {
+    "pokemon_name": "unown",
+    "image_url": "https://img.pokemondb.net/artwork/large/unown.jpg"
+  },
+  {
+    "pokemon_name": "wobbuffet",
+    "image_url": "https://img.pokemondb.net/artwork/large/wobbuffet.jpg"
+  },
+  {
+    "pokemon_name": "girafarig",
+    "image_url": "https://img.pokemondb.net/artwork/large/girafarig.jpg"
+  },
+  {
+    "pokemon_name": "pineco",
+    "image_url": "https://img.pokemondb.net/artwork/large/pineco.jpg"
+  },
+  {
+    "pokemon_name": "forretress",
+    "image_url": "https://img.pokemondb.net/artwork/large/forretress.jpg"
+  },
+  {
+    "pokemon_name": "dunsparce",
+    "image_url": "https://img.pokemondb.net/artwork/large/dunsparce.jpg"
+  },
+  {
+    "pokemon_name": "gligar",
+    "image_url": "https://img.pokemondb.net/artwork/large/gligar.jpg"
+  },
+  {
+    "pokemon_name": "steelix",
+    "image_url": "https://img.pokemondb.net/artwork/large/steelix.jpg"
+  },
+  {
+    "pokemon_name": "steelix-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/steelix-mega.jpg"
+  },
+  {
+    "pokemon_name": "snubbull",
+    "image_url": "https://img.pokemondb.net/artwork/large/snubbull.jpg"
+  },
+  {
+    "pokemon_name": "granbull",
+    "image_url": "https://img.pokemondb.net/artwork/large/granbull.jpg"
+  },
+  {
+    "pokemon_name": "qwilfish",
+    "image_url": "https://img.pokemondb.net/artwork/large/qwilfish.jpg"
+  },
+  {
+    "pokemon_name": "qwilfish-hisuian",
+    "image_url": "https://img.pokemondb.net/artwork/large/qwilfish-hisuian.jpg"
+  },
+  {
+    "pokemon_name": "scizor",
+    "image_url": "https://img.pokemondb.net/artwork/large/scizor.jpg"
+  },
+  {
+    "pokemon_name": "scizor-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/scizor-mega.jpg"
+  },
+  {
+    "pokemon_name": "shuckle",
+    "image_url": "https://img.pokemondb.net/artwork/large/shuckle.jpg"
+  },
+  {
+    "pokemon_name": "heracross",
+    "image_url": "https://img.pokemondb.net/artwork/large/heracross.jpg"
+  },
+  {
+    "pokemon_name": "heracross-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/heracross-mega.jpg"
+  },
+  {
+    "pokemon_name": "sneasel",
+    "image_url": "https://img.pokemondb.net/artwork/large/sneasel.jpg"
+  },
+  {
+    "pokemon_name": "sneasel-hisuian",
+    "image_url": "https://img.pokemondb.net/artwork/large/sneasel-hisuian.jpg"
+  },
+  {
+    "pokemon_name": "teddiursa",
+    "image_url": "https://img.pokemondb.net/artwork/large/teddiursa.jpg"
+  },
+  {
+    "pokemon_name": "ursaring",
+    "image_url": "https://img.pokemondb.net/artwork/large/ursaring.jpg"
+  },
+  {
+    "pokemon_name": "slugma",
+    "image_url": "https://img.pokemondb.net/artwork/large/slugma.jpg"
+  },
+  {
+    "pokemon_name": "magcargo",
+    "image_url": "https://img.pokemondb.net/artwork/large/magcargo.jpg"
+  },
+  {
+    "pokemon_name": "swinub",
+    "image_url": "https://img.pokemondb.net/artwork/large/swinub.jpg"
+  },
+  {
+    "pokemon_name": "piloswine",
+    "image_url": "https://img.pokemondb.net/artwork/large/piloswine.jpg"
+  },
+  {
+    "pokemon_name": "corsola",
+    "image_url": "https://img.pokemondb.net/artwork/large/corsola.jpg"
+  },
+  {
+    "pokemon_name": "corsola-galarian",
+    "image_url": "https://img.pokemondb.net/artwork/large/corsola-galarian.jpg"
+  },
+  {
+    "pokemon_name": "remoraid",
+    "image_url": "https://img.pokemondb.net/artwork/large/remoraid.jpg"
+  },
+  {
+    "pokemon_name": "octillery",
+    "image_url": "https://img.pokemondb.net/artwork/large/octillery.jpg"
+  },
+  {
+    "pokemon_name": "delibird",
+    "image_url": "https://img.pokemondb.net/artwork/large/delibird.jpg"
+  },
+  {
+    "pokemon_name": "mantine",
+    "image_url": "https://img.pokemondb.net/artwork/large/mantine.jpg"
+  },
+  {
+    "pokemon_name": "skarmory",
+    "image_url": "https://img.pokemondb.net/artwork/large/skarmory.jpg"
+  },
+  {
+    "pokemon_name": "skarmory-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/skarmory-mega.jpg"
+  },
+  {
+    "pokemon_name": "houndour",
+    "image_url": "https://img.pokemondb.net/artwork/large/houndour.jpg"
+  },
+  {
+    "pokemon_name": "houndoom",
+    "image_url": "https://img.pokemondb.net/artwork/large/houndoom.jpg"
+  },
+  {
+    "pokemon_name": "houndoom-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/houndoom-mega.jpg"
+  },
+  {
+    "pokemon_name": "kingdra",
+    "image_url": "https://img.pokemondb.net/artwork/large/kingdra.jpg"
+  },
+  {
+    "pokemon_name": "phanpy",
+    "image_url": "https://img.pokemondb.net/artwork/large/phanpy.jpg"
+  },
+  {
+    "pokemon_name": "donphan",
+    "image_url": "https://img.pokemondb.net/artwork/large/donphan.jpg"
+  },
+  {
+    "pokemon_name": "porygon2",
+    "image_url": "https://img.pokemondb.net/artwork/large/porygon2.jpg"
+  },
+  {
+    "pokemon_name": "stantler",
+    "image_url": "https://img.pokemondb.net/artwork/large/stantler.jpg"
+  },
+  {
+    "pokemon_name": "smeargle",
+    "image_url": "https://img.pokemondb.net/artwork/large/smeargle.jpg"
+  },
+  {
+    "pokemon_name": "tyrogue",
+    "image_url": "https://img.pokemondb.net/artwork/large/tyrogue.jpg"
+  },
+  {
+    "pokemon_name": "hitmontop",
+    "image_url": "https://img.pokemondb.net/artwork/large/hitmontop.jpg"
+  },
+  {
+    "pokemon_name": "smoochum",
+    "image_url": "https://img.pokemondb.net/artwork/large/smoochum.jpg"
+  },
+  {
+    "pokemon_name": "elekid",
+    "image_url": "https://img.pokemondb.net/artwork/large/elekid.jpg"
+  },
+  {
+    "pokemon_name": "magby",
+    "image_url": "https://img.pokemondb.net/artwork/large/magby.jpg"
+  },
+  {
+    "pokemon_name": "miltank",
+    "image_url": "https://img.pokemondb.net/artwork/large/miltank.jpg"
+  },
+  {
+    "pokemon_name": "blissey",
+    "image_url": "https://img.pokemondb.net/artwork/large/blissey.jpg"
+  },
+  {
+    "pokemon_name": "raikou",
+    "image_url": "https://img.pokemondb.net/artwork/large/raikou.jpg"
+  },
+  {
+    "pokemon_name": "entei",
+    "image_url": "https://img.pokemondb.net/artwork/large/entei.jpg"
+  },
+  {
+    "pokemon_name": "suicune",
+    "image_url": "https://img.pokemondb.net/artwork/large/suicune.jpg"
+  },
+  {
+    "pokemon_name": "larvitar",
+    "image_url": "https://img.pokemondb.net/artwork/large/larvitar.jpg"
+  },
+  {
+    "pokemon_name": "pupitar",
+    "image_url": "https://img.pokemondb.net/artwork/large/pupitar.jpg"
+  },
+  {
+    "pokemon_name": "tyranitar",
+    "image_url": "https://img.pokemondb.net/artwork/large/tyranitar.jpg"
+  },
+  {
+    "pokemon_name": "tyranitar-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/tyranitar-mega.jpg"
+  },
+  {
+    "pokemon_name": "lugia",
+    "image_url": "https://img.pokemondb.net/artwork/large/lugia.jpg"
+  },
+  {
+    "pokemon_name": "ho-oh",
+    "image_url": "https://img.pokemondb.net/artwork/large/ho-oh.jpg"
+  },
+  {
+    "pokemon_name": "celebi",
+    "image_url": "https://img.pokemondb.net/artwork/large/celebi.jpg"
+  },
+  {
+    "pokemon_name": "treecko",
+    "image_url": "https://img.pokemondb.net/artwork/large/treecko.jpg"
+  },
+  {
+    "pokemon_name": "grovyle",
+    "image_url": "https://img.pokemondb.net/artwork/large/grovyle.jpg"
+  },
+  {
+    "pokemon_name": "sceptile",
+    "image_url": "https://img.pokemondb.net/artwork/large/sceptile.jpg"
+  },
+  {
+    "pokemon_name": "sceptile-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/sceptile-mega.jpg"
+  },
+  {
+    "pokemon_name": "torchic",
+    "image_url": "https://img.pokemondb.net/artwork/large/torchic.jpg"
+  },
+  {
+    "pokemon_name": "combusken",
+    "image_url": "https://img.pokemondb.net/artwork/large/combusken.jpg"
+  },
+  {
+    "pokemon_name": "blaziken",
+    "image_url": "https://img.pokemondb.net/artwork/large/blaziken.jpg"
+  },
+  {
+    "pokemon_name": "blaziken-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/blaziken-mega.jpg"
+  },
+  {
+    "pokemon_name": "mudkip",
+    "image_url": "https://img.pokemondb.net/artwork/large/mudkip.jpg"
+  },
+  {
+    "pokemon_name": "marshtomp",
+    "image_url": "https://img.pokemondb.net/artwork/large/marshtomp.jpg"
+  },
+  {
+    "pokemon_name": "swampert",
+    "image_url": "https://img.pokemondb.net/artwork/large/swampert.jpg"
+  },
+  {
+    "pokemon_name": "swampert-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/swampert-mega.jpg"
+  },
+  {
+    "pokemon_name": "poochyena",
+    "image_url": "https://img.pokemondb.net/artwork/large/poochyena.jpg"
+  },
+  {
+    "pokemon_name": "mightyena",
+    "image_url": "https://img.pokemondb.net/artwork/large/mightyena.jpg"
+  },
+  {
+    "pokemon_name": "zigzagoon",
+    "image_url": "https://img.pokemondb.net/artwork/large/zigzagoon.jpg"
+  },
+  {
+    "pokemon_name": "zigzagoon-galarian",
+    "image_url": "https://img.pokemondb.net/artwork/large/zigzagoon-galarian.jpg"
+  },
+  {
+    "pokemon_name": "linoone",
+    "image_url": "https://img.pokemondb.net/artwork/large/linoone.jpg"
+  },
+  {
+    "pokemon_name": "linoone-galarian",
+    "image_url": "https://img.pokemondb.net/artwork/large/linoone-galarian.jpg"
+  },
+  {
+    "pokemon_name": "wurmple",
+    "image_url": "https://img.pokemondb.net/artwork/large/wurmple.jpg"
+  },
+  {
+    "pokemon_name": "silcoon",
+    "image_url": "https://img.pokemondb.net/artwork/large/silcoon.jpg"
+  },
+  {
+    "pokemon_name": "beautifly",
+    "image_url": "https://img.pokemondb.net/artwork/large/beautifly.jpg"
+  },
+  {
+    "pokemon_name": "cascoon",
+    "image_url": "https://img.pokemondb.net/artwork/large/cascoon.jpg"
+  },
+  {
+    "pokemon_name": "dustox",
+    "image_url": "https://img.pokemondb.net/artwork/large/dustox.jpg"
+  },
+  {
+    "pokemon_name": "lotad",
+    "image_url": "https://img.pokemondb.net/artwork/large/lotad.jpg"
+  },
+  {
+    "pokemon_name": "lombre",
+    "image_url": "https://img.pokemondb.net/artwork/large/lombre.jpg"
+  },
+  {
+    "pokemon_name": "ludicolo",
+    "image_url": "https://img.pokemondb.net/artwork/large/ludicolo.jpg"
+  },
+  {
+    "pokemon_name": "seedot",
+    "image_url": "https://img.pokemondb.net/artwork/large/seedot.jpg"
+  },
+  {
+    "pokemon_name": "nuzleaf",
+    "image_url": "https://img.pokemondb.net/artwork/large/nuzleaf.jpg"
+  },
+  {
+    "pokemon_name": "shiftry",
+    "image_url": "https://img.pokemondb.net/artwork/large/shiftry.jpg"
+  },
+  {
+    "pokemon_name": "taillow",
+    "image_url": "https://img.pokemondb.net/artwork/large/taillow.jpg"
+  },
+  {
+    "pokemon_name": "swellow",
+    "image_url": "https://img.pokemondb.net/artwork/large/swellow.jpg"
+  },
+  {
+    "pokemon_name": "wingull",
+    "image_url": "https://img.pokemondb.net/artwork/large/wingull.jpg"
+  },
+  {
+    "pokemon_name": "pelipper",
+    "image_url": "https://img.pokemondb.net/artwork/large/pelipper.jpg"
+  },
+  {
+    "pokemon_name": "ralts",
+    "image_url": "https://img.pokemondb.net/artwork/large/ralts.jpg"
+  },
+  {
+    "pokemon_name": "kirlia",
+    "image_url": "https://img.pokemondb.net/artwork/large/kirlia.jpg"
+  },
+  {
+    "pokemon_name": "gardevoir",
+    "image_url": "https://img.pokemondb.net/artwork/large/gardevoir.jpg"
+  },
+  {
+    "pokemon_name": "gardevoir-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/gardevoir-mega.jpg"
+  },
+  {
+    "pokemon_name": "surskit",
+    "image_url": "https://img.pokemondb.net/artwork/large/surskit.jpg"
+  },
+  {
+    "pokemon_name": "masquerain",
+    "image_url": "https://img.pokemondb.net/artwork/large/masquerain.jpg"
+  },
+  {
+    "pokemon_name": "shroomish",
+    "image_url": "https://img.pokemondb.net/artwork/large/shroomish.jpg"
+  },
+  {
+    "pokemon_name": "breloom",
+    "image_url": "https://img.pokemondb.net/artwork/large/breloom.jpg"
+  },
+  {
+    "pokemon_name": "slakoth",
+    "image_url": "https://img.pokemondb.net/artwork/large/slakoth.jpg"
+  },
+  {
+    "pokemon_name": "vigoroth",
+    "image_url": "https://img.pokemondb.net/artwork/large/vigoroth.jpg"
+  },
+  {
+    "pokemon_name": "slaking",
+    "image_url": "https://img.pokemondb.net/artwork/large/slaking.jpg"
+  },
+  {
+    "pokemon_name": "nincada",
+    "image_url": "https://img.pokemondb.net/artwork/large/nincada.jpg"
+  },
+  {
+    "pokemon_name": "ninjask",
+    "image_url": "https://img.pokemondb.net/artwork/large/ninjask.jpg"
+  },
+  {
+    "pokemon_name": "shedinja",
+    "image_url": "https://img.pokemondb.net/artwork/large/shedinja.jpg"
+  },
+  {
+    "pokemon_name": "whismur",
+    "image_url": "https://img.pokemondb.net/artwork/large/whismur.jpg"
+  },
+  {
+    "pokemon_name": "loudred",
+    "image_url": "https://img.pokemondb.net/artwork/large/loudred.jpg"
+  },
+  {
+    "pokemon_name": "exploud",
+    "image_url": "https://img.pokemondb.net/artwork/large/exploud.jpg"
+  },
+  {
+    "pokemon_name": "makuhita",
+    "image_url": "https://img.pokemondb.net/artwork/large/makuhita.jpg"
+  },
+  {
+    "pokemon_name": "hariyama",
+    "image_url": "https://img.pokemondb.net/artwork/large/hariyama.jpg"
+  },
+  {
+    "pokemon_name": "azurill",
+    "image_url": "https://img.pokemondb.net/artwork/large/azurill.jpg"
+  },
+  {
+    "pokemon_name": "nosepass",
+    "image_url": "https://img.pokemondb.net/artwork/large/nosepass.jpg"
+  },
+  {
+    "pokemon_name": "skitty",
+    "image_url": "https://img.pokemondb.net/artwork/large/skitty.jpg"
+  },
+  {
+    "pokemon_name": "delcatty",
+    "image_url": "https://img.pokemondb.net/artwork/large/delcatty.jpg"
+  },
+  {
+    "pokemon_name": "sableye",
+    "image_url": "https://img.pokemondb.net/artwork/large/sableye.jpg"
+  },
+  {
+    "pokemon_name": "sableye-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/sableye-mega.jpg"
+  },
+  {
+    "pokemon_name": "mawile",
+    "image_url": "https://img.pokemondb.net/artwork/large/mawile.jpg"
+  },
+  {
+    "pokemon_name": "mawile-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/mawile-mega.jpg"
+  },
+  {
+    "pokemon_name": "aron",
+    "image_url": "https://img.pokemondb.net/artwork/large/aron.jpg"
+  },
+  {
+    "pokemon_name": "lairon",
+    "image_url": "https://img.pokemondb.net/artwork/large/lairon.jpg"
+  },
+  {
+    "pokemon_name": "aggron",
+    "image_url": "https://img.pokemondb.net/artwork/large/aggron.jpg"
+  },
+  {
+    "pokemon_name": "aggron-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/aggron-mega.jpg"
+  },
+  {
+    "pokemon_name": "meditite",
+    "image_url": "https://img.pokemondb.net/artwork/large/meditite.jpg"
+  },
+  {
+    "pokemon_name": "medicham",
+    "image_url": "https://img.pokemondb.net/artwork/large/medicham.jpg"
+  },
+  {
+    "pokemon_name": "medicham-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/medicham-mega.jpg"
+  },
+  {
+    "pokemon_name": "electrike",
+    "image_url": "https://img.pokemondb.net/artwork/large/electrike.jpg"
+  },
+  {
+    "pokemon_name": "manectric",
+    "image_url": "https://img.pokemondb.net/artwork/large/manectric.jpg"
+  },
+  {
+    "pokemon_name": "manectric-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/manectric-mega.jpg"
+  },
+  {
+    "pokemon_name": "plusle",
+    "image_url": "https://img.pokemondb.net/artwork/large/plusle.jpg"
+  },
+  {
+    "pokemon_name": "minun",
+    "image_url": "https://img.pokemondb.net/artwork/large/minun.jpg"
+  },
+  {
+    "pokemon_name": "volbeat",
+    "image_url": "https://img.pokemondb.net/artwork/large/volbeat.jpg"
+  },
+  {
+    "pokemon_name": "illumise",
+    "image_url": "https://img.pokemondb.net/artwork/large/illumise.jpg"
+  },
+  {
+    "pokemon_name": "roselia",
+    "image_url": "https://img.pokemondb.net/artwork/large/roselia.jpg"
+  },
+  {
+    "pokemon_name": "gulpin",
+    "image_url": "https://img.pokemondb.net/artwork/large/gulpin.jpg"
+  },
+  {
+    "pokemon_name": "swalot",
+    "image_url": "https://img.pokemondb.net/artwork/large/swalot.jpg"
+  },
+  {
+    "pokemon_name": "carvanha",
+    "image_url": "https://img.pokemondb.net/artwork/large/carvanha.jpg"
+  },
+  {
+    "pokemon_name": "sharpedo",
+    "image_url": "https://img.pokemondb.net/artwork/large/sharpedo.jpg"
+  },
+  {
+    "pokemon_name": "sharpedo-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/sharpedo-mega.jpg"
+  },
+  {
+    "pokemon_name": "wailmer",
+    "image_url": "https://img.pokemondb.net/artwork/large/wailmer.jpg"
+  },
+  {
+    "pokemon_name": "wailord",
+    "image_url": "https://img.pokemondb.net/artwork/large/wailord.jpg"
+  },
+  {
+    "pokemon_name": "numel",
+    "image_url": "https://img.pokemondb.net/artwork/large/numel.jpg"
+  },
+  {
+    "pokemon_name": "camerupt",
+    "image_url": "https://img.pokemondb.net/artwork/large/camerupt.jpg"
+  },
+  {
+    "pokemon_name": "camerupt-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/camerupt-mega.jpg"
+  },
+  {
+    "pokemon_name": "torkoal",
+    "image_url": "https://img.pokemondb.net/artwork/large/torkoal.jpg"
+  },
+  {
+    "pokemon_name": "spoink",
+    "image_url": "https://img.pokemondb.net/artwork/large/spoink.jpg"
+  },
+  {
+    "pokemon_name": "grumpig",
+    "image_url": "https://img.pokemondb.net/artwork/large/grumpig.jpg"
+  },
+  {
+    "pokemon_name": "spinda",
+    "image_url": "https://img.pokemondb.net/artwork/large/spinda.jpg"
+  },
+  {
+    "pokemon_name": "trapinch",
+    "image_url": "https://img.pokemondb.net/artwork/large/trapinch.jpg"
+  },
+  {
+    "pokemon_name": "vibrava",
+    "image_url": "https://img.pokemondb.net/artwork/large/vibrava.jpg"
+  },
+  {
+    "pokemon_name": "flygon",
+    "image_url": "https://img.pokemondb.net/artwork/large/flygon.jpg"
+  },
+  {
+    "pokemon_name": "cacnea",
+    "image_url": "https://img.pokemondb.net/artwork/large/cacnea.jpg"
+  },
+  {
+    "pokemon_name": "cacturne",
+    "image_url": "https://img.pokemondb.net/artwork/large/cacturne.jpg"
+  },
+  {
+    "pokemon_name": "swablu",
+    "image_url": "https://img.pokemondb.net/artwork/large/swablu.jpg"
+  },
+  {
+    "pokemon_name": "altaria",
+    "image_url": "https://img.pokemondb.net/artwork/large/altaria.jpg"
+  },
+  {
+    "pokemon_name": "altaria-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/altaria-mega.jpg"
+  },
+  {
+    "pokemon_name": "zangoose",
+    "image_url": "https://img.pokemondb.net/artwork/large/zangoose.jpg"
+  },
+  {
+    "pokemon_name": "seviper",
+    "image_url": "https://img.pokemondb.net/artwork/large/seviper.jpg"
+  },
+  {
+    "pokemon_name": "lunatone",
+    "image_url": "https://img.pokemondb.net/artwork/large/lunatone.jpg"
+  },
+  {
+    "pokemon_name": "solrock",
+    "image_url": "https://img.pokemondb.net/artwork/large/solrock.jpg"
+  },
+  {
+    "pokemon_name": "barboach",
+    "image_url": "https://img.pokemondb.net/artwork/large/barboach.jpg"
+  },
+  {
+    "pokemon_name": "whiscash",
+    "image_url": "https://img.pokemondb.net/artwork/large/whiscash.jpg"
+  },
+  {
+    "pokemon_name": "corphish",
+    "image_url": "https://img.pokemondb.net/artwork/large/corphish.jpg"
+  },
+  {
+    "pokemon_name": "crawdaunt",
+    "image_url": "https://img.pokemondb.net/artwork/large/crawdaunt.jpg"
+  },
+  {
+    "pokemon_name": "baltoy",
+    "image_url": "https://img.pokemondb.net/artwork/large/baltoy.jpg"
+  },
+  {
+    "pokemon_name": "claydol",
+    "image_url": "https://img.pokemondb.net/artwork/large/claydol.jpg"
+  },
+  {
+    "pokemon_name": "lileep",
+    "image_url": "https://img.pokemondb.net/artwork/large/lileep.jpg"
+  },
+  {
+    "pokemon_name": "cradily",
+    "image_url": "https://img.pokemondb.net/artwork/large/cradily.jpg"
+  },
+  {
+    "pokemon_name": "anorith",
+    "image_url": "https://img.pokemondb.net/artwork/large/anorith.jpg"
+  },
+  {
+    "pokemon_name": "armaldo",
+    "image_url": "https://img.pokemondb.net/artwork/large/armaldo.jpg"
+  },
+  {
+    "pokemon_name": "feebas",
+    "image_url": "https://img.pokemondb.net/artwork/large/feebas.jpg"
+  },
+  {
+    "pokemon_name": "milotic",
+    "image_url": "https://img.pokemondb.net/artwork/large/milotic.jpg"
+  },
+  {
+    "pokemon_name": "castform",
+    "image_url": "https://img.pokemondb.net/artwork/large/castform.jpg"
+  },
+  {
+    "pokemon_name": "castform-sunny",
+    "image_url": "https://img.pokemondb.net/artwork/large/castform-sunny.jpg"
+  },
+  {
+    "pokemon_name": "castform-rainy",
+    "image_url": "https://img.pokemondb.net/artwork/large/castform-rainy.jpg"
+  },
+  {
+    "pokemon_name": "castform-snowy",
+    "image_url": "https://img.pokemondb.net/artwork/large/castform-snowy.jpg"
+  },
+  {
+    "pokemon_name": "kecleon",
+    "image_url": "https://img.pokemondb.net/artwork/large/kecleon.jpg"
+  },
+  {
+    "pokemon_name": "shuppet",
+    "image_url": "https://img.pokemondb.net/artwork/large/shuppet.jpg"
+  },
+  {
+    "pokemon_name": "banette",
+    "image_url": "https://img.pokemondb.net/artwork/large/banette.jpg"
+  },
+  {
+    "pokemon_name": "banette-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/banette-mega.jpg"
+  },
+  {
+    "pokemon_name": "duskull",
+    "image_url": "https://img.pokemondb.net/artwork/large/duskull.jpg"
+  },
+  {
+    "pokemon_name": "dusclops",
+    "image_url": "https://img.pokemondb.net/artwork/large/dusclops.jpg"
+  },
+  {
+    "pokemon_name": "tropius",
+    "image_url": "https://img.pokemondb.net/artwork/large/tropius.jpg"
+  },
+  {
+    "pokemon_name": "chimecho",
+    "image_url": "https://img.pokemondb.net/artwork/large/chimecho.jpg"
+  },
+  {
+    "pokemon_name": "absol",
+    "image_url": "https://img.pokemondb.net/artwork/large/absol.jpg"
+  },
+  {
+    "pokemon_name": "absol-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/absol-mega.jpg"
+  },
+  {
+    "pokemon_name": "wynaut",
+    "image_url": "https://img.pokemondb.net/artwork/large/wynaut.jpg"
+  },
+  {
+    "pokemon_name": "snorunt",
+    "image_url": "https://img.pokemondb.net/artwork/large/snorunt.jpg"
+  },
+  {
+    "pokemon_name": "glalie",
+    "image_url": "https://img.pokemondb.net/artwork/large/glalie.jpg"
+  },
+  {
+    "pokemon_name": "glalie-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/glalie-mega.jpg"
+  },
+  {
+    "pokemon_name": "spheal",
+    "image_url": "https://img.pokemondb.net/artwork/large/spheal.jpg"
+  },
+  {
+    "pokemon_name": "sealeo",
+    "image_url": "https://img.pokemondb.net/artwork/large/sealeo.jpg"
+  },
+  {
+    "pokemon_name": "walrein",
+    "image_url": "https://img.pokemondb.net/artwork/large/walrein.jpg"
+  },
+  {
+    "pokemon_name": "clamperl",
+    "image_url": "https://img.pokemondb.net/artwork/large/clamperl.jpg"
+  },
+  {
+    "pokemon_name": "huntail",
+    "image_url": "https://img.pokemondb.net/artwork/large/huntail.jpg"
+  },
+  {
+    "pokemon_name": "gorebyss",
+    "image_url": "https://img.pokemondb.net/artwork/large/gorebyss.jpg"
+  },
+  {
+    "pokemon_name": "relicanth",
+    "image_url": "https://img.pokemondb.net/artwork/large/relicanth.jpg"
+  },
+  {
+    "pokemon_name": "luvdisc",
+    "image_url": "https://img.pokemondb.net/artwork/large/luvdisc.jpg"
+  },
+  {
+    "pokemon_name": "bagon",
+    "image_url": "https://img.pokemondb.net/artwork/large/bagon.jpg"
+  },
+  {
+    "pokemon_name": "shelgon",
+    "image_url": "https://img.pokemondb.net/artwork/large/shelgon.jpg"
+  },
+  {
+    "pokemon_name": "salamence",
+    "image_url": "https://img.pokemondb.net/artwork/large/salamence.jpg"
+  },
+  {
+    "pokemon_name": "salamence-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/salamence-mega.jpg"
+  },
+  {
+    "pokemon_name": "beldum",
+    "image_url": "https://img.pokemondb.net/artwork/large/beldum.jpg"
+  },
+  {
+    "pokemon_name": "metang",
+    "image_url": "https://img.pokemondb.net/artwork/large/metang.jpg"
+  },
+  {
+    "pokemon_name": "metagross",
+    "image_url": "https://img.pokemondb.net/artwork/large/metagross.jpg"
+  },
+  {
+    "pokemon_name": "metagross-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/metagross-mega.jpg"
+  },
+  {
+    "pokemon_name": "regirock",
+    "image_url": "https://img.pokemondb.net/artwork/large/regirock.jpg"
+  },
+  {
+    "pokemon_name": "regice",
+    "image_url": "https://img.pokemondb.net/artwork/large/regice.jpg"
+  },
+  {
+    "pokemon_name": "registeel",
+    "image_url": "https://img.pokemondb.net/artwork/large/registeel.jpg"
+  },
+  {
+    "pokemon_name": "latias",
+    "image_url": "https://img.pokemondb.net/artwork/large/latias.jpg"
+  },
+  {
+    "pokemon_name": "latias-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/latias-mega.jpg"
+  },
+  {
+    "pokemon_name": "latios",
+    "image_url": "https://img.pokemondb.net/artwork/large/latios.jpg"
+  },
+  {
+    "pokemon_name": "latios-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/latios-mega.jpg"
+  },
+  {
+    "pokemon_name": "kyogre",
+    "image_url": "https://img.pokemondb.net/artwork/large/kyogre.jpg"
+  },
+  {
+    "pokemon_name": "kyogre-primal",
+    "image_url": "https://img.pokemondb.net/artwork/large/kyogre-primal.jpg"
+  },
+  {
+    "pokemon_name": "groudon",
+    "image_url": "https://img.pokemondb.net/artwork/large/groudon.jpg"
+  },
+  {
+    "pokemon_name": "groudon-primal",
+    "image_url": "https://img.pokemondb.net/artwork/large/groudon-primal.jpg"
+  },
+  {
+    "pokemon_name": "rayquaza",
+    "image_url": "https://img.pokemondb.net/artwork/large/rayquaza.jpg"
+  },
+  {
+    "pokemon_name": "rayquaza-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/rayquaza-mega.jpg"
+  },
+  {
+    "pokemon_name": "jirachi",
+    "image_url": "https://img.pokemondb.net/artwork/large/jirachi.jpg"
+  },
+  {
+    "pokemon_name": "deoxys-normal",
+    "image_url": "https://img.pokemondb.net/artwork/large/deoxys-normal.jpg"
+  },
+  {
+    "pokemon_name": "deoxys-attack",
+    "image_url": "https://img.pokemondb.net/artwork/large/deoxys-attack.jpg"
+  },
+  {
+    "pokemon_name": "deoxys-defense",
+    "image_url": "https://img.pokemondb.net/artwork/large/deoxys-defense.jpg"
+  },
+  {
+    "pokemon_name": "deoxys-speed",
+    "image_url": "https://img.pokemondb.net/artwork/large/deoxys-speed.jpg"
+  },
+  {
+    "pokemon_name": "turtwig",
+    "image_url": "https://img.pokemondb.net/artwork/large/turtwig.jpg"
+  },
+  {
+    "pokemon_name": "grotle",
+    "image_url": "https://img.pokemondb.net/artwork/large/grotle.jpg"
+  },
+  {
+    "pokemon_name": "torterra",
+    "image_url": "https://img.pokemondb.net/artwork/large/torterra.jpg"
+  },
+  {
+    "pokemon_name": "chimchar",
+    "image_url": "https://img.pokemondb.net/artwork/large/chimchar.jpg"
+  },
+  {
+    "pokemon_name": "monferno",
+    "image_url": "https://img.pokemondb.net/artwork/large/monferno.jpg"
+  },
+  {
+    "pokemon_name": "infernape",
+    "image_url": "https://img.pokemondb.net/artwork/large/infernape.jpg"
+  },
+  {
+    "pokemon_name": "piplup",
+    "image_url": "https://img.pokemondb.net/artwork/large/piplup.jpg"
+  },
+  {
+    "pokemon_name": "prinplup",
+    "image_url": "https://img.pokemondb.net/artwork/large/prinplup.jpg"
+  },
+  {
+    "pokemon_name": "empoleon",
+    "image_url": "https://img.pokemondb.net/artwork/large/empoleon.jpg"
+  },
+  {
+    "pokemon_name": "starly",
+    "image_url": "https://img.pokemondb.net/artwork/large/starly.jpg"
+  },
+  {
+    "pokemon_name": "staravia",
+    "image_url": "https://img.pokemondb.net/artwork/large/staravia.jpg"
+  },
+  {
+    "pokemon_name": "staraptor",
+    "image_url": "https://img.pokemondb.net/artwork/large/staraptor.jpg"
+  },
+  {
+    "pokemon_name": "bidoof",
+    "image_url": "https://img.pokemondb.net/artwork/large/bidoof.jpg"
+  },
+  {
+    "pokemon_name": "bibarel",
+    "image_url": "https://img.pokemondb.net/artwork/large/bibarel.jpg"
+  },
+  {
+    "pokemon_name": "kricketot",
+    "image_url": "https://img.pokemondb.net/artwork/large/kricketot.jpg"
+  },
+  {
+    "pokemon_name": "kricketune",
+    "image_url": "https://img.pokemondb.net/artwork/large/kricketune.jpg"
+  },
+  {
+    "pokemon_name": "shinx",
+    "image_url": "https://img.pokemondb.net/artwork/large/shinx.jpg"
+  },
+  {
+    "pokemon_name": "luxio",
+    "image_url": "https://img.pokemondb.net/artwork/large/luxio.jpg"
+  },
+  {
+    "pokemon_name": "luxray",
+    "image_url": "https://img.pokemondb.net/artwork/large/luxray.jpg"
+  },
+  {
+    "pokemon_name": "budew",
+    "image_url": "https://img.pokemondb.net/artwork/large/budew.jpg"
+  },
+  {
+    "pokemon_name": "roserade",
+    "image_url": "https://img.pokemondb.net/artwork/large/roserade.jpg"
+  },
+  {
+    "pokemon_name": "cranidos",
+    "image_url": "https://img.pokemondb.net/artwork/large/cranidos.jpg"
+  },
+  {
+    "pokemon_name": "rampardos",
+    "image_url": "https://img.pokemondb.net/artwork/large/rampardos.jpg"
+  },
+  {
+    "pokemon_name": "shieldon",
+    "image_url": "https://img.pokemondb.net/artwork/large/shieldon.jpg"
+  },
+  {
+    "pokemon_name": "bastiodon",
+    "image_url": "https://img.pokemondb.net/artwork/large/bastiodon.jpg"
+  },
+  {
+    "pokemon_name": "burmy-plant",
+    "image_url": "https://img.pokemondb.net/artwork/large/burmy-plant.jpg"
+  },
+  {
+    "pokemon_name": "burmy-sandy",
+    "image_url": "https://img.pokemondb.net/artwork/large/burmy-sandy.jpg"
+  },
+  {
+    "pokemon_name": "burmy-trash",
+    "image_url": "https://img.pokemondb.net/artwork/large/burmy-trash.jpg"
+  },
+  {
+    "pokemon_name": "wormadam-plant",
+    "image_url": "https://img.pokemondb.net/artwork/large/wormadam-plant.jpg"
+  },
+  {
+    "pokemon_name": "wormadam-sandy",
+    "image_url": "https://img.pokemondb.net/artwork/large/wormadam-sandy.jpg"
+  },
+  {
+    "pokemon_name": "wormadam-trash",
+    "image_url": "https://img.pokemondb.net/artwork/large/wormadam-trash.jpg"
+  },
+  {
+    "pokemon_name": "mothim",
+    "image_url": "https://img.pokemondb.net/artwork/large/mothim.jpg"
+  },
+  {
+    "pokemon_name": "combee",
+    "image_url": "https://img.pokemondb.net/artwork/large/combee.jpg"
+  },
+  {
+    "pokemon_name": "vespiquen",
+    "image_url": "https://img.pokemondb.net/artwork/large/vespiquen.jpg"
+  },
+  {
+    "pokemon_name": "pachirisu",
+    "image_url": "https://img.pokemondb.net/artwork/large/pachirisu.jpg"
+  },
+  {
+    "pokemon_name": "buizel",
+    "image_url": "https://img.pokemondb.net/artwork/large/buizel.jpg"
+  },
+  {
+    "pokemon_name": "floatzel",
+    "image_url": "https://img.pokemondb.net/artwork/large/floatzel.jpg"
+  },
+  {
+    "pokemon_name": "cherubi",
+    "image_url": "https://img.pokemondb.net/artwork/large/cherubi.jpg"
+  },
+  {
+    "pokemon_name": "cherrim",
+    "image_url": "https://img.pokemondb.net/artwork/large/cherrim.jpg"
+  },
+  {
+    "pokemon_name": "shellos",
+    "image_url": "https://img.pokemondb.net/artwork/large/shellos.jpg"
+  },
+  {
+    "pokemon_name": "gastrodon",
+    "image_url": "https://img.pokemondb.net/artwork/large/gastrodon.jpg"
+  },
+  {
+    "pokemon_name": "ambipom",
+    "image_url": "https://img.pokemondb.net/artwork/large/ambipom.jpg"
+  },
+  {
+    "pokemon_name": "drifloon",
+    "image_url": "https://img.pokemondb.net/artwork/large/drifloon.jpg"
+  },
+  {
+    "pokemon_name": "drifblim",
+    "image_url": "https://img.pokemondb.net/artwork/large/drifblim.jpg"
+  },
+  {
+    "pokemon_name": "buneary",
+    "image_url": "https://img.pokemondb.net/artwork/large/buneary.jpg"
+  },
+  {
+    "pokemon_name": "lopunny",
+    "image_url": "https://img.pokemondb.net/artwork/large/lopunny.jpg"
+  },
+  {
+    "pokemon_name": "lopunny-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/lopunny-mega.jpg"
+  },
+  {
+    "pokemon_name": "mismagius",
+    "image_url": "https://img.pokemondb.net/artwork/large/mismagius.jpg"
+  },
+  {
+    "pokemon_name": "honchkrow",
+    "image_url": "https://img.pokemondb.net/artwork/large/honchkrow.jpg"
+  },
+  {
+    "pokemon_name": "glameow",
+    "image_url": "https://img.pokemondb.net/artwork/large/glameow.jpg"
+  },
+  {
+    "pokemon_name": "purugly",
+    "image_url": "https://img.pokemondb.net/artwork/large/purugly.jpg"
+  },
+  {
+    "pokemon_name": "chingling",
+    "image_url": "https://img.pokemondb.net/artwork/large/chingling.jpg"
+  },
+  {
+    "pokemon_name": "stunky",
+    "image_url": "https://img.pokemondb.net/artwork/large/stunky.jpg"
+  },
+  {
+    "pokemon_name": "skuntank",
+    "image_url": "https://img.pokemondb.net/artwork/large/skuntank.jpg"
+  },
+  {
+    "pokemon_name": "bronzor",
+    "image_url": "https://img.pokemondb.net/artwork/large/bronzor.jpg"
+  },
+  {
+    "pokemon_name": "bronzong",
+    "image_url": "https://img.pokemondb.net/artwork/large/bronzong.jpg"
+  },
+  {
+    "pokemon_name": "bonsly",
+    "image_url": "https://img.pokemondb.net/artwork/large/bonsly.jpg"
+  },
+  {
+    "pokemon_name": "mime-jr",
+    "image_url": "https://img.pokemondb.net/artwork/large/mime-jr.jpg"
+  },
+  {
+    "pokemon_name": "happiny",
+    "image_url": "https://img.pokemondb.net/artwork/large/happiny.jpg"
+  },
+  {
+    "pokemon_name": "chatot",
+    "image_url": "https://img.pokemondb.net/artwork/large/chatot.jpg"
+  },
+  {
+    "pokemon_name": "spiritomb",
+    "image_url": "https://img.pokemondb.net/artwork/large/spiritomb.jpg"
+  },
+  {
+    "pokemon_name": "gible",
+    "image_url": "https://img.pokemondb.net/artwork/large/gible.jpg"
+  },
+  {
+    "pokemon_name": "gabite",
+    "image_url": "https://img.pokemondb.net/artwork/large/gabite.jpg"
+  },
+  {
+    "pokemon_name": "garchomp",
+    "image_url": "https://img.pokemondb.net/artwork/large/garchomp.jpg"
+  },
+  {
+    "pokemon_name": "garchomp-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/garchomp-mega.jpg"
+  },
+  {
+    "pokemon_name": "munchlax",
+    "image_url": "https://img.pokemondb.net/artwork/large/munchlax.jpg"
+  },
+  {
+    "pokemon_name": "riolu",
+    "image_url": "https://img.pokemondb.net/artwork/large/riolu.jpg"
+  },
+  {
+    "pokemon_name": "lucario",
+    "image_url": "https://img.pokemondb.net/artwork/large/lucario.jpg"
+  },
+  {
+    "pokemon_name": "lucario-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/lucario-mega.jpg"
+  },
+  {
+    "pokemon_name": "hippopotas",
+    "image_url": "https://img.pokemondb.net/artwork/large/hippopotas.jpg"
+  },
+  {
+    "pokemon_name": "hippowdon",
+    "image_url": "https://img.pokemondb.net/artwork/large/hippowdon.jpg"
+  },
+  {
+    "pokemon_name": "skorupi",
+    "image_url": "https://img.pokemondb.net/artwork/large/skorupi.jpg"
+  },
+  {
+    "pokemon_name": "drapion",
+    "image_url": "https://img.pokemondb.net/artwork/large/drapion.jpg"
+  },
+  {
+    "pokemon_name": "croagunk",
+    "image_url": "https://img.pokemondb.net/artwork/large/croagunk.jpg"
+  },
+  {
+    "pokemon_name": "toxicroak",
+    "image_url": "https://img.pokemondb.net/artwork/large/toxicroak.jpg"
+  },
+  {
+    "pokemon_name": "carnivine",
+    "image_url": "https://img.pokemondb.net/artwork/large/carnivine.jpg"
+  },
+  {
+    "pokemon_name": "finneon",
+    "image_url": "https://img.pokemondb.net/artwork/large/finneon.jpg"
+  },
+  {
+    "pokemon_name": "lumineon",
+    "image_url": "https://img.pokemondb.net/artwork/large/lumineon.jpg"
+  },
+  {
+    "pokemon_name": "mantyke",
+    "image_url": "https://img.pokemondb.net/artwork/large/mantyke.jpg"
+  },
+  {
+    "pokemon_name": "snover",
+    "image_url": "https://img.pokemondb.net/artwork/large/snover.jpg"
+  },
+  {
+    "pokemon_name": "abomasnow",
+    "image_url": "https://img.pokemondb.net/artwork/large/abomasnow.jpg"
+  },
+  {
+    "pokemon_name": "abomasnow-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/abomasnow-mega.jpg"
+  },
+  {
+    "pokemon_name": "weavile",
+    "image_url": "https://img.pokemondb.net/artwork/large/weavile.jpg"
+  },
+  {
+    "pokemon_name": "magnezone",
+    "image_url": "https://img.pokemondb.net/artwork/large/magnezone.jpg"
+  },
+  {
+    "pokemon_name": "lickilicky",
+    "image_url": "https://img.pokemondb.net/artwork/large/lickilicky.jpg"
+  },
+  {
+    "pokemon_name": "rhyperior",
+    "image_url": "https://img.pokemondb.net/artwork/large/rhyperior.jpg"
+  },
+  {
+    "pokemon_name": "tangrowth",
+    "image_url": "https://img.pokemondb.net/artwork/large/tangrowth.jpg"
+  },
+  {
+    "pokemon_name": "electivire",
+    "image_url": "https://img.pokemondb.net/artwork/large/electivire.jpg"
+  },
+  {
+    "pokemon_name": "magmortar",
+    "image_url": "https://img.pokemondb.net/artwork/large/magmortar.jpg"
+  },
+  {
+    "pokemon_name": "togekiss",
+    "image_url": "https://img.pokemondb.net/artwork/large/togekiss.jpg"
+  },
+  {
+    "pokemon_name": "yanmega",
+    "image_url": "https://img.pokemondb.net/artwork/large/yanmega.jpg"
+  },
+  {
+    "pokemon_name": "leafeon",
+    "image_url": "https://img.pokemondb.net/artwork/large/leafeon.jpg"
+  },
+  {
+    "pokemon_name": "glaceon",
+    "image_url": "https://img.pokemondb.net/artwork/large/glaceon.jpg"
+  },
+  {
+    "pokemon_name": "gliscor",
+    "image_url": "https://img.pokemondb.net/artwork/large/gliscor.jpg"
+  },
+  {
+    "pokemon_name": "mamoswine",
+    "image_url": "https://img.pokemondb.net/artwork/large/mamoswine.jpg"
+  },
+  {
+    "pokemon_name": "porygon-z",
+    "image_url": "https://img.pokemondb.net/artwork/large/porygon-z.jpg"
+  },
+  {
+    "pokemon_name": "gallade",
+    "image_url": "https://img.pokemondb.net/artwork/large/gallade.jpg"
+  },
+  {
+    "pokemon_name": "gallade-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/gallade-mega.jpg"
+  },
+  {
+    "pokemon_name": "probopass",
+    "image_url": "https://img.pokemondb.net/artwork/large/probopass.jpg"
+  },
+  {
+    "pokemon_name": "dusknoir",
+    "image_url": "https://img.pokemondb.net/artwork/large/dusknoir.jpg"
+  },
+  {
+    "pokemon_name": "froslass",
+    "image_url": "https://img.pokemondb.net/artwork/large/froslass.jpg"
+  },
+  {
+    "pokemon_name": "froslass-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/froslass-mega.jpg"
+  },
+  {
+    "pokemon_name": "rotom",
+    "image_url": "https://img.pokemondb.net/artwork/large/rotom.jpg"
+  },
+  {
+    "pokemon_name": "rotom-heat",
+    "image_url": "https://img.pokemondb.net/artwork/large/rotom-heat.jpg"
+  },
+  {
+    "pokemon_name": "rotom-wash",
+    "image_url": "https://img.pokemondb.net/artwork/large/rotom-wash.jpg"
+  },
+  {
+    "pokemon_name": "rotom-frost",
+    "image_url": "https://img.pokemondb.net/artwork/large/rotom-frost.jpg"
+  },
+  {
+    "pokemon_name": "rotom-fan",
+    "image_url": "https://img.pokemondb.net/artwork/large/rotom-fan.jpg"
+  },
+  {
+    "pokemon_name": "rotom-mow",
+    "image_url": "https://img.pokemondb.net/artwork/large/rotom-mow.jpg"
+  },
+  {
+    "pokemon_name": "uxie",
+    "image_url": "https://img.pokemondb.net/artwork/large/uxie.jpg"
+  },
+  {
+    "pokemon_name": "mesprit",
+    "image_url": "https://img.pokemondb.net/artwork/large/mesprit.jpg"
+  },
+  {
+    "pokemon_name": "azelf",
+    "image_url": "https://img.pokemondb.net/artwork/large/azelf.jpg"
+  },
+  {
+    "pokemon_name": "dialga",
+    "image_url": "https://img.pokemondb.net/artwork/large/dialga.jpg"
+  },
+  {
+    "pokemon_name": "dialga-origin",
+    "image_url": "https://img.pokemondb.net/artwork/large/dialga-origin.jpg"
+  },
+  {
+    "pokemon_name": "palkia",
+    "image_url": "https://img.pokemondb.net/artwork/large/palkia.jpg"
+  },
+  {
+    "pokemon_name": "palkia-origin",
+    "image_url": "https://img.pokemondb.net/artwork/large/palkia-origin.jpg"
+  },
+  {
+    "pokemon_name": "heatran",
+    "image_url": "https://img.pokemondb.net/artwork/large/heatran.jpg"
+  },
+  {
+    "pokemon_name": "regigigas",
+    "image_url": "https://img.pokemondb.net/artwork/large/regigigas.jpg"
+  },
+  {
+    "pokemon_name": "giratina-altered",
+    "image_url": "https://img.pokemondb.net/artwork/large/giratina-altered.jpg"
+  },
+  {
+    "pokemon_name": "giratina-origin",
+    "image_url": "https://img.pokemondb.net/artwork/large/giratina-origin.jpg"
+  },
+  {
+    "pokemon_name": "cresselia",
+    "image_url": "https://img.pokemondb.net/artwork/large/cresselia.jpg"
+  },
+  {
+    "pokemon_name": "phione",
+    "image_url": "https://img.pokemondb.net/artwork/large/phione.jpg"
+  },
+  {
+    "pokemon_name": "manaphy",
+    "image_url": "https://img.pokemondb.net/artwork/large/manaphy.jpg"
+  },
+  {
+    "pokemon_name": "darkrai",
+    "image_url": "https://img.pokemondb.net/artwork/large/darkrai.jpg"
+  },
+  {
+    "pokemon_name": "shaymin-land",
+    "image_url": "https://img.pokemondb.net/artwork/large/shaymin-land.jpg"
+  },
+  {
+    "pokemon_name": "shaymin-sky",
+    "image_url": "https://img.pokemondb.net/artwork/large/shaymin-sky.jpg"
+  },
+  {
+    "pokemon_name": "arceus",
+    "image_url": "https://img.pokemondb.net/artwork/large/arceus.jpg"
+  },
+  {
+    "pokemon_name": "victini",
+    "image_url": "https://img.pokemondb.net/artwork/large/victini.jpg"
+  },
+  {
+    "pokemon_name": "snivy",
+    "image_url": "https://img.pokemondb.net/artwork/large/snivy.jpg"
+  },
+  {
+    "pokemon_name": "servine",
+    "image_url": "https://img.pokemondb.net/artwork/large/servine.jpg"
+  },
+  {
+    "pokemon_name": "serperior",
+    "image_url": "https://img.pokemondb.net/artwork/large/serperior.jpg"
+  },
+  {
+    "pokemon_name": "tepig",
+    "image_url": "https://img.pokemondb.net/artwork/large/tepig.jpg"
+  },
+  {
+    "pokemon_name": "pignite",
+    "image_url": "https://img.pokemondb.net/artwork/large/pignite.jpg"
+  },
+  {
+    "pokemon_name": "emboar",
+    "image_url": "https://img.pokemondb.net/artwork/large/emboar.jpg"
+  },
+  {
+    "pokemon_name": "emboar-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/emboar-mega.jpg"
+  },
+  {
+    "pokemon_name": "oshawott",
+    "image_url": "https://img.pokemondb.net/artwork/large/oshawott.jpg"
+  },
+  {
+    "pokemon_name": "dewott",
+    "image_url": "https://img.pokemondb.net/artwork/large/dewott.jpg"
+  },
+  {
+    "pokemon_name": "samurott",
+    "image_url": "https://img.pokemondb.net/artwork/large/samurott.jpg"
+  },
+  {
+    "pokemon_name": "samurott-hisuian",
+    "image_url": "https://img.pokemondb.net/artwork/large/samurott-hisuian.jpg"
+  },
+  {
+    "pokemon_name": "patrat",
+    "image_url": "https://img.pokemondb.net/artwork/large/patrat.jpg"
+  },
+  {
+    "pokemon_name": "watchog",
+    "image_url": "https://img.pokemondb.net/artwork/large/watchog.jpg"
+  },
+  {
+    "pokemon_name": "lillipup",
+    "image_url": "https://img.pokemondb.net/artwork/large/lillipup.jpg"
+  },
+  {
+    "pokemon_name": "herdier",
+    "image_url": "https://img.pokemondb.net/artwork/large/herdier.jpg"
+  },
+  {
+    "pokemon_name": "stoutland",
+    "image_url": "https://img.pokemondb.net/artwork/large/stoutland.jpg"
+  },
+  {
+    "pokemon_name": "purrloin",
+    "image_url": "https://img.pokemondb.net/artwork/large/purrloin.jpg"
+  },
+  {
+    "pokemon_name": "liepard",
+    "image_url": "https://img.pokemondb.net/artwork/large/liepard.jpg"
+  },
+  {
+    "pokemon_name": "pansage",
+    "image_url": "https://img.pokemondb.net/artwork/large/pansage.jpg"
+  },
+  {
+    "pokemon_name": "simisage",
+    "image_url": "https://img.pokemondb.net/artwork/large/simisage.jpg"
+  },
+  {
+    "pokemon_name": "pansear",
+    "image_url": "https://img.pokemondb.net/artwork/large/pansear.jpg"
+  },
+  {
+    "pokemon_name": "simisear",
+    "image_url": "https://img.pokemondb.net/artwork/large/simisear.jpg"
+  },
+  {
+    "pokemon_name": "panpour",
+    "image_url": "https://img.pokemondb.net/artwork/large/panpour.jpg"
+  },
+  {
+    "pokemon_name": "simipour",
+    "image_url": "https://img.pokemondb.net/artwork/large/simipour.jpg"
+  },
+  {
+    "pokemon_name": "munna",
+    "image_url": "https://img.pokemondb.net/artwork/large/munna.jpg"
+  },
+  {
+    "pokemon_name": "musharna",
+    "image_url": "https://img.pokemondb.net/artwork/large/musharna.jpg"
+  },
+  {
+    "pokemon_name": "pidove",
+    "image_url": "https://img.pokemondb.net/artwork/large/pidove.jpg"
+  },
+  {
+    "pokemon_name": "tranquill",
+    "image_url": "https://img.pokemondb.net/artwork/large/tranquill.jpg"
+  },
+  {
+    "pokemon_name": "unfezant",
+    "image_url": "https://img.pokemondb.net/artwork/large/unfezant.jpg"
+  },
+  {
+    "pokemon_name": "blitzle",
+    "image_url": "https://img.pokemondb.net/artwork/large/blitzle.jpg"
+  },
+  {
+    "pokemon_name": "zebstrika",
+    "image_url": "https://img.pokemondb.net/artwork/large/zebstrika.jpg"
+  },
+  {
+    "pokemon_name": "roggenrola",
+    "image_url": "https://img.pokemondb.net/artwork/large/roggenrola.jpg"
+  },
+  {
+    "pokemon_name": "boldore",
+    "image_url": "https://img.pokemondb.net/artwork/large/boldore.jpg"
+  },
+  {
+    "pokemon_name": "gigalith",
+    "image_url": "https://img.pokemondb.net/artwork/large/gigalith.jpg"
+  },
+  {
+    "pokemon_name": "woobat",
+    "image_url": "https://img.pokemondb.net/artwork/large/woobat.jpg"
+  },
+  {
+    "pokemon_name": "swoobat",
+    "image_url": "https://img.pokemondb.net/artwork/large/swoobat.jpg"
+  },
+  {
+    "pokemon_name": "drilbur",
+    "image_url": "https://img.pokemondb.net/artwork/large/drilbur.jpg"
+  },
+  {
+    "pokemon_name": "excadrill",
+    "image_url": "https://img.pokemondb.net/artwork/large/excadrill.jpg"
+  },
+  {
+    "pokemon_name": "excadrill-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/excadrill-mega.jpg"
+  },
+  {
+    "pokemon_name": "audino",
+    "image_url": "https://img.pokemondb.net/artwork/large/audino.jpg"
+  },
+  {
+    "pokemon_name": "audino-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/audino-mega.jpg"
+  },
+  {
+    "pokemon_name": "timburr",
+    "image_url": "https://img.pokemondb.net/artwork/large/timburr.jpg"
+  },
+  {
+    "pokemon_name": "gurdurr",
+    "image_url": "https://img.pokemondb.net/artwork/large/gurdurr.jpg"
+  },
+  {
+    "pokemon_name": "conkeldurr",
+    "image_url": "https://img.pokemondb.net/artwork/large/conkeldurr.jpg"
+  },
+  {
+    "pokemon_name": "tympole",
+    "image_url": "https://img.pokemondb.net/artwork/large/tympole.jpg"
+  },
+  {
+    "pokemon_name": "palpitoad",
+    "image_url": "https://img.pokemondb.net/artwork/large/palpitoad.jpg"
+  },
+  {
+    "pokemon_name": "seismitoad",
+    "image_url": "https://img.pokemondb.net/artwork/large/seismitoad.jpg"
+  },
+  {
+    "pokemon_name": "throh",
+    "image_url": "https://img.pokemondb.net/artwork/large/throh.jpg"
+  },
+  {
+    "pokemon_name": "sawk",
+    "image_url": "https://img.pokemondb.net/artwork/large/sawk.jpg"
+  },
+  {
+    "pokemon_name": "sewaddle",
+    "image_url": "https://img.pokemondb.net/artwork/large/sewaddle.jpg"
+  },
+  {
+    "pokemon_name": "swadloon",
+    "image_url": "https://img.pokemondb.net/artwork/large/swadloon.jpg"
+  },
+  {
+    "pokemon_name": "leavanny",
+    "image_url": "https://img.pokemondb.net/artwork/large/leavanny.jpg"
+  },
+  {
+    "pokemon_name": "venipede",
+    "image_url": "https://img.pokemondb.net/artwork/large/venipede.jpg"
+  },
+  {
+    "pokemon_name": "whirlipede",
+    "image_url": "https://img.pokemondb.net/artwork/large/whirlipede.jpg"
+  },
+  {
+    "pokemon_name": "scolipede",
+    "image_url": "https://img.pokemondb.net/artwork/large/scolipede.jpg"
+  },
+  {
+    "pokemon_name": "scolipede-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/scolipede-mega.jpg"
+  },
+  {
+    "pokemon_name": "cottonee",
+    "image_url": "https://img.pokemondb.net/artwork/large/cottonee.jpg"
+  },
+  {
+    "pokemon_name": "whimsicott",
+    "image_url": "https://img.pokemondb.net/artwork/large/whimsicott.jpg"
+  },
+  {
+    "pokemon_name": "petilil",
+    "image_url": "https://img.pokemondb.net/artwork/large/petilil.jpg"
+  },
+  {
+    "pokemon_name": "lilligant",
+    "image_url": "https://img.pokemondb.net/artwork/large/lilligant.jpg"
+  },
+  {
+    "pokemon_name": "lilligant-hisuian",
+    "image_url": "https://img.pokemondb.net/artwork/large/lilligant-hisuian.jpg"
+  },
+  {
+    "pokemon_name": "basculin-red-striped",
+    "image_url": "https://img.pokemondb.net/artwork/large/basculin-red-striped.jpg"
+  },
+  {
+    "pokemon_name": "basculin-blue-striped",
+    "image_url": "https://img.pokemondb.net/artwork/large/basculin-blue-striped.jpg"
+  },
+  {
+    "pokemon_name": "basculin-white-striped",
+    "image_url": "https://img.pokemondb.net/artwork/large/basculin-white-striped.jpg"
+  },
+  {
+    "pokemon_name": "sandile",
+    "image_url": "https://img.pokemondb.net/artwork/large/sandile.jpg"
+  },
+  {
+    "pokemon_name": "krokorok",
+    "image_url": "https://img.pokemondb.net/artwork/large/krokorok.jpg"
+  },
+  {
+    "pokemon_name": "krookodile",
+    "image_url": "https://img.pokemondb.net/artwork/large/krookodile.jpg"
+  },
+  {
+    "pokemon_name": "darumaka",
+    "image_url": "https://img.pokemondb.net/artwork/large/darumaka.jpg"
+  },
+  {
+    "pokemon_name": "darumaka-galarian",
+    "image_url": "https://img.pokemondb.net/artwork/large/darumaka-galarian.jpg"
+  },
+  {
+    "pokemon_name": "darmanitan-standard",
+    "image_url": "https://img.pokemondb.net/artwork/large/darmanitan-standard.jpg"
+  },
+  {
+    "pokemon_name": "darmanitan-zen",
+    "image_url": "https://img.pokemondb.net/artwork/large/darmanitan-zen.jpg"
+  },
+  {
+    "pokemon_name": "darmanitan-galarian-standard",
+    "image_url": "https://img.pokemondb.net/artwork/large/darmanitan-galarian-standard.jpg"
+  },
+  {
+    "pokemon_name": "darmanitan-galarian-zen",
+    "image_url": "https://img.pokemondb.net/artwork/large/darmanitan-galarian-zen.jpg"
+  },
+  {
+    "pokemon_name": "maractus",
+    "image_url": "https://img.pokemondb.net/artwork/large/maractus.jpg"
+  },
+  {
+    "pokemon_name": "dwebble",
+    "image_url": "https://img.pokemondb.net/artwork/large/dwebble.jpg"
+  },
+  {
+    "pokemon_name": "crustle",
+    "image_url": "https://img.pokemondb.net/artwork/large/crustle.jpg"
+  },
+  {
+    "pokemon_name": "scraggy",
+    "image_url": "https://img.pokemondb.net/artwork/large/scraggy.jpg"
+  },
+  {
+    "pokemon_name": "scrafty",
+    "image_url": "https://img.pokemondb.net/artwork/large/scrafty.jpg"
+  },
+  {
+    "pokemon_name": "scrafty-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/scrafty-mega.jpg"
+  },
+  {
+    "pokemon_name": "sigilyph",
+    "image_url": "https://img.pokemondb.net/artwork/large/sigilyph.jpg"
+  },
+  {
+    "pokemon_name": "yamask",
+    "image_url": "https://img.pokemondb.net/artwork/large/yamask.jpg"
+  },
+  {
+    "pokemon_name": "yamask-galarian",
+    "image_url": "https://img.pokemondb.net/artwork/large/yamask-galarian.jpg"
+  },
+  {
+    "pokemon_name": "cofagrigus",
+    "image_url": "https://img.pokemondb.net/artwork/large/cofagrigus.jpg"
+  },
+  {
+    "pokemon_name": "tirtouga",
+    "image_url": "https://img.pokemondb.net/artwork/large/tirtouga.jpg"
+  },
+  {
+    "pokemon_name": "carracosta",
+    "image_url": "https://img.pokemondb.net/artwork/large/carracosta.jpg"
+  },
+  {
+    "pokemon_name": "archen",
+    "image_url": "https://img.pokemondb.net/artwork/large/archen.jpg"
+  },
+  {
+    "pokemon_name": "archeops",
+    "image_url": "https://img.pokemondb.net/artwork/large/archeops.jpg"
+  },
+  {
+    "pokemon_name": "trubbish",
+    "image_url": "https://img.pokemondb.net/artwork/large/trubbish.jpg"
+  },
+  {
+    "pokemon_name": "garbodor",
+    "image_url": "https://img.pokemondb.net/artwork/large/garbodor.jpg"
+  },
+  {
+    "pokemon_name": "zorua",
+    "image_url": "https://img.pokemondb.net/artwork/large/zorua.jpg"
+  },
+  {
+    "pokemon_name": "zorua-hisuian",
+    "image_url": "https://img.pokemondb.net/artwork/large/zorua-hisuian.jpg"
+  },
+  {
+    "pokemon_name": "zoroark",
+    "image_url": "https://img.pokemondb.net/artwork/large/zoroark.jpg"
+  },
+  {
+    "pokemon_name": "zoroark-hisuian",
+    "image_url": "https://img.pokemondb.net/artwork/large/zoroark-hisuian.jpg"
+  },
+  {
+    "pokemon_name": "minccino",
+    "image_url": "https://img.pokemondb.net/artwork/large/minccino.jpg"
+  },
+  {
+    "pokemon_name": "cinccino",
+    "image_url": "https://img.pokemondb.net/artwork/large/cinccino.jpg"
+  },
+  {
+    "pokemon_name": "gothita",
+    "image_url": "https://img.pokemondb.net/artwork/large/gothita.jpg"
+  },
+  {
+    "pokemon_name": "gothorita",
+    "image_url": "https://img.pokemondb.net/artwork/large/gothorita.jpg"
+  },
+  {
+    "pokemon_name": "gothitelle",
+    "image_url": "https://img.pokemondb.net/artwork/large/gothitelle.jpg"
+  },
+  {
+    "pokemon_name": "solosis",
+    "image_url": "https://img.pokemondb.net/artwork/large/solosis.jpg"
+  },
+  {
+    "pokemon_name": "duosion",
+    "image_url": "https://img.pokemondb.net/artwork/large/duosion.jpg"
+  },
+  {
+    "pokemon_name": "reuniclus",
+    "image_url": "https://img.pokemondb.net/artwork/large/reuniclus.jpg"
+  },
+  {
+    "pokemon_name": "ducklett",
+    "image_url": "https://img.pokemondb.net/artwork/large/ducklett.jpg"
+  },
+  {
+    "pokemon_name": "swanna",
+    "image_url": "https://img.pokemondb.net/artwork/large/swanna.jpg"
+  },
+  {
+    "pokemon_name": "vanillite",
+    "image_url": "https://img.pokemondb.net/artwork/large/vanillite.jpg"
+  },
+  {
+    "pokemon_name": "vanillish",
+    "image_url": "https://img.pokemondb.net/artwork/large/vanillish.jpg"
+  },
+  {
+    "pokemon_name": "vanilluxe",
+    "image_url": "https://img.pokemondb.net/artwork/large/vanilluxe.jpg"
+  },
+  {
+    "pokemon_name": "deerling",
+    "image_url": "https://img.pokemondb.net/artwork/large/deerling.jpg"
+  },
+  {
+    "pokemon_name": "sawsbuck",
+    "image_url": "https://img.pokemondb.net/artwork/large/sawsbuck.jpg"
+  },
+  {
+    "pokemon_name": "emolga",
+    "image_url": "https://img.pokemondb.net/artwork/large/emolga.jpg"
+  },
+  {
+    "pokemon_name": "karrablast",
+    "image_url": "https://img.pokemondb.net/artwork/large/karrablast.jpg"
+  },
+  {
+    "pokemon_name": "escavalier",
+    "image_url": "https://img.pokemondb.net/artwork/large/escavalier.jpg"
+  },
+  {
+    "pokemon_name": "foongus",
+    "image_url": "https://img.pokemondb.net/artwork/large/foongus.jpg"
+  },
+  {
+    "pokemon_name": "amoonguss",
+    "image_url": "https://img.pokemondb.net/artwork/large/amoonguss.jpg"
+  },
+  {
+    "pokemon_name": "frillish",
+    "image_url": "https://img.pokemondb.net/artwork/large/frillish.jpg"
+  },
+  {
+    "pokemon_name": "jellicent",
+    "image_url": "https://img.pokemondb.net/artwork/large/jellicent.jpg"
+  },
+  {
+    "pokemon_name": "alomomola",
+    "image_url": "https://img.pokemondb.net/artwork/large/alomomola.jpg"
+  },
+  {
+    "pokemon_name": "joltik",
+    "image_url": "https://img.pokemondb.net/artwork/large/joltik.jpg"
+  },
+  {
+    "pokemon_name": "galvantula",
+    "image_url": "https://img.pokemondb.net/artwork/large/galvantula.jpg"
+  },
+  {
+    "pokemon_name": "ferroseed",
+    "image_url": "https://img.pokemondb.net/artwork/large/ferroseed.jpg"
+  },
+  {
+    "pokemon_name": "ferrothorn",
+    "image_url": "https://img.pokemondb.net/artwork/large/ferrothorn.jpg"
+  },
+  {
+    "pokemon_name": "klink",
+    "image_url": "https://img.pokemondb.net/artwork/large/klink.jpg"
+  },
+  {
+    "pokemon_name": "klang",
+    "image_url": "https://img.pokemondb.net/artwork/large/klang.jpg"
+  },
+  {
+    "pokemon_name": "klinklang",
+    "image_url": "https://img.pokemondb.net/artwork/large/klinklang.jpg"
+  },
+  {
+    "pokemon_name": "tynamo",
+    "image_url": "https://img.pokemondb.net/artwork/large/tynamo.jpg"
+  },
+  {
+    "pokemon_name": "eelektrik",
+    "image_url": "https://img.pokemondb.net/artwork/large/eelektrik.jpg"
+  },
+  {
+    "pokemon_name": "eelektross",
+    "image_url": "https://img.pokemondb.net/artwork/large/eelektross.jpg"
+  },
+  {
+    "pokemon_name": "eelektross-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/eelektross-mega.jpg"
+  },
+  {
+    "pokemon_name": "elgyem",
+    "image_url": "https://img.pokemondb.net/artwork/large/elgyem.jpg"
+  },
+  {
+    "pokemon_name": "beheeyem",
+    "image_url": "https://img.pokemondb.net/artwork/large/beheeyem.jpg"
+  },
+  {
+    "pokemon_name": "litwick",
+    "image_url": "https://img.pokemondb.net/artwork/large/litwick.jpg"
+  },
+  {
+    "pokemon_name": "lampent",
+    "image_url": "https://img.pokemondb.net/artwork/large/lampent.jpg"
+  },
+  {
+    "pokemon_name": "chandelure",
+    "image_url": "https://img.pokemondb.net/artwork/large/chandelure.jpg"
+  },
+  {
+    "pokemon_name": "chandelure-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/chandelure-mega.jpg"
+  },
+  {
+    "pokemon_name": "axew",
+    "image_url": "https://img.pokemondb.net/artwork/large/axew.jpg"
+  },
+  {
+    "pokemon_name": "fraxure",
+    "image_url": "https://img.pokemondb.net/artwork/large/fraxure.jpg"
+  },
+  {
+    "pokemon_name": "haxorus",
+    "image_url": "https://img.pokemondb.net/artwork/large/haxorus.jpg"
+  },
+  {
+    "pokemon_name": "cubchoo",
+    "image_url": "https://img.pokemondb.net/artwork/large/cubchoo.jpg"
+  },
+  {
+    "pokemon_name": "beartic",
+    "image_url": "https://img.pokemondb.net/artwork/large/beartic.jpg"
+  },
+  {
+    "pokemon_name": "cryogonal",
+    "image_url": "https://img.pokemondb.net/artwork/large/cryogonal.jpg"
+  },
+  {
+    "pokemon_name": "shelmet",
+    "image_url": "https://img.pokemondb.net/artwork/large/shelmet.jpg"
+  },
+  {
+    "pokemon_name": "accelgor",
+    "image_url": "https://img.pokemondb.net/artwork/large/accelgor.jpg"
+  },
+  {
+    "pokemon_name": "stunfisk",
+    "image_url": "https://img.pokemondb.net/artwork/large/stunfisk.jpg"
+  },
+  {
+    "pokemon_name": "stunfisk-galarian",
+    "image_url": "https://img.pokemondb.net/artwork/large/stunfisk-galarian.jpg"
+  },
+  {
+    "pokemon_name": "mienfoo",
+    "image_url": "https://img.pokemondb.net/artwork/large/mienfoo.jpg"
+  },
+  {
+    "pokemon_name": "mienshao",
+    "image_url": "https://img.pokemondb.net/artwork/large/mienshao.jpg"
+  },
+  {
+    "pokemon_name": "druddigon",
+    "image_url": "https://img.pokemondb.net/artwork/large/druddigon.jpg"
+  },
+  {
+    "pokemon_name": "golett",
+    "image_url": "https://img.pokemondb.net/artwork/large/golett.jpg"
+  },
+  {
+    "pokemon_name": "golurk",
+    "image_url": "https://img.pokemondb.net/artwork/large/golurk.jpg"
+  },
+  {
+    "pokemon_name": "pawniard",
+    "image_url": "https://img.pokemondb.net/artwork/large/pawniard.jpg"
+  },
+  {
+    "pokemon_name": "bisharp",
+    "image_url": "https://img.pokemondb.net/artwork/large/bisharp.jpg"
+  },
+  {
+    "pokemon_name": "bouffalant",
+    "image_url": "https://img.pokemondb.net/artwork/large/bouffalant.jpg"
+  },
+  {
+    "pokemon_name": "rufflet",
+    "image_url": "https://img.pokemondb.net/artwork/large/rufflet.jpg"
+  },
+  {
+    "pokemon_name": "braviary",
+    "image_url": "https://img.pokemondb.net/artwork/large/braviary.jpg"
+  },
+  {
+    "pokemon_name": "braviary-hisuian",
+    "image_url": "https://img.pokemondb.net/artwork/large/braviary-hisuian.jpg"
+  },
+  {
+    "pokemon_name": "vullaby",
+    "image_url": "https://img.pokemondb.net/artwork/large/vullaby.jpg"
+  },
+  {
+    "pokemon_name": "mandibuzz",
+    "image_url": "https://img.pokemondb.net/artwork/large/mandibuzz.jpg"
+  },
+  {
+    "pokemon_name": "heatmor",
+    "image_url": "https://img.pokemondb.net/artwork/large/heatmor.jpg"
+  },
+  {
+    "pokemon_name": "durant",
+    "image_url": "https://img.pokemondb.net/artwork/large/durant.jpg"
+  },
+  {
+    "pokemon_name": "deino",
+    "image_url": "https://img.pokemondb.net/artwork/large/deino.jpg"
+  },
+  {
+    "pokemon_name": "zweilous",
+    "image_url": "https://img.pokemondb.net/artwork/large/zweilous.jpg"
+  },
+  {
+    "pokemon_name": "hydreigon",
+    "image_url": "https://img.pokemondb.net/artwork/large/hydreigon.jpg"
+  },
+  {
+    "pokemon_name": "larvesta",
+    "image_url": "https://img.pokemondb.net/artwork/large/larvesta.jpg"
+  },
+  {
+    "pokemon_name": "volcarona",
+    "image_url": "https://img.pokemondb.net/artwork/large/volcarona.jpg"
+  },
+  {
+    "pokemon_name": "cobalion",
+    "image_url": "https://img.pokemondb.net/artwork/large/cobalion.jpg"
+  },
+  {
+    "pokemon_name": "terrakion",
+    "image_url": "https://img.pokemondb.net/artwork/large/terrakion.jpg"
+  },
+  {
+    "pokemon_name": "virizion",
+    "image_url": "https://img.pokemondb.net/artwork/large/virizion.jpg"
+  },
+  {
+    "pokemon_name": "tornadus-incarnate",
+    "image_url": "https://img.pokemondb.net/artwork/large/tornadus-incarnate.jpg"
+  },
+  {
+    "pokemon_name": "tornadus-therian",
+    "image_url": "https://img.pokemondb.net/artwork/large/tornadus-therian.jpg"
+  },
+  {
+    "pokemon_name": "thundurus-incarnate",
+    "image_url": "https://img.pokemondb.net/artwork/large/thundurus-incarnate.jpg"
+  },
+  {
+    "pokemon_name": "thundurus-therian",
+    "image_url": "https://img.pokemondb.net/artwork/large/thundurus-therian.jpg"
+  },
+  {
+    "pokemon_name": "reshiram",
+    "image_url": "https://img.pokemondb.net/artwork/large/reshiram.jpg"
+  },
+  {
+    "pokemon_name": "zekrom",
+    "image_url": "https://img.pokemondb.net/artwork/large/zekrom.jpg"
+  },
+  {
+    "pokemon_name": "landorus-incarnate",
+    "image_url": "https://img.pokemondb.net/artwork/large/landorus-incarnate.jpg"
+  },
+  {
+    "pokemon_name": "landorus-therian",
+    "image_url": "https://img.pokemondb.net/artwork/large/landorus-therian.jpg"
+  },
+  {
+    "pokemon_name": "kyurem",
+    "image_url": "https://img.pokemondb.net/artwork/large/kyurem.jpg"
+  },
+  {
+    "pokemon_name": "kyurem-white",
+    "image_url": "https://img.pokemondb.net/artwork/large/kyurem-white.jpg"
+  },
+  {
+    "pokemon_name": "kyurem-black",
+    "image_url": "https://img.pokemondb.net/artwork/large/kyurem-black.jpg"
+  },
+  {
+    "pokemon_name": "keldeo-ordinary",
+    "image_url": "https://img.pokemondb.net/artwork/large/keldeo-ordinary.jpg"
+  },
+  {
+    "pokemon_name": "keldeo-resolute",
+    "image_url": "https://img.pokemondb.net/artwork/large/keldeo-resolute.jpg"
+  },
+  {
+    "pokemon_name": "meloetta-aria",
+    "image_url": "https://img.pokemondb.net/artwork/large/meloetta-aria.jpg"
+  },
+  {
+    "pokemon_name": "meloetta-pirouette",
+    "image_url": "https://img.pokemondb.net/artwork/large/meloetta-pirouette.jpg"
+  },
+  {
+    "pokemon_name": "genesect",
+    "image_url": "https://img.pokemondb.net/artwork/large/genesect.jpg"
+  },
+  {
+    "pokemon_name": "chespin",
+    "image_url": "https://img.pokemondb.net/artwork/large/chespin.jpg"
+  },
+  {
+    "pokemon_name": "quilladin",
+    "image_url": "https://img.pokemondb.net/artwork/large/quilladin.jpg"
+  },
+  {
+    "pokemon_name": "chesnaught",
+    "image_url": "https://img.pokemondb.net/artwork/large/chesnaught.jpg"
+  },
+  {
+    "pokemon_name": "chesnaught-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/chesnaught-mega.jpg"
+  },
+  {
+    "pokemon_name": "fennekin",
+    "image_url": "https://img.pokemondb.net/artwork/large/fennekin.jpg"
+  },
+  {
+    "pokemon_name": "braixen",
+    "image_url": "https://img.pokemondb.net/artwork/large/braixen.jpg"
+  },
+  {
+    "pokemon_name": "delphox",
+    "image_url": "https://img.pokemondb.net/artwork/large/delphox.jpg"
+  },
+  {
+    "pokemon_name": "delphox-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/delphox-mega.jpg"
+  },
+  {
+    "pokemon_name": "froakie",
+    "image_url": "https://img.pokemondb.net/artwork/large/froakie.jpg"
+  },
+  {
+    "pokemon_name": "frogadier",
+    "image_url": "https://img.pokemondb.net/artwork/large/frogadier.jpg"
+  },
+  {
+    "pokemon_name": "greninja",
+    "image_url": "https://img.pokemondb.net/artwork/large/greninja.jpg"
+  },
+  {
+    "pokemon_name": "greninja-ash",
+    "image_url": "https://img.pokemondb.net/artwork/large/greninja-ash.jpg"
+  },
+  {
+    "pokemon_name": "greninja-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/greninja-mega.jpg"
+  },
+  {
+    "pokemon_name": "bunnelby",
+    "image_url": "https://img.pokemondb.net/artwork/large/bunnelby.jpg"
+  },
+  {
+    "pokemon_name": "diggersby",
+    "image_url": "https://img.pokemondb.net/artwork/large/diggersby.jpg"
+  },
+  {
+    "pokemon_name": "fletchling",
+    "image_url": "https://img.pokemondb.net/artwork/large/fletchling.jpg"
+  },
+  {
+    "pokemon_name": "fletchinder",
+    "image_url": "https://img.pokemondb.net/artwork/large/fletchinder.jpg"
+  },
+  {
+    "pokemon_name": "talonflame",
+    "image_url": "https://img.pokemondb.net/artwork/large/talonflame.jpg"
+  },
+  {
+    "pokemon_name": "scatterbug",
+    "image_url": "https://img.pokemondb.net/artwork/large/scatterbug.jpg"
+  },
+  {
+    "pokemon_name": "spewpa",
+    "image_url": "https://img.pokemondb.net/artwork/large/spewpa.jpg"
+  },
+  {
+    "pokemon_name": "vivillon",
+    "image_url": "https://img.pokemondb.net/artwork/large/vivillon.jpg"
+  },
+  {
+    "pokemon_name": "litleo",
+    "image_url": "https://img.pokemondb.net/artwork/large/litleo.jpg"
+  },
+  {
+    "pokemon_name": "pyroar",
+    "image_url": "https://img.pokemondb.net/artwork/large/pyroar.jpg"
+  },
+  {
+    "pokemon_name": "pyroar-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/pyroar-mega.jpg"
+  },
+  {
+    "pokemon_name": "flabebe",
+    "image_url": "https://img.pokemondb.net/artwork/large/flabebe.jpg"
+  },
+  {
+    "pokemon_name": "floette",
+    "image_url": "https://img.pokemondb.net/artwork/large/floette.jpg"
+  },
+  {
+    "pokemon_name": "floette-eternal",
+    "image_url": "https://img.pokemondb.net/artwork/large/floette-eternal.jpg"
+  },
+  {
+    "pokemon_name": "floette-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/floette-mega.jpg"
+  },
+  {
+    "pokemon_name": "florges",
+    "image_url": "https://img.pokemondb.net/artwork/large/florges.jpg"
+  },
+  {
+    "pokemon_name": "skiddo",
+    "image_url": "https://img.pokemondb.net/artwork/large/skiddo.jpg"
+  },
+  {
+    "pokemon_name": "gogoat",
+    "image_url": "https://img.pokemondb.net/artwork/large/gogoat.jpg"
+  },
+  {
+    "pokemon_name": "pancham",
+    "image_url": "https://img.pokemondb.net/artwork/large/pancham.jpg"
+  },
+  {
+    "pokemon_name": "pangoro",
+    "image_url": "https://img.pokemondb.net/artwork/large/pangoro.jpg"
+  },
+  {
+    "pokemon_name": "furfrou",
+    "image_url": "https://img.pokemondb.net/artwork/large/furfrou.jpg"
+  },
+  {
+    "pokemon_name": "espurr",
+    "image_url": "https://img.pokemondb.net/artwork/large/espurr.jpg"
+  },
+  {
+    "pokemon_name": "meowstic-male",
+    "image_url": "https://img.pokemondb.net/artwork/large/meowstic-male.jpg"
+  },
+  {
+    "pokemon_name": "meowstic-female",
+    "image_url": "https://img.pokemondb.net/artwork/large/meowstic-female.jpg"
+  },
+  {
+    "pokemon_name": "honedge",
+    "image_url": "https://img.pokemondb.net/artwork/large/honedge.jpg"
+  },
+  {
+    "pokemon_name": "doublade",
+    "image_url": "https://img.pokemondb.net/artwork/large/doublade.jpg"
+  },
+  {
+    "pokemon_name": "aegislash-shield",
+    "image_url": "https://img.pokemondb.net/artwork/large/aegislash-shield.jpg"
+  },
+  {
+    "pokemon_name": "aegislash-blade",
+    "image_url": "https://img.pokemondb.net/artwork/large/aegislash-blade.jpg"
+  },
+  {
+    "pokemon_name": "spritzee",
+    "image_url": "https://img.pokemondb.net/artwork/large/spritzee.jpg"
+  },
+  {
+    "pokemon_name": "aromatisse",
+    "image_url": "https://img.pokemondb.net/artwork/large/aromatisse.jpg"
+  },
+  {
+    "pokemon_name": "swirlix",
+    "image_url": "https://img.pokemondb.net/artwork/large/swirlix.jpg"
+  },
+  {
+    "pokemon_name": "slurpuff",
+    "image_url": "https://img.pokemondb.net/artwork/large/slurpuff.jpg"
+  },
+  {
+    "pokemon_name": "inkay",
+    "image_url": "https://img.pokemondb.net/artwork/large/inkay.jpg"
+  },
+  {
+    "pokemon_name": "malamar",
+    "image_url": "https://img.pokemondb.net/artwork/large/malamar.jpg"
+  },
+  {
+    "pokemon_name": "malamar-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/malamar-mega.jpg"
+  },
+  {
+    "pokemon_name": "binacle",
+    "image_url": "https://img.pokemondb.net/artwork/large/binacle.jpg"
+  },
+  {
+    "pokemon_name": "barbaracle",
+    "image_url": "https://img.pokemondb.net/artwork/large/barbaracle.jpg"
+  },
+  {
+    "pokemon_name": "barbaracle-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/barbaracle-mega.jpg"
+  },
+  {
+    "pokemon_name": "skrelp",
+    "image_url": "https://img.pokemondb.net/artwork/large/skrelp.jpg"
+  },
+  {
+    "pokemon_name": "dragalge",
+    "image_url": "https://img.pokemondb.net/artwork/large/dragalge.jpg"
+  },
+  {
+    "pokemon_name": "dragalge-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/dragalge-mega.jpg"
+  },
+  {
+    "pokemon_name": "clauncher",
+    "image_url": "https://img.pokemondb.net/artwork/large/clauncher.jpg"
+  },
+  {
+    "pokemon_name": "clawitzer",
+    "image_url": "https://img.pokemondb.net/artwork/large/clawitzer.jpg"
+  },
+  {
+    "pokemon_name": "helioptile",
+    "image_url": "https://img.pokemondb.net/artwork/large/helioptile.jpg"
+  },
+  {
+    "pokemon_name": "heliolisk",
+    "image_url": "https://img.pokemondb.net/artwork/large/heliolisk.jpg"
+  },
+  {
+    "pokemon_name": "tyrunt",
+    "image_url": "https://img.pokemondb.net/artwork/large/tyrunt.jpg"
+  },
+  {
+    "pokemon_name": "tyrantrum",
+    "image_url": "https://img.pokemondb.net/artwork/large/tyrantrum.jpg"
+  },
+  {
+    "pokemon_name": "amaura",
+    "image_url": "https://img.pokemondb.net/artwork/large/amaura.jpg"
+  },
+  {
+    "pokemon_name": "aurorus",
+    "image_url": "https://img.pokemondb.net/artwork/large/aurorus.jpg"
+  },
+  {
+    "pokemon_name": "sylveon",
+    "image_url": "https://img.pokemondb.net/artwork/large/sylveon.jpg"
+  },
+  {
+    "pokemon_name": "hawlucha",
+    "image_url": "https://img.pokemondb.net/artwork/large/hawlucha.jpg"
+  },
+  {
+    "pokemon_name": "hawlucha-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/hawlucha-mega.jpg"
+  },
+  {
+    "pokemon_name": "dedenne",
+    "image_url": "https://img.pokemondb.net/artwork/large/dedenne.jpg"
+  },
+  {
+    "pokemon_name": "carbink",
+    "image_url": "https://img.pokemondb.net/artwork/large/carbink.jpg"
+  },
+  {
+    "pokemon_name": "goomy",
+    "image_url": "https://img.pokemondb.net/artwork/large/goomy.jpg"
+  },
+  {
+    "pokemon_name": "sliggoo",
+    "image_url": "https://img.pokemondb.net/artwork/large/sliggoo.jpg"
+  },
+  {
+    "pokemon_name": "sliggoo-hisuian",
+    "image_url": "https://img.pokemondb.net/artwork/large/sliggoo-hisuian.jpg"
+  },
+  {
+    "pokemon_name": "goodra",
+    "image_url": "https://img.pokemondb.net/artwork/large/goodra.jpg"
+  },
+  {
+    "pokemon_name": "goodra-hisuian",
+    "image_url": "https://img.pokemondb.net/artwork/large/goodra-hisuian.jpg"
+  },
+  {
+    "pokemon_name": "klefki",
+    "image_url": "https://img.pokemondb.net/artwork/large/klefki.jpg"
+  },
+  {
+    "pokemon_name": "phantump",
+    "image_url": "https://img.pokemondb.net/artwork/large/phantump.jpg"
+  },
+  {
+    "pokemon_name": "trevenant",
+    "image_url": "https://img.pokemondb.net/artwork/large/trevenant.jpg"
+  },
+  {
+    "pokemon_name": "pumpkaboo-average",
+    "image_url": "https://img.pokemondb.net/artwork/large/pumpkaboo-average.jpg"
+  },
+  {
+    "pokemon_name": "pumpkaboo-small",
+    "image_url": "https://img.pokemondb.net/artwork/large/pumpkaboo-small.jpg"
+  },
+  {
+    "pokemon_name": "pumpkaboo-large",
+    "image_url": "https://img.pokemondb.net/artwork/large/pumpkaboo-large.jpg"
+  },
+  {
+    "pokemon_name": "pumpkaboo-super",
+    "image_url": "https://img.pokemondb.net/artwork/large/pumpkaboo-super.jpg"
+  },
+  {
+    "pokemon_name": "gourgeist-average",
+    "image_url": "https://img.pokemondb.net/artwork/large/gourgeist-average.jpg"
+  },
+  {
+    "pokemon_name": "gourgeist-small",
+    "image_url": "https://img.pokemondb.net/artwork/large/gourgeist-small.jpg"
+  },
+  {
+    "pokemon_name": "gourgeist-large",
+    "image_url": "https://img.pokemondb.net/artwork/large/gourgeist-large.jpg"
+  },
+  {
+    "pokemon_name": "gourgeist-super",
+    "image_url": "https://img.pokemondb.net/artwork/large/gourgeist-super.jpg"
+  },
+  {
+    "pokemon_name": "bergmite",
+    "image_url": "https://img.pokemondb.net/artwork/large/bergmite.jpg"
+  },
+  {
+    "pokemon_name": "avalugg",
+    "image_url": "https://img.pokemondb.net/artwork/large/avalugg.jpg"
+  },
+  {
+    "pokemon_name": "avalugg-hisuian",
+    "image_url": "https://img.pokemondb.net/artwork/large/avalugg-hisuian.jpg"
+  },
+  {
+    "pokemon_name": "noibat",
+    "image_url": "https://img.pokemondb.net/artwork/large/noibat.jpg"
+  },
+  {
+    "pokemon_name": "noivern",
+    "image_url": "https://img.pokemondb.net/artwork/large/noivern.jpg"
+  },
+  {
+    "pokemon_name": "xerneas",
+    "image_url": "https://img.pokemondb.net/artwork/large/xerneas.jpg"
+  },
+  {
+    "pokemon_name": "yveltal",
+    "image_url": "https://img.pokemondb.net/artwork/large/yveltal.jpg"
+  },
+  {
+    "pokemon_name": "zygarde-50",
+    "image_url": "https://img.pokemondb.net/artwork/large/zygarde-50.jpg"
+  },
+  {
+    "pokemon_name": "zygarde-10",
+    "image_url": "https://img.pokemondb.net/artwork/large/zygarde-10.jpg"
+  },
+  {
+    "pokemon_name": "zygarde-complete",
+    "image_url": "https://img.pokemondb.net/artwork/large/zygarde-complete.jpg"
+  },
+  {
+    "pokemon_name": "zygarde-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/zygarde-mega.jpg"
+  },
+  {
+    "pokemon_name": "diancie",
+    "image_url": "https://img.pokemondb.net/artwork/large/diancie.jpg"
+  },
+  {
+    "pokemon_name": "diancie-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/diancie-mega.jpg"
+  },
+  {
+    "pokemon_name": "hoopa-confined",
+    "image_url": "https://img.pokemondb.net/artwork/large/hoopa-confined.jpg"
+  },
+  {
+    "pokemon_name": "hoopa-unbound",
+    "image_url": "https://img.pokemondb.net/artwork/large/hoopa-unbound.jpg"
+  },
+  {
+    "pokemon_name": "volcanion",
+    "image_url": "https://img.pokemondb.net/artwork/large/volcanion.jpg"
+  },
+  {
+    "pokemon_name": "rowlet",
+    "image_url": "https://img.pokemondb.net/artwork/large/rowlet.jpg"
+  },
+  {
+    "pokemon_name": "dartrix",
+    "image_url": "https://img.pokemondb.net/artwork/large/dartrix.jpg"
+  },
+  {
+    "pokemon_name": "decidueye",
+    "image_url": "https://img.pokemondb.net/artwork/large/decidueye.jpg"
+  },
+  {
+    "pokemon_name": "decidueye-hisuian",
+    "image_url": "https://img.pokemondb.net/artwork/large/decidueye-hisuian.jpg"
+  },
+  {
+    "pokemon_name": "litten",
+    "image_url": "https://img.pokemondb.net/artwork/large/litten.jpg"
+  },
+  {
+    "pokemon_name": "torracat",
+    "image_url": "https://img.pokemondb.net/artwork/large/torracat.jpg"
+  },
+  {
+    "pokemon_name": "incineroar",
+    "image_url": "https://img.pokemondb.net/artwork/large/incineroar.jpg"
+  },
+  {
+    "pokemon_name": "popplio",
+    "image_url": "https://img.pokemondb.net/artwork/large/popplio.jpg"
+  },
+  {
+    "pokemon_name": "brionne",
+    "image_url": "https://img.pokemondb.net/artwork/large/brionne.jpg"
+  },
+  {
+    "pokemon_name": "primarina",
+    "image_url": "https://img.pokemondb.net/artwork/large/primarina.jpg"
+  },
+  {
+    "pokemon_name": "pikipek",
+    "image_url": "https://img.pokemondb.net/artwork/large/pikipek.jpg"
+  },
+  {
+    "pokemon_name": "trumbeak",
+    "image_url": "https://img.pokemondb.net/artwork/large/trumbeak.jpg"
+  },
+  {
+    "pokemon_name": "toucannon",
+    "image_url": "https://img.pokemondb.net/artwork/large/toucannon.jpg"
+  },
+  {
+    "pokemon_name": "yungoos",
+    "image_url": "https://img.pokemondb.net/artwork/large/yungoos.jpg"
+  },
+  {
+    "pokemon_name": "gumshoos",
+    "image_url": "https://img.pokemondb.net/artwork/large/gumshoos.jpg"
+  },
+  {
+    "pokemon_name": "grubbin",
+    "image_url": "https://img.pokemondb.net/artwork/large/grubbin.jpg"
+  },
+  {
+    "pokemon_name": "charjabug",
+    "image_url": "https://img.pokemondb.net/artwork/large/charjabug.jpg"
+  },
+  {
+    "pokemon_name": "vikavolt",
+    "image_url": "https://img.pokemondb.net/artwork/large/vikavolt.jpg"
+  },
+  {
+    "pokemon_name": "crabrawler",
+    "image_url": "https://img.pokemondb.net/artwork/large/crabrawler.jpg"
+  },
+  {
+    "pokemon_name": "crabominable",
+    "image_url": "https://img.pokemondb.net/artwork/large/crabominable.jpg"
+  },
+  {
+    "pokemon_name": "oricorio-baile",
+    "image_url": "https://img.pokemondb.net/artwork/large/oricorio-baile.jpg"
+  },
+  {
+    "pokemon_name": "oricorio-pom-pom",
+    "image_url": "https://img.pokemondb.net/artwork/large/oricorio-pom-pom.jpg"
+  },
+  {
+    "pokemon_name": "oricorio-pau",
+    "image_url": "https://img.pokemondb.net/artwork/large/oricorio-pau.jpg"
+  },
+  {
+    "pokemon_name": "oricorio-sensu",
+    "image_url": "https://img.pokemondb.net/artwork/large/oricorio-sensu.jpg"
+  },
+  {
+    "pokemon_name": "cutiefly",
+    "image_url": "https://img.pokemondb.net/artwork/large/cutiefly.jpg"
+  },
+  {
+    "pokemon_name": "ribombee",
+    "image_url": "https://img.pokemondb.net/artwork/large/ribombee.jpg"
+  },
+  {
+    "pokemon_name": "rockruff",
+    "image_url": "https://img.pokemondb.net/artwork/large/rockruff.jpg"
+  },
+  {
+    "pokemon_name": "rockruff-own-tempo",
+    "image_url": "https://img.pokemondb.net/artwork/large/rockruff-own-tempo.jpg"
+  },
+  {
+    "pokemon_name": "lycanroc-midday",
+    "image_url": "https://img.pokemondb.net/artwork/large/lycanroc-midday.jpg"
+  },
+  {
+    "pokemon_name": "lycanroc-midnight",
+    "image_url": "https://img.pokemondb.net/artwork/large/lycanroc-midnight.jpg"
+  },
+  {
+    "pokemon_name": "lycanroc-dusk",
+    "image_url": "https://img.pokemondb.net/artwork/large/lycanroc-dusk.jpg"
+  },
+  {
+    "pokemon_name": "wishiwashi-solo",
+    "image_url": "https://img.pokemondb.net/artwork/large/wishiwashi-solo.jpg"
+  },
+  {
+    "pokemon_name": "wishiwashi-school",
+    "image_url": "https://img.pokemondb.net/artwork/large/wishiwashi-school.jpg"
+  },
+  {
+    "pokemon_name": "mareanie",
+    "image_url": "https://img.pokemondb.net/artwork/large/mareanie.jpg"
+  },
+  {
+    "pokemon_name": "toxapex",
+    "image_url": "https://img.pokemondb.net/artwork/large/toxapex.jpg"
+  },
+  {
+    "pokemon_name": "mudbray",
+    "image_url": "https://img.pokemondb.net/artwork/large/mudbray.jpg"
+  },
+  {
+    "pokemon_name": "mudsdale",
+    "image_url": "https://img.pokemondb.net/artwork/large/mudsdale.jpg"
+  },
+  {
+    "pokemon_name": "dewpider",
+    "image_url": "https://img.pokemondb.net/artwork/large/dewpider.jpg"
+  },
+  {
+    "pokemon_name": "araquanid",
+    "image_url": "https://img.pokemondb.net/artwork/large/araquanid.jpg"
+  },
+  {
+    "pokemon_name": "fomantis",
+    "image_url": "https://img.pokemondb.net/artwork/large/fomantis.jpg"
+  },
+  {
+    "pokemon_name": "lurantis",
+    "image_url": "https://img.pokemondb.net/artwork/large/lurantis.jpg"
+  },
+  {
+    "pokemon_name": "morelull",
+    "image_url": "https://img.pokemondb.net/artwork/large/morelull.jpg"
+  },
+  {
+    "pokemon_name": "shiinotic",
+    "image_url": "https://img.pokemondb.net/artwork/large/shiinotic.jpg"
+  },
+  {
+    "pokemon_name": "salandit",
+    "image_url": "https://img.pokemondb.net/artwork/large/salandit.jpg"
+  },
+  {
+    "pokemon_name": "salazzle",
+    "image_url": "https://img.pokemondb.net/artwork/large/salazzle.jpg"
+  },
+  {
+    "pokemon_name": "stufful",
+    "image_url": "https://img.pokemondb.net/artwork/large/stufful.jpg"
+  },
+  {
+    "pokemon_name": "bewear",
+    "image_url": "https://img.pokemondb.net/artwork/large/bewear.jpg"
+  },
+  {
+    "pokemon_name": "bounsweet",
+    "image_url": "https://img.pokemondb.net/artwork/large/bounsweet.jpg"
+  },
+  {
+    "pokemon_name": "steenee",
+    "image_url": "https://img.pokemondb.net/artwork/large/steenee.jpg"
+  },
+  {
+    "pokemon_name": "tsareena",
+    "image_url": "https://img.pokemondb.net/artwork/large/tsareena.jpg"
+  },
+  {
+    "pokemon_name": "comfey",
+    "image_url": "https://img.pokemondb.net/artwork/large/comfey.jpg"
+  },
+  {
+    "pokemon_name": "oranguru",
+    "image_url": "https://img.pokemondb.net/artwork/large/oranguru.jpg"
+  },
+  {
+    "pokemon_name": "passimian",
+    "image_url": "https://img.pokemondb.net/artwork/large/passimian.jpg"
+  },
+  {
+    "pokemon_name": "wimpod",
+    "image_url": "https://img.pokemondb.net/artwork/large/wimpod.jpg"
+  },
+  {
+    "pokemon_name": "golisopod",
+    "image_url": "https://img.pokemondb.net/artwork/large/golisopod.jpg"
+  },
+  {
+    "pokemon_name": "sandygast",
+    "image_url": "https://img.pokemondb.net/artwork/large/sandygast.jpg"
+  },
+  {
+    "pokemon_name": "palossand",
+    "image_url": "https://img.pokemondb.net/artwork/large/palossand.jpg"
+  },
+  {
+    "pokemon_name": "pyukumuku",
+    "image_url": "https://img.pokemondb.net/artwork/large/pyukumuku.jpg"
+  },
+  {
+    "pokemon_name": "type-null",
+    "image_url": "https://img.pokemondb.net/artwork/large/type-null.jpg"
+  },
+  {
+    "pokemon_name": "silvally",
+    "image_url": "https://img.pokemondb.net/artwork/large/silvally.jpg"
+  },
+  {
+    "pokemon_name": "minior-meteor",
+    "image_url": "https://img.pokemondb.net/artwork/large/minior-meteor.jpg"
+  },
+  {
+    "pokemon_name": "minior-core",
+    "image_url": "https://img.pokemondb.net/artwork/large/minior-core.jpg"
+  },
+  {
+    "pokemon_name": "komala",
+    "image_url": "https://img.pokemondb.net/artwork/large/komala.jpg"
+  },
+  {
+    "pokemon_name": "turtonator",
+    "image_url": "https://img.pokemondb.net/artwork/large/turtonator.jpg"
+  },
+  {
+    "pokemon_name": "togedemaru",
+    "image_url": "https://img.pokemondb.net/artwork/large/togedemaru.jpg"
+  },
+  {
+    "pokemon_name": "mimikyu",
+    "image_url": "https://img.pokemondb.net/artwork/large/mimikyu.jpg"
+  },
+  {
+    "pokemon_name": "bruxish",
+    "image_url": "https://img.pokemondb.net/artwork/large/bruxish.jpg"
+  },
+  {
+    "pokemon_name": "drampa",
+    "image_url": "https://img.pokemondb.net/artwork/large/drampa.jpg"
+  },
+  {
+    "pokemon_name": "drampa-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/drampa-mega.jpg"
+  },
+  {
+    "pokemon_name": "dhelmise",
+    "image_url": "https://img.pokemondb.net/artwork/large/dhelmise.jpg"
+  },
+  {
+    "pokemon_name": "jangmo-o",
+    "image_url": "https://img.pokemondb.net/artwork/large/jangmo-o.jpg"
+  },
+  {
+    "pokemon_name": "hakamo-o",
+    "image_url": "https://img.pokemondb.net/artwork/large/hakamo-o.jpg"
+  },
+  {
+    "pokemon_name": "kommo-o",
+    "image_url": "https://img.pokemondb.net/artwork/large/kommo-o.jpg"
+  },
+  {
+    "pokemon_name": "tapu-koko",
+    "image_url": "https://img.pokemondb.net/artwork/large/tapu-koko.jpg"
+  },
+  {
+    "pokemon_name": "tapu-lele",
+    "image_url": "https://img.pokemondb.net/artwork/large/tapu-lele.jpg"
+  },
+  {
+    "pokemon_name": "tapu-bulu",
+    "image_url": "https://img.pokemondb.net/artwork/large/tapu-bulu.jpg"
+  },
+  {
+    "pokemon_name": "tapu-fini",
+    "image_url": "https://img.pokemondb.net/artwork/large/tapu-fini.jpg"
+  },
+  {
+    "pokemon_name": "cosmog",
+    "image_url": "https://img.pokemondb.net/artwork/large/cosmog.jpg"
+  },
+  {
+    "pokemon_name": "cosmoem",
+    "image_url": "https://img.pokemondb.net/artwork/large/cosmoem.jpg"
+  },
+  {
+    "pokemon_name": "solgaleo",
+    "image_url": "https://img.pokemondb.net/artwork/large/solgaleo.jpg"
+  },
+  {
+    "pokemon_name": "lunala",
+    "image_url": "https://img.pokemondb.net/artwork/large/lunala.jpg"
+  },
+  {
+    "pokemon_name": "nihilego",
+    "image_url": "https://img.pokemondb.net/artwork/large/nihilego.jpg"
+  },
+  {
+    "pokemon_name": "buzzwole",
+    "image_url": "https://img.pokemondb.net/artwork/large/buzzwole.jpg"
+  },
+  {
+    "pokemon_name": "pheromosa",
+    "image_url": "https://img.pokemondb.net/artwork/large/pheromosa.jpg"
+  },
+  {
+    "pokemon_name": "xurkitree",
+    "image_url": "https://img.pokemondb.net/artwork/large/xurkitree.jpg"
+  },
+  {
+    "pokemon_name": "celesteela",
+    "image_url": "https://img.pokemondb.net/artwork/large/celesteela.jpg"
+  },
+  {
+    "pokemon_name": "kartana",
+    "image_url": "https://img.pokemondb.net/artwork/large/kartana.jpg"
+  },
+  {
+    "pokemon_name": "guzzlord",
+    "image_url": "https://img.pokemondb.net/artwork/large/guzzlord.jpg"
+  },
+  {
+    "pokemon_name": "necrozma",
+    "image_url": "https://img.pokemondb.net/artwork/large/necrozma.jpg"
+  },
+  {
+    "pokemon_name": "necrozma-dusk-mane",
+    "image_url": "https://img.pokemondb.net/artwork/large/necrozma-dusk-mane.jpg"
+  },
+  {
+    "pokemon_name": "necrozma-dawn-wings",
+    "image_url": "https://img.pokemondb.net/artwork/large/necrozma-dawn-wings.jpg"
+  },
+  {
+    "pokemon_name": "necrozma-ultra",
+    "image_url": "https://img.pokemondb.net/artwork/large/necrozma-ultra.jpg"
+  },
+  {
+    "pokemon_name": "magearna",
+    "image_url": "https://img.pokemondb.net/artwork/large/magearna.jpg"
+  },
+  {
+    "pokemon_name": "marshadow",
+    "image_url": "https://img.pokemondb.net/artwork/large/marshadow.jpg"
+  },
+  {
+    "pokemon_name": "poipole",
+    "image_url": "https://img.pokemondb.net/artwork/large/poipole.jpg"
+  },
+  {
+    "pokemon_name": "naganadel",
+    "image_url": "https://img.pokemondb.net/artwork/large/naganadel.jpg"
+  },
+  {
+    "pokemon_name": "stakataka",
+    "image_url": "https://img.pokemondb.net/artwork/large/stakataka.jpg"
+  },
+  {
+    "pokemon_name": "blacephalon",
+    "image_url": "https://img.pokemondb.net/artwork/large/blacephalon.jpg"
+  },
+  {
+    "pokemon_name": "zeraora",
+    "image_url": "https://img.pokemondb.net/artwork/large/zeraora.jpg"
+  },
+  {
+    "pokemon_name": "meltan",
+    "image_url": "https://img.pokemondb.net/artwork/large/meltan.jpg"
+  },
+  {
+    "pokemon_name": "melmetal",
+    "image_url": "https://img.pokemondb.net/artwork/large/melmetal.jpg"
+  },
+  {
+    "pokemon_name": "grookey",
+    "image_url": "https://img.pokemondb.net/artwork/large/grookey.jpg"
+  },
+  {
+    "pokemon_name": "thwackey",
+    "image_url": "https://img.pokemondb.net/artwork/large/thwackey.jpg"
+  },
+  {
+    "pokemon_name": "rillaboom",
+    "image_url": "https://img.pokemondb.net/artwork/large/rillaboom.jpg"
+  },
+  {
+    "pokemon_name": "scorbunny",
+    "image_url": "https://img.pokemondb.net/artwork/large/scorbunny.jpg"
+  },
+  {
+    "pokemon_name": "raboot",
+    "image_url": "https://img.pokemondb.net/artwork/large/raboot.jpg"
+  },
+  {
+    "pokemon_name": "cinderace",
+    "image_url": "https://img.pokemondb.net/artwork/large/cinderace.jpg"
+  },
+  {
+    "pokemon_name": "sobble",
+    "image_url": "https://img.pokemondb.net/artwork/large/sobble.jpg"
+  },
+  {
+    "pokemon_name": "drizzile",
+    "image_url": "https://img.pokemondb.net/artwork/large/drizzile.jpg"
+  },
+  {
+    "pokemon_name": "inteleon",
+    "image_url": "https://img.pokemondb.net/artwork/large/inteleon.jpg"
+  },
+  {
+    "pokemon_name": "skwovet",
+    "image_url": "https://img.pokemondb.net/artwork/large/skwovet.jpg"
+  },
+  {
+    "pokemon_name": "greedent",
+    "image_url": "https://img.pokemondb.net/artwork/large/greedent.jpg"
+  },
+  {
+    "pokemon_name": "rookidee",
+    "image_url": "https://img.pokemondb.net/artwork/large/rookidee.jpg"
+  },
+  {
+    "pokemon_name": "corvisquire",
+    "image_url": "https://img.pokemondb.net/artwork/large/corvisquire.jpg"
+  },
+  {
+    "pokemon_name": "corviknight",
+    "image_url": "https://img.pokemondb.net/artwork/large/corviknight.jpg"
+  },
+  {
+    "pokemon_name": "blipbug",
+    "image_url": "https://img.pokemondb.net/artwork/large/blipbug.jpg"
+  },
+  {
+    "pokemon_name": "dottler",
+    "image_url": "https://img.pokemondb.net/artwork/large/dottler.jpg"
+  },
+  {
+    "pokemon_name": "orbeetle",
+    "image_url": "https://img.pokemondb.net/artwork/large/orbeetle.jpg"
+  },
+  {
+    "pokemon_name": "nickit",
+    "image_url": "https://img.pokemondb.net/artwork/large/nickit.jpg"
+  },
+  {
+    "pokemon_name": "thievul",
+    "image_url": "https://img.pokemondb.net/artwork/large/thievul.jpg"
+  },
+  {
+    "pokemon_name": "gossifleur",
+    "image_url": "https://img.pokemondb.net/artwork/large/gossifleur.jpg"
+  },
+  {
+    "pokemon_name": "eldegoss",
+    "image_url": "https://img.pokemondb.net/artwork/large/eldegoss.jpg"
+  },
+  {
+    "pokemon_name": "wooloo",
+    "image_url": "https://img.pokemondb.net/artwork/large/wooloo.jpg"
+  },
+  {
+    "pokemon_name": "dubwool",
+    "image_url": "https://img.pokemondb.net/artwork/large/dubwool.jpg"
+  },
+  {
+    "pokemon_name": "chewtle",
+    "image_url": "https://img.pokemondb.net/artwork/large/chewtle.jpg"
+  },
+  {
+    "pokemon_name": "drednaw",
+    "image_url": "https://img.pokemondb.net/artwork/large/drednaw.jpg"
+  },
+  {
+    "pokemon_name": "yamper",
+    "image_url": "https://img.pokemondb.net/artwork/large/yamper.jpg"
+  },
+  {
+    "pokemon_name": "boltund",
+    "image_url": "https://img.pokemondb.net/artwork/large/boltund.jpg"
+  },
+  {
+    "pokemon_name": "rolycoly",
+    "image_url": "https://img.pokemondb.net/artwork/large/rolycoly.jpg"
+  },
+  {
+    "pokemon_name": "carkol",
+    "image_url": "https://img.pokemondb.net/artwork/large/carkol.jpg"
+  },
+  {
+    "pokemon_name": "coalossal",
+    "image_url": "https://img.pokemondb.net/artwork/large/coalossal.jpg"
+  },
+  {
+    "pokemon_name": "applin",
+    "image_url": "https://img.pokemondb.net/artwork/large/applin.jpg"
+  },
+  {
+    "pokemon_name": "flapple",
+    "image_url": "https://img.pokemondb.net/artwork/large/flapple.jpg"
+  },
+  {
+    "pokemon_name": "appletun",
+    "image_url": "https://img.pokemondb.net/artwork/large/appletun.jpg"
+  },
+  {
+    "pokemon_name": "silicobra",
+    "image_url": "https://img.pokemondb.net/artwork/large/silicobra.jpg"
+  },
+  {
+    "pokemon_name": "sandaconda",
+    "image_url": "https://img.pokemondb.net/artwork/large/sandaconda.jpg"
+  },
+  {
+    "pokemon_name": "cramorant",
+    "image_url": "https://img.pokemondb.net/artwork/large/cramorant.jpg"
+  },
+  {
+    "pokemon_name": "arrokuda",
+    "image_url": "https://img.pokemondb.net/artwork/large/arrokuda.jpg"
+  },
+  {
+    "pokemon_name": "barraskewda",
+    "image_url": "https://img.pokemondb.net/artwork/large/barraskewda.jpg"
+  },
+  {
+    "pokemon_name": "toxel",
+    "image_url": "https://img.pokemondb.net/artwork/large/toxel.jpg"
+  },
+  {
+    "pokemon_name": "toxtricity-amped",
+    "image_url": "https://img.pokemondb.net/artwork/large/toxtricity-amped.jpg"
+  },
+  {
+    "pokemon_name": "toxtricity-low-key",
+    "image_url": "https://img.pokemondb.net/artwork/large/toxtricity-low-key.jpg"
+  },
+  {
+    "pokemon_name": "sizzlipede",
+    "image_url": "https://img.pokemondb.net/artwork/large/sizzlipede.jpg"
+  },
+  {
+    "pokemon_name": "centiskorch",
+    "image_url": "https://img.pokemondb.net/artwork/large/centiskorch.jpg"
+  },
+  {
+    "pokemon_name": "clobbopus",
+    "image_url": "https://img.pokemondb.net/artwork/large/clobbopus.jpg"
+  },
+  {
+    "pokemon_name": "grapploct",
+    "image_url": "https://img.pokemondb.net/artwork/large/grapploct.jpg"
+  },
+  {
+    "pokemon_name": "sinistea",
+    "image_url": "https://img.pokemondb.net/artwork/large/sinistea.jpg"
+  },
+  {
+    "pokemon_name": "polteageist",
+    "image_url": "https://img.pokemondb.net/artwork/large/polteageist.jpg"
+  },
+  {
+    "pokemon_name": "hatenna",
+    "image_url": "https://img.pokemondb.net/artwork/large/hatenna.jpg"
+  },
+  {
+    "pokemon_name": "hattrem",
+    "image_url": "https://img.pokemondb.net/artwork/large/hattrem.jpg"
+  },
+  {
+    "pokemon_name": "hatterene",
+    "image_url": "https://img.pokemondb.net/artwork/large/hatterene.jpg"
+  },
+  {
+    "pokemon_name": "impidimp",
+    "image_url": "https://img.pokemondb.net/artwork/large/impidimp.jpg"
+  },
+  {
+    "pokemon_name": "morgrem",
+    "image_url": "https://img.pokemondb.net/artwork/large/morgrem.jpg"
+  },
+  {
+    "pokemon_name": "grimmsnarl",
+    "image_url": "https://img.pokemondb.net/artwork/large/grimmsnarl.jpg"
+  },
+  {
+    "pokemon_name": "obstagoon",
+    "image_url": "https://img.pokemondb.net/artwork/large/obstagoon.jpg"
+  },
+  {
+    "pokemon_name": "perrserker",
+    "image_url": "https://img.pokemondb.net/artwork/large/perrserker.jpg"
+  },
+  {
+    "pokemon_name": "cursola",
+    "image_url": "https://img.pokemondb.net/artwork/large/cursola.jpg"
+  },
+  {
+    "pokemon_name": "sirfetchd",
+    "image_url": "https://img.pokemondb.net/artwork/large/sirfetchd.jpg"
+  },
+  {
+    "pokemon_name": "mr-rime",
+    "image_url": "https://img.pokemondb.net/artwork/large/mr-rime.jpg"
+  },
+  {
+    "pokemon_name": "runerigus",
+    "image_url": "https://img.pokemondb.net/artwork/large/runerigus.jpg"
+  },
+  {
+    "pokemon_name": "milcery",
+    "image_url": "https://img.pokemondb.net/artwork/large/milcery.jpg"
+  },
+  {
+    "pokemon_name": "alcremie",
+    "image_url": "https://img.pokemondb.net/artwork/large/alcremie.jpg"
+  },
+  {
+    "pokemon_name": "falinks",
+    "image_url": "https://img.pokemondb.net/artwork/large/falinks.jpg"
+  },
+  {
+    "pokemon_name": "falinks-mega",
+    "image_url": "https://img.pokemondb.net/artwork/large/falinks-mega.jpg"
+  },
+  {
+    "pokemon_name": "pincurchin",
+    "image_url": "https://img.pokemondb.net/artwork/large/pincurchin.jpg"
+  },
+  {
+    "pokemon_name": "snom",
+    "image_url": "https://img.pokemondb.net/artwork/large/snom.jpg"
+  },
+  {
+    "pokemon_name": "frosmoth",
+    "image_url": "https://img.pokemondb.net/artwork/large/frosmoth.jpg"
+  },
+  {
+    "pokemon_name": "stonjourner",
+    "image_url": "https://img.pokemondb.net/artwork/large/stonjourner.jpg"
+  },
+  {
+    "pokemon_name": "eiscue-ice",
+    "image_url": "https://img.pokemondb.net/artwork/large/eiscue-ice.jpg"
+  },
+  {
+    "pokemon_name": "eiscue-noice",
+    "image_url": "https://img.pokemondb.net/artwork/large/eiscue-noice.jpg"
+  },
+  {
+    "pokemon_name": "indeedee-male",
+    "image_url": "https://img.pokemondb.net/artwork/large/indeedee-male.jpg"
+  },
+  {
+    "pokemon_name": "indeedee-female",
+    "image_url": "https://img.pokemondb.net/artwork/large/indeedee-female.jpg"
+  },
+  {
+    "pokemon_name": "morpeko-full-belly",
+    "image_url": "https://img.pokemondb.net/artwork/large/morpeko-full-belly.jpg"
+  },
+  {
+    "pokemon_name": "morpeko-hangry",
+    "image_url": "https://img.pokemondb.net/artwork/large/morpeko-hangry.jpg"
+  },
+  {
+    "pokemon_name": "cufant",
+    "image_url": "https://img.pokemondb.net/artwork/large/cufant.jpg"
+  },
+  {
+    "pokemon_name": "copperajah",
+    "image_url": "https://img.pokemondb.net/artwork/large/copperajah.jpg"
+  },
+  {
+    "pokemon_name": "dracozolt",
+    "image_url": "https://img.pokemondb.net/artwork/large/dracozolt.jpg"
+  },
+  {
+    "pokemon_name": "arctozolt",
+    "image_url": "https://img.pokemondb.net/artwork/large/arctozolt.jpg"
+  },
+  {
+    "pokemon_name": "dracovish",
+    "image_url": "https://img.pokemondb.net/artwork/large/dracovish.jpg"
+  },
+  {
+    "pokemon_name": "arctovish",
+    "image_url": "https://img.pokemondb.net/artwork/large/arctovish.jpg"
+  },
+  {
+    "pokemon_name": "duraludon",
+    "image_url": "https://img.pokemondb.net/artwork/large/duraludon.jpg"
+  },
+  {
+    "pokemon_name": "dreepy",
+    "image_url": "https://img.pokemondb.net/artwork/large/dreepy.jpg"
+  },
+  {
+    "pokemon_name": "drakloak",
+    "image_url": "https://img.pokemondb.net/artwork/large/drakloak.jpg"
+  },
+  {
+    "pokemon_name": "dragapult",
+    "image_url": "https://img.pokemondb.net/artwork/large/dragapult.jpg"
+  },
+  {
+    "pokemon_name": "zacian-hero",
+    "image_url": "https://img.pokemondb.net/artwork/large/zacian-hero.jpg"
+  },
+  {
+    "pokemon_name": "zacian-crowned",
+    "image_url": "https://img.pokemondb.net/artwork/large/zacian-crowned.jpg"
+  },
+  {
+    "pokemon_name": "zamazenta-hero",
+    "image_url": "https://img.pokemondb.net/artwork/large/zamazenta-hero.jpg"
+  },
+  {
+    "pokemon_name": "zamazenta-crowned",
+    "image_url": "https://img.pokemondb.net/artwork/large/zamazenta-crowned.jpg"
+  },
+  {
+    "pokemon_name": "eternatus",
+    "image_url": "https://img.pokemondb.net/artwork/large/eternatus.jpg"
+  },
+  {
+    "pokemon_name": "eternatus-eternamax",
+    "image_url": "https://img.pokemondb.net/artwork/large/eternatus-eternamax.jpg"
+  },
+  {
+    "pokemon_name": "kubfu",
+    "image_url": "https://img.pokemondb.net/artwork/large/kubfu.jpg"
+  },
+  {
+    "pokemon_name": "urshifu-single-strike",
+    "image_url": "https://img.pokemondb.net/artwork/large/urshifu-single-strike.jpg"
+  },
+  {
+    "pokemon_name": "urshifu-rapid-strike",
+    "image_url": "https://img.pokemondb.net/artwork/large/urshifu-rapid-strike.jpg"
+  },
+  {
+    "pokemon_name": "zarude",
+    "image_url": "https://img.pokemondb.net/artwork/large/zarude.jpg"
+  },
+  {
+    "pokemon_name": "regieleki",
+    "image_url": "https://img.pokemondb.net/artwork/large/regieleki.jpg"
+  },
+  {
+    "pokemon_name": "regidrago",
+    "image_url": "https://img.pokemondb.net/artwork/large/regidrago.jpg"
+  },
+  {
+    "pokemon_name": "glastrier",
+    "image_url": "https://img.pokemondb.net/artwork/large/glastrier.jpg"
+  },
+  {
+    "pokemon_name": "spectrier",
+    "image_url": "https://img.pokemondb.net/artwork/large/spectrier.jpg"
+  },
+  {
+    "pokemon_name": "calyrex",
+    "image_url": "https://img.pokemondb.net/artwork/large/calyrex.jpg"
+  },
+  {
+    "pokemon_name": "calyrex-ice-rider",
+    "image_url": "https://img.pokemondb.net/artwork/large/calyrex-ice-rider.jpg"
+  },
+  {
+    "pokemon_name": "calyrex-shadow-rider",
+    "image_url": "https://img.pokemondb.net/artwork/large/calyrex-shadow-rider.jpg"
+  },
+  {
+    "pokemon_name": "wyrdeer",
+    "image_url": "https://img.pokemondb.net/artwork/large/wyrdeer.jpg"
+  },
+  {
+    "pokemon_name": "kleavor",
+    "image_url": "https://img.pokemondb.net/artwork/large/kleavor.jpg"
+  },
+  {
+    "pokemon_name": "ursaluna",
+    "image_url": "https://img.pokemondb.net/artwork/large/ursaluna.jpg"
+  },
+  {
+    "pokemon_name": "ursaluna-bloodmoon",
+    "image_url": "https://img.pokemondb.net/artwork/large/ursaluna-bloodmoon.jpg"
+  },
+  {
+    "pokemon_name": "basculegion-male",
+    "image_url": "https://img.pokemondb.net/artwork/large/basculegion-male.jpg"
+  },
+  {
+    "pokemon_name": "basculegion-female",
+    "image_url": "https://img.pokemondb.net/artwork/large/basculegion-female.jpg"
+  },
+  {
+    "pokemon_name": "sneasler",
+    "image_url": "https://img.pokemondb.net/artwork/large/sneasler.jpg"
+  },
+  {
+    "pokemon_name": "overqwil",
+    "image_url": "https://img.pokemondb.net/artwork/large/overqwil.jpg"
+  },
+  {
+    "pokemon_name": "enamorus-incarnate",
+    "image_url": "https://img.pokemondb.net/artwork/large/enamorus-incarnate.jpg"
+  },
+  {
+    "pokemon_name": "enamorus-therian",
+    "image_url": "https://img.pokemondb.net/artwork/large/enamorus-therian.jpg"
+  },
+  {
+    "pokemon_name": "sprigatito",
+    "image_url": "https://img.pokemondb.net/artwork/large/sprigatito.jpg"
+  },
+  {
+    "pokemon_name": "floragato",
+    "image_url": "https://img.pokemondb.net/artwork/large/floragato.jpg"
+  },
+  {
+    "pokemon_name": "meowscarada",
+    "image_url": "https://img.pokemondb.net/artwork/large/meowscarada.jpg"
+  },
+  {
+    "pokemon_name": "fuecoco",
+    "image_url": "https://img.pokemondb.net/artwork/large/fuecoco.jpg"
+  },
+  {
+    "pokemon_name": "crocalor",
+    "image_url": "https://img.pokemondb.net/artwork/large/crocalor.jpg"
+  },
+  {
+    "pokemon_name": "skeledirge",
+    "image_url": "https://img.pokemondb.net/artwork/large/skeledirge.jpg"
+  },
+  {
+    "pokemon_name": "quaxly",
+    "image_url": "https://img.pokemondb.net/artwork/large/quaxly.jpg"
+  },
+  {
+    "pokemon_name": "quaxwell",
+    "image_url": "https://img.pokemondb.net/artwork/large/quaxwell.jpg"
+  },
+  {
+    "pokemon_name": "quaquaval",
+    "image_url": "https://img.pokemondb.net/artwork/large/quaquaval.jpg"
+  },
+  {
+    "pokemon_name": "lechonk",
+    "image_url": "https://img.pokemondb.net/artwork/large/lechonk.jpg"
+  },
+  {
+    "pokemon_name": "oinkologne-male",
+    "image_url": "https://img.pokemondb.net/artwork/large/oinkologne-male.jpg"
+  },
+  {
+    "pokemon_name": "oinkologne-female",
+    "image_url": "https://img.pokemondb.net/artwork/large/oinkologne-female.jpg"
+  },
+  {
+    "pokemon_name": "tarountula",
+    "image_url": "https://img.pokemondb.net/artwork/large/tarountula.jpg"
+  },
+  {
+    "pokemon_name": "spidops",
+    "image_url": "https://img.pokemondb.net/artwork/large/spidops.jpg"
+  },
+  {
+    "pokemon_name": "nymble",
+    "image_url": "https://img.pokemondb.net/artwork/large/nymble.jpg"
+  },
+  {
+    "pokemon_name": "lokix",
+    "image_url": "https://img.pokemondb.net/artwork/large/lokix.jpg"
+  },
+  {
+    "pokemon_name": "pawmi",
+    "image_url": "https://img.pokemondb.net/artwork/large/pawmi.jpg"
+  },
+  {
+    "pokemon_name": "pawmo",
+    "image_url": "https://img.pokemondb.net/artwork/large/pawmo.jpg"
+  },
+  {
+    "pokemon_name": "pawmot",
+    "image_url": "https://img.pokemondb.net/artwork/large/pawmot.jpg"
+  },
+  {
+    "pokemon_name": "tandemaus",
+    "image_url": "https://img.pokemondb.net/artwork/large/tandemaus.jpg"
+  },
+  {
+    "pokemon_name": "maushold-family4",
+    "image_url": "https://img.pokemondb.net/artwork/large/maushold-family4.jpg"
+  },
+  {
+    "pokemon_name": "maushold-family3",
+    "image_url": "https://img.pokemondb.net/artwork/large/maushold-family3.jpg"
+  },
+  {
+    "pokemon_name": "fidough",
+    "image_url": "https://img.pokemondb.net/artwork/large/fidough.jpg"
+  },
+  {
+    "pokemon_name": "dachsbun",
+    "image_url": "https://img.pokemondb.net/artwork/large/dachsbun.jpg"
+  },
+  {
+    "pokemon_name": "smoliv",
+    "image_url": "https://img.pokemondb.net/artwork/large/smoliv.jpg"
+  },
+  {
+    "pokemon_name": "dolliv",
+    "image_url": "https://img.pokemondb.net/artwork/large/dolliv.jpg"
+  },
+  {
+    "pokemon_name": "arboliva",
+    "image_url": "https://img.pokemondb.net/artwork/large/arboliva.jpg"
+  },
+  {
+    "pokemon_name": "squawkabilly-green",
+    "image_url": "https://img.pokemondb.net/artwork/large/squawkabilly-green.jpg"
+  },
+  {
+    "pokemon_name": "squawkabilly-blue",
+    "image_url": "https://img.pokemondb.net/artwork/large/squawkabilly-blue.jpg"
+  },
+  {
+    "pokemon_name": "squawkabilly-yellow",
+    "image_url": "https://img.pokemondb.net/artwork/large/squawkabilly-yellow.jpg"
+  },
+  {
+    "pokemon_name": "squawkabilly-white",
+    "image_url": "https://img.pokemondb.net/artwork/large/squawkabilly-white.jpg"
+  },
+  {
+    "pokemon_name": "nacli",
+    "image_url": "https://img.pokemondb.net/artwork/large/nacli.jpg"
+  },
+  {
+    "pokemon_name": "naclstack",
+    "image_url": "https://img.pokemondb.net/artwork/large/naclstack.jpg"
+  },
+  {
+    "pokemon_name": "garganacl",
+    "image_url": "https://img.pokemondb.net/artwork/large/garganacl.jpg"
+  },
+  {
+    "pokemon_name": "charcadet",
+    "image_url": "https://img.pokemondb.net/artwork/large/charcadet.jpg"
+  },
+  {
+    "pokemon_name": "armarouge",
+    "image_url": "https://img.pokemondb.net/artwork/large/armarouge.jpg"
+  },
+  {
+    "pokemon_name": "ceruledge",
+    "image_url": "https://img.pokemondb.net/artwork/large/ceruledge.jpg"
+  },
+  {
+    "pokemon_name": "tadbulb",
+    "image_url": "https://img.pokemondb.net/artwork/large/tadbulb.jpg"
+  },
+  {
+    "pokemon_name": "bellibolt",
+    "image_url": "https://img.pokemondb.net/artwork/large/bellibolt.jpg"
+  },
+  {
+    "pokemon_name": "wattrel",
+    "image_url": "https://img.pokemondb.net/artwork/large/wattrel.jpg"
+  },
+  {
+    "pokemon_name": "kilowattrel",
+    "image_url": "https://img.pokemondb.net/artwork/large/kilowattrel.jpg"
+  },
+  {
+    "pokemon_name": "maschiff",
+    "image_url": "https://img.pokemondb.net/artwork/large/maschiff.jpg"
+  },
+  {
+    "pokemon_name": "mabosstiff",
+    "image_url": "https://img.pokemondb.net/artwork/large/mabosstiff.jpg"
+  },
+  {
+    "pokemon_name": "shroodle",
+    "image_url": "https://img.pokemondb.net/artwork/large/shroodle.jpg"
+  },
+  {
+    "pokemon_name": "grafaiai",
+    "image_url": "https://img.pokemondb.net/artwork/large/grafaiai.jpg"
+  },
+  {
+    "pokemon_name": "bramblin",
+    "image_url": "https://img.pokemondb.net/artwork/large/bramblin.jpg"
+  },
+  {
+    "pokemon_name": "brambleghast",
+    "image_url": "https://img.pokemondb.net/artwork/large/brambleghast.jpg"
+  },
+  {
+    "pokemon_name": "toedscool",
+    "image_url": "https://img.pokemondb.net/artwork/large/toedscool.jpg"
+  },
+  {
+    "pokemon_name": "toedscruel",
+    "image_url": "https://img.pokemondb.net/artwork/large/toedscruel.jpg"
+  },
+  {
+    "pokemon_name": "klawf",
+    "image_url": "https://img.pokemondb.net/artwork/large/klawf.jpg"
+  },
+  {
+    "pokemon_name": "capsakid",
+    "image_url": "https://img.pokemondb.net/artwork/large/capsakid.jpg"
+  },
+  {
+    "pokemon_name": "scovillain",
+    "image_url": "https://img.pokemondb.net/artwork/large/scovillain.jpg"
+  },
+  {
+    "pokemon_name": "rellor",
+    "image_url": "https://img.pokemondb.net/artwork/large/rellor.jpg"
+  },
+  {
+    "pokemon_name": "rabsca",
+    "image_url": "https://img.pokemondb.net/artwork/large/rabsca.jpg"
+  },
+  {
+    "pokemon_name": "flittle",
+    "image_url": "https://img.pokemondb.net/artwork/large/flittle.jpg"
+  },
+  {
+    "pokemon_name": "espathra",
+    "image_url": "https://img.pokemondb.net/artwork/large/espathra.jpg"
+  },
+  {
+    "pokemon_name": "tinkatink",
+    "image_url": "https://img.pokemondb.net/artwork/large/tinkatink.jpg"
+  },
+  {
+    "pokemon_name": "tinkatuff",
+    "image_url": "https://img.pokemondb.net/artwork/large/tinkatuff.jpg"
+  },
+  {
+    "pokemon_name": "tinkaton",
+    "image_url": "https://img.pokemondb.net/artwork/large/tinkaton.jpg"
+  },
+  {
+    "pokemon_name": "wiglett",
+    "image_url": "https://img.pokemondb.net/artwork/large/wiglett.jpg"
+  },
+  {
+    "pokemon_name": "wugtrio",
+    "image_url": "https://img.pokemondb.net/artwork/large/wugtrio.jpg"
+  },
+  {
+    "pokemon_name": "bombirdier",
+    "image_url": "https://img.pokemondb.net/artwork/large/bombirdier.jpg"
+  },
+  {
+    "pokemon_name": "finizen",
+    "image_url": "https://img.pokemondb.net/artwork/large/finizen.jpg"
+  },
+  {
+    "pokemon_name": "palafin-zero",
+    "image_url": "https://img.pokemondb.net/artwork/large/palafin-zero.jpg"
+  },
+  {
+    "pokemon_name": "palafin-hero",
+    "image_url": "https://img.pokemondb.net/artwork/large/palafin-hero.jpg"
+  },
+  {
+    "pokemon_name": "varoom",
+    "image_url": "https://img.pokemondb.net/artwork/large/varoom.jpg"
+  },
+  {
+    "pokemon_name": "revavroom",
+    "image_url": "https://img.pokemondb.net/artwork/large/revavroom.jpg"
+  },
+  {
+    "pokemon_name": "cyclizar",
+    "image_url": "https://img.pokemondb.net/artwork/large/cyclizar.jpg"
+  },
+  {
+    "pokemon_name": "orthworm",
+    "image_url": "https://img.pokemondb.net/artwork/large/orthworm.jpg"
+  },
+  {
+    "pokemon_name": "glimmet",
+    "image_url": "https://img.pokemondb.net/artwork/large/glimmet.jpg"
+  },
+  {
+    "pokemon_name": "glimmora",
+    "image_url": "https://img.pokemondb.net/artwork/large/glimmora.jpg"
+  },
+  {
+    "pokemon_name": "greavard",
+    "image_url": "https://img.pokemondb.net/artwork/large/greavard.jpg"
+  },
+  {
+    "pokemon_name": "houndstone",
+    "image_url": "https://img.pokemondb.net/artwork/large/houndstone.jpg"
+  },
+  {
+    "pokemon_name": "flamigo",
+    "image_url": "https://img.pokemondb.net/artwork/large/flamigo.jpg"
+  },
+  {
+    "pokemon_name": "cetoddle",
+    "image_url": "https://img.pokemondb.net/artwork/large/cetoddle.jpg"
+  },
+  {
+    "pokemon_name": "cetitan",
+    "image_url": "https://img.pokemondb.net/artwork/large/cetitan.jpg"
+  },
+  {
+    "pokemon_name": "veluza",
+    "image_url": "https://img.pokemondb.net/artwork/large/veluza.jpg"
+  },
+  {
+    "pokemon_name": "dondozo",
+    "image_url": "https://img.pokemondb.net/artwork/large/dondozo.jpg"
+  },
+  {
+    "pokemon_name": "tatsugiri-curly",
+    "image_url": "https://img.pokemondb.net/artwork/large/tatsugiri-curly.jpg"
+  },
+  {
+    "pokemon_name": "tatsugiri-droopy",
+    "image_url": "https://img.pokemondb.net/artwork/large/tatsugiri-droopy.jpg"
+  },
+  {
+    "pokemon_name": "tatsugiri-stretchy",
+    "image_url": "https://img.pokemondb.net/artwork/large/tatsugiri-stretchy.jpg"
+  },
+  {
+    "pokemon_name": "annihilape",
+    "image_url": "https://img.pokemondb.net/artwork/large/annihilape.jpg"
+  },
+  {
+    "pokemon_name": "clodsire",
+    "image_url": "https://img.pokemondb.net/artwork/large/clodsire.jpg"
+  },
+  {
+    "pokemon_name": "farigiraf",
+    "image_url": "https://img.pokemondb.net/artwork/large/farigiraf.jpg"
+  },
+  {
+    "pokemon_name": "dudunsparce-two-segment",
+    "image_url": "https://img.pokemondb.net/artwork/large/dudunsparce-two-segment.jpg"
+  },
+  {
+    "pokemon_name": "dudunsparce-three-segment",
+    "image_url": "https://img.pokemondb.net/artwork/large/dudunsparce-three-segment.jpg"
+  },
+  {
+    "pokemon_name": "kingambit",
+    "image_url": "https://img.pokemondb.net/artwork/large/kingambit.jpg"
+  },
+  {
+    "pokemon_name": "great-tusk",
+    "image_url": "https://img.pokemondb.net/artwork/large/great-tusk.jpg"
+  },
+  {
+    "pokemon_name": "scream-tail",
+    "image_url": "https://img.pokemondb.net/artwork/large/scream-tail.jpg"
+  },
+  {
+    "pokemon_name": "brute-bonnet",
+    "image_url": "https://img.pokemondb.net/artwork/large/brute-bonnet.jpg"
+  },
+  {
+    "pokemon_name": "flutter-mane",
+    "image_url": "https://img.pokemondb.net/artwork/large/flutter-mane.jpg"
+  },
+  {
+    "pokemon_name": "slither-wing",
+    "image_url": "https://img.pokemondb.net/artwork/large/slither-wing.jpg"
+  },
+  {
+    "pokemon_name": "sandy-shocks",
+    "image_url": "https://img.pokemondb.net/artwork/large/sandy-shocks.jpg"
+  },
+  {
+    "pokemon_name": "iron-treads",
+    "image_url": "https://img.pokemondb.net/artwork/large/iron-treads.jpg"
+  },
+  {
+    "pokemon_name": "iron-bundle",
+    "image_url": "https://img.pokemondb.net/artwork/large/iron-bundle.jpg"
+  },
+  {
+    "pokemon_name": "iron-hands",
+    "image_url": "https://img.pokemondb.net/artwork/large/iron-hands.jpg"
+  },
+  {
+    "pokemon_name": "iron-jugulis",
+    "image_url": "https://img.pokemondb.net/artwork/large/iron-jugulis.jpg"
+  },
+  {
+    "pokemon_name": "iron-moth",
+    "image_url": "https://img.pokemondb.net/artwork/large/iron-moth.jpg"
+  },
+  {
+    "pokemon_name": "iron-thorns",
+    "image_url": "https://img.pokemondb.net/artwork/large/iron-thorns.jpg"
+  },
+  {
+    "pokemon_name": "frigibax",
+    "image_url": "https://img.pokemondb.net/artwork/large/frigibax.jpg"
+  },
+  {
+    "pokemon_name": "arctibax",
+    "image_url": "https://img.pokemondb.net/artwork/large/arctibax.jpg"
+  },
+  {
+    "pokemon_name": "baxcalibur",
+    "image_url": "https://img.pokemondb.net/artwork/large/baxcalibur.jpg"
+  },
+  {
+    "pokemon_name": "gimmighoul-chest",
+    "image_url": "https://img.pokemondb.net/artwork/large/gimmighoul-chest.jpg"
+  },
+  {
+    "pokemon_name": "gimmighoul-roaming",
+    "image_url": "https://img.pokemondb.net/artwork/large/gimmighoul-roaming.jpg"
+  },
+  {
+    "pokemon_name": "gholdengo",
+    "image_url": "https://img.pokemondb.net/artwork/large/gholdengo.jpg"
+  },
+  {
+    "pokemon_name": "wo-chien",
+    "image_url": "https://img.pokemondb.net/artwork/large/wo-chien.jpg"
+  },
+  {
+    "pokemon_name": "chien-pao",
+    "image_url": "https://img.pokemondb.net/artwork/large/chien-pao.jpg"
+  },
+  {
+    "pokemon_name": "ting-lu",
+    "image_url": "https://img.pokemondb.net/artwork/large/ting-lu.jpg"
+  },
+  {
+    "pokemon_name": "chi-yu",
+    "image_url": "https://img.pokemondb.net/artwork/large/chi-yu.jpg"
+  },
+  {
+    "pokemon_name": "roaring-moon",
+    "image_url": "https://img.pokemondb.net/artwork/large/roaring-moon.jpg"
+  },
+  {
+    "pokemon_name": "iron-valiant",
+    "image_url": "https://img.pokemondb.net/artwork/large/iron-valiant.jpg"
+  },
+  {
+    "pokemon_name": "koraidon",
+    "image_url": "https://img.pokemondb.net/artwork/large/koraidon.jpg"
+  },
+  {
+    "pokemon_name": "miraidon",
+    "image_url": "https://img.pokemondb.net/artwork/large/miraidon.jpg"
+  },
+  {
+    "pokemon_name": "walking-wake",
+    "image_url": "https://img.pokemondb.net/artwork/large/walking-wake.jpg"
+  },
+  {
+    "pokemon_name": "iron-leaves",
+    "image_url": "https://img.pokemondb.net/artwork/large/iron-leaves.jpg"
+  },
+  {
+    "pokemon_name": "dipplin",
+    "image_url": "https://img.pokemondb.net/artwork/large/dipplin.jpg"
+  },
+  {
+    "pokemon_name": "poltchageist",
+    "image_url": "https://img.pokemondb.net/artwork/large/poltchageist.jpg"
+  },
+  {
+    "pokemon_name": "sinistcha",
+    "image_url": "https://img.pokemondb.net/artwork/large/sinistcha.jpg"
+  },
+  {
+    "pokemon_name": "okidogi",
+    "image_url": "https://img.pokemondb.net/artwork/large/okidogi.jpg"
+  },
+  {
+    "pokemon_name": "munkidori",
+    "image_url": "https://img.pokemondb.net/artwork/large/munkidori.jpg"
+  },
+  {
+    "pokemon_name": "fezandipiti",
+    "image_url": "https://img.pokemondb.net/artwork/large/fezandipiti.jpg"
+  },
+  {
+    "pokemon_name": "ogerpon-teal",
+    "image_url": "https://img.pokemondb.net/artwork/large/ogerpon-teal.jpg"
+  },
+  {
+    "pokemon_name": "ogerpon-wellspring",
+    "image_url": "https://img.pokemondb.net/artwork/large/ogerpon-wellspring.jpg"
+  },
+  {
+    "pokemon_name": "ogerpon-hearthflame",
+    "image_url": "https://img.pokemondb.net/artwork/large/ogerpon-hearthflame.jpg"
+  },
+  {
+    "pokemon_name": "ogerpon-cornerstone",
+    "image_url": "https://img.pokemondb.net/artwork/large/ogerpon-cornerstone.jpg"
+  },
+  {
+    "pokemon_name": "archaludon",
+    "image_url": "https://img.pokemondb.net/artwork/large/archaludon.jpg"
+  },
+  {
+    "pokemon_name": "hydrapple",
+    "image_url": "https://img.pokemondb.net/artwork/large/hydrapple.jpg"
+  },
+  {
+    "pokemon_name": "gouging-fire",
+    "image_url": "https://img.pokemondb.net/artwork/large/gouging-fire.jpg"
+  },
+  {
+    "pokemon_name": "raging-bolt",
+    "image_url": "https://img.pokemondb.net/artwork/large/raging-bolt.jpg"
+  },
+  {
+    "pokemon_name": "iron-boulder",
+    "image_url": "https://img.pokemondb.net/artwork/large/iron-boulder.jpg"
+  },
+  {
+    "pokemon_name": "iron-crown",
+    "image_url": "https://img.pokemondb.net/artwork/large/iron-crown.jpg"
+  },
+  {
+    "pokemon_name": "terapagos-normal",
+    "image_url": "https://img.pokemondb.net/artwork/large/terapagos-normal.jpg"
+  },
+  {
+    "pokemon_name": "terapagos-terastal",
+    "image_url": "https://img.pokemondb.net/artwork/large/terapagos-terastal.jpg"
+  },
+  {
+    "pokemon_name": "terapagos-stellar",
+    "image_url": "https://img.pokemondb.net/artwork/large/terapagos-stellar.jpg"
+  },
+  {
+    "pokemon_name": "pecharunt",
+    "image_url": "https://img.pokemondb.net/artwork/large/pecharunt.jpg"
+  }
+]

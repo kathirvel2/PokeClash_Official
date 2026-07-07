@@ -1,0 +1,15 @@
+NOTE
+====
+This plain-text file has been superseded by ready-to-use unit files in this
+folder:
+
+  - pokeclash.service     -> systemd unit for the bot (24/7)
+  - cloudflared.service   -> optional Cloudflare quick tunnel for the web app
+  - README.md             -> step-by-step local setup instructions
+
+Install target path for systemd units: /etc/systemd/system
+
+Please use those files. The old inline copies below are kept only for
+reference and may contain outdated/placeholder values. Do NOT paste real
+credentials into any file that is tracked by git — use a git-ignored .env
+in the bot's working directory instead.

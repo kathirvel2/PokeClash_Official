@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://assets.pokemon.com/static2/_ui/img/favicon.ico">
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Check if the initial redirect has already been performed in this session
+            const redirectDone = sessionStorage.getItem('initialRedirectDone');
+    
+            if (!redirectDone && window.Telegram && window.Telegram.WebApp) {
+                const tg = window.Telegram.WebApp;
+                tg.ready(); 
+    
+                const startParam = tg.initDataUnsafe?.start_param;
+    
+                if (startParam) {
+                    // SET THE FLAG so this doesn't run again when we navigate back to index.html
+                    sessionStorage.setItem('initialRedirectDone', 'true');
+    
+                    // --- This is your original, correct redirect logic ---
+                    if (startParam.startsWith('id-')) {
+                        const pokemonId = startParam.substring(3);
+                        window.location.href = `details.html?id=${pokemonId}`;
+                        return; 
+                    }
+                    if (startParam.startsWith('move-')) {
+                        const moveName = startParam.substring(5);
+                        window.location.href = `move-details.html?name=${moveName}`;
+                        return; 
+                    }
+                    if (startParam.startsWith('ability-')) {
+                        const abilityName = startParam.substring(8);
+                        window.location.href = `ability-details.html?name=${abilityName}`;
+                        return; 
+                    }
+                    if (startParam.startsWith('item-')) {
+                        const itemName = startParam.substring(5);
+                        window.location.href = `item-details.html?name=${itemName}`;
+                        return;
+                    }
+                    if (startParam.startsWith('profile-')) {
+                        const profileUserId = startParam.substring(8);
+                        window.location.href = `profile.html?user_id=${profileUserId}`;
+                        return; 
+                    }
+                    // --- This is the one we are keeping ---
+                    if (startParam === 'team-editor') {
+                        window.location.replace('team-editor.html');
+                        return;
+                    }
+                }
+            }
+        });
+    </script>
+    <div class="logo-container">
+        <a href="index.html">
+            <img src="https://see.fontimg.com/api/rf5/15ze/N2RkMTc5ZWI4ZWM4NGM5YmFlZjJmMDkyMjVjZWJiZWMub3Rm/cG9rZWRleA/pocket-monk.png?r=fs&h=52&w=1000&fg=F8F11F&bg=FFFFFF&tb=1&s=52" alt="Pokédex Title" class="main-logo">
+        </a>
+        <img src="https://see.fontimg.com/api/rf5/nRzoY/ZGEyMjNiYTdjOTEzNDFkMThiNjc3NGI1MDJhMGUyOTgub3Rm/cG9rZWNsYXNo/moltors.png?r=fs&h=17&w=1000&fg=242423&bg=FFFFFF&tb=1&s=17" alt="Classic Edition Subtitle" class="subtitle-logo">
+    </div>
+
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Search Pokémon...">
+        <button id="resetButton">Reset</button>
+    </div>
+
+    <div class="mobile-menu-toolbar">
+        <button id="hamburger-btn">&#9776; Menu</button>
+        <button id="filter-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M10 18h4v-2h-4v2zM3 6v2h18V6H3zm3 7h12v-2H6v2z"/></svg>
+            Filters
+        </button>
+    </div>
+
+    <nav class="main-navigation" id="mobile-nav">
+        <a href="profile.html" class="nav-button">My Profile</a>
+        <a href="collection.html" class="nav-button">My Collection</a>
+        <a href="moves.html" class="nav-button">Moves</a>
+        <a href="abilities.html" class="nav-button">Abilities</a>
+        <a href="items.html" class="nav-button">Items</a>
+        <a href="types.html" class="nav-button">Type Chart</a>
+    </nav>
+
+    <div class="filter-menu-wrapper" id="filter-menu">
+        <div class="filter-container">
+        
+            <div class="custom-select-wrapper">
+                <div class="custom-select" data-filter-for="region">
+                    <div class="custom-select-trigger">
+                        <span>Kanto (1-151)</span>
+                        <div class="arrow"></div>
+                    </div>
+                    <div class="custom-options">
+                        <div class="custom-option" data-value="kanto">Kanto (1-151)</div>
+                        <div class="custom-option" data-value="johto">Johto (152-251)</div>
+                        <div class="custom-option" data-value="hoenn">Hoenn (252-386)</div>
+                        <div class="custom-option" data-value="sinnoh">Sinnoh (387-493)</div>
+                        <div class="custom-option" data-value="unova">Unova (494-649)</div>
+                        <div class="custom-option" data-value="kalos">Kalos (650-721)</div>
+                        <div class="custom-option" data-value="alola">Alola (722-809)</div>
+                        <div class="custom-option" data-value="hisui">Galar/Hisui (810-905)</div>
+                        <div class="custom-option" data-value="paldea">Paldea (906-1025)</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="custom-select-wrapper">
+                <div class="custom-select" data-filter-for="type">
+                    <div class="custom-select-trigger">
+                        <span>All Types</span>
+                        <div class="arrow"></div>
+                    </div>
+                    <div class="custom-options">
+                        <div class="custom-option" data-value="all">All Types</div>
+                        </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+    <div id="pokedex-container">
+        <div class="loader"></div> 
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

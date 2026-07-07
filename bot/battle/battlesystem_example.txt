@@ -1,0 +1,94 @@
+Telegram Pokémon Battle System UI Specification1. IntroductionThis document provides a detailed specification for a turn-based Pokémon battle user interface (UI) designed for a Telegram bot. The system is built around a single, dynamically updated message, providing a seamless experience for the player. The goal is to present all relevant information clearly and concisely, allowing for strategic decision-making.2. Core UI ComponentsThe entire battle interface is contained within a single Telegram message, which is composed of three distinct parts:Dynamic Image: A generated image showing the two battling Pokémon.Caption: The text content of the message, containing all gameplay information.Inline Keyboard: A set of buttons below the message for user input.Text Diagram: Overall Message Structure+-----------------------------------------------------+
+|                                                     |
+|          [ DYNAMICALLY GENERATED IMAGE ]            |
+|       (Opponent's Front Sprite vs Player's Back Sprite)    |
+|                                                     |
++-----------------------------------------------------+
+|                                                     |
+|                [ MESSAGE CAPTION ]                  |
+|          (All text-based battle information)        |
+|                                                     |
++-----------------------------------------------------+
+|                                                     |
+|               [ INLINE KEYBOARD ]                   |
+|           (Player's action buttons)                 |
+|                                                     |
++-----------------------------------------------------+
+3. Detailed Caption StructureThe caption is the core of the UI. It is a single block of text formatted using monospace fonts for alignment and HTML for styling (<b>, <code>). It is divided into four main sections, ordered from top to bottom.Text Diagram: Caption Layout Template{ACTION_LOG_SECTION}
+
+{OPPONENT_STATUS_SECTION}
+
+{PLAYER_STATUS_SECTION}
+
+{CURRENT_PLAYER_MOVE_DETAILS_SECTION}
+3.1. Action Log SectionPurpose: To narrate the events of the turn (e.g., which moves were used, their effectiveness, and damage dealt).State: This section is updated after an action is taken.3.2. Opponent & Player Status SectionsPurpose: To display the current state of each Pokémon in the battle.Content: Includes Name, Types, Level, HP (current/max), a visual health bar, and a Current turn: indicator. The indicator is the primary visual cue for whose move it is.Text Diagram: Status Block StructureOpponent's {POKEMON_NAME} [{TYPE_1} / {TYPE_2}]
+Lv. {LEVEL}  •  HP {CURRENT_HP}/{MAX_HP}
+{HEALTH_BAR}
+
+Current turn: {PLAYER_NAME}
+{PLAYER_POKEMON_NAME} [{TYPE_1} / {TYPE_2}]
+Lv. {LEVEL}  •  HP {CURRENT_HP}/{MAX_HP}
+{HEALTH_BAR}
+3.3. Current Player's Move Details SectionPurpose: To provide the active player with all information needed to make a strategic decision.Content: Lists the four moves of the Pokémon belonging to the player whose turn it currently is.4. Inline Keyboard StructureThe keyboard provides the interface for player actions. It remains visible throughout the battle and is updated at the start of each player's turn to reflect their available moves.Text Diagram: Keyboard Layout+------------------+------------------+
+| [ Move 1 Name ]  | [ Move 2 Name ]  |
++------------------+------------------+
+| [ Move 3 Name ]  | [ Move 4 Name ]  |
++------------------+------------------+
+| [    Switch    ] | [      Run     ] |
++------------------+------------------+
+5. The Battle Game Loop (Corrected)The battle progresses by editing the single message caption and keyboard. The keyboard is never hidden, only updated. Backend logic is responsible for rejecting input from the non-active player.Phase 1: Player "Human"'s DecisionContext: It is the human player's turn to act.UI State: The Current turn: indicator points to "Human". The move details and keyboard buttons correspond to Heracross's moves.Text Diagram: Player "Human" Turn UI ExampleBattle begins!
+Heracross's speed advantage allows it to move first.
+
+Opponent's Sandslash [Ice / Steel]
+Lv. 37  •  HP 112/112
+██████████
+
+Current turn: Human
+Heracross [Bug / Fighting]
+Lv. 79  •  HP 243/243
+██████████
+
+Night Slash [Dark]
+Power:   70,    Accuracy:  100
+Close Combat [Fighting]
+Power:  120,    Accuracy:  100
+Pin Missile [Bug]
+Power:  125,    Accuracy:   95
+Aerial Ace [Flying]
+Power:   60,    Accuracy:  100
+
++------------------+------------------+
+| [ Night Slash ]  | [ Close Combat ] |
+| [ Pin Missile ]  | [  Aerial Ace  ] |
+| [    Switch    ] | [      Run     ] |
++------------------+------------------+
+(Backend Logic: Only accepts clicks from user "Human")
+Phase 2: Action Resolution & Turn ChangeContext: "Human" has selected "Aerial Ace". The bot processes the move and passes the turn to "CYBER".UI State: The message is edited.The action log now shows the result of "Aerial Ace".The Current turn: indicator now points to "CYBER".The opponent's HP and health bar are updated.The move details are replaced with Sandslash's moves.The inline keyboard is updated with Sandslash's move buttons.Text Diagram: Player "CYBER" Turn UI ExampleHeracross used Aerial Ace.
+It's not very effective.
+Dealt 51 damage.
+
+Opponent's Heracross [Bug / Fighting]
+Lv. 79  •  HP 243/243
+██████████
+
+Current turn: CYBER
+Sandslash [Ice / Steel]
+Lv. 37  •  HP 61/112
+██████▒▒▒▒
+
+Slash [Normal]
+Power:   70,    Accuracy:  100
+Icicle Spear [Ice]
+Power:  125,    Accuracy:  100
+Iron Head [Steel]
+Power:   80,    Accuracy:  100
+Fury Cutter [Bug]
+Power:   40,    Accuracy:   95
+
++------------------+------------------+
+| [    Slash    ]  | [ Icicle Spear ] |
+| [  Iron Head  ]  | [ Fury Cutter  ] |
+| [    Switch    ] | [      Run     ] |
++------------------+------------------+
+(Backend Logic: Only accepts clicks from user "CYBER")
+This cycle of "Present Choices -> User Input -> Edit Message to Reflect Result and Swap Turn" forms the core game loop.

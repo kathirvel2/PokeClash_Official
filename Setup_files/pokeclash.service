@@ -1,0 +1,44 @@
+# PokeClash Telegram bot — systemd unit
+#
+# Install:
+#   sudo cp Setup_files/pokeclash.service /etc/systemd/system/
+#   sudo systemctl daemon-reload
+#   sudo systemctl enable --now pokeclash.service
+#
+# Adjust WorkingDirectory / ExecStart / User to match your install path.
+# Secrets: prefer a git-ignored .env in WorkingDirectory over the Environment=
+# lines below. The bot loads .env automatically when ENV_MODE is unset.
+
+[Unit]
+Description=PokeClash Telegram Bot
+After=network-online.target postgresql.service
+Wants=network-online.target
+
+[Service]
+# Run as a dedicated non-root user that owns the install directory.
+User=pokeclash
+
+# --- Paths (EDIT THESE) ---
+WorkingDirectory=/opt/PokeClash
+ExecStart=/opt/PokeClash/venv/bin/python3 main.py
+
+# --- Local PostgreSQL credentials ---
+# Option A (recommended): delete this whole block and put values in a
+#   git-ignored .env file in WorkingDirectory instead.
+# Option B: fill these in for a LOCAL database (no SSL cert needed).
+Environment="DB_HOST=127.0.0.1"
+Environment="DB_PORT=5432"
+Environment="DB_USER=myuser"
+Environment="DB_PASS=change_me"
+Environment="DB_NAME=pokemon_db"
+Environment="DB_SSLMODE=disable"
+# DB_SSLCERT is intentionally omitted — only needed for a managed cloud DB.
+
+Restart=always
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=pokeclash
+
+[Install]
+WantedBy=multi-user.target
